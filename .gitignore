@@ -1,135 +1,150 @@
-# Dependencies
+########################################
+# AurevGuard - Comprehensive .gitignore
+########################################
+
+# ==================== DEPENDENCIES ====================
 node_modules/
 .pnp
 .pnp.js
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
 
-# Testing
-coverage/
+# ==================== PYTHON ====================
+# Environment
+env/
+venv/
+ENV/
+.venv
+.env-venv
+.Python
+env.bak/
+venv.bak/
 
-# Production
-build/
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
 dist/
+build/
+.eggs/
 
-# Environment variables
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# Python testing
+.pytest_cache/
+.coverage
+htmlcov/
+.hypothesis/
+pytest.ini
 
-# Logs
+# Poetry
+poetry.lock
+
+# ==================== NODE.JS & FRONTEND ====================
+# Dependencies
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+lerna.json
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Build outputs
+dist/
+build/
+.next/
+.nuxt/
+coverage/
+*.tsbuildinfo
 
-# Rust
-target/
-Cargo.lock
+# Testing
+.nyc_output/
+.mocha.env
 
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-.venv
-pip-log.txt
-pip-delete-this-directory.txt
-.pytest_cache/
-*.egg-info/
+# ==================== ENVIRONMENT VARIABLES ====================
+.env
+.env.local
+.env.*.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+.env.staging
+.env.staging.local
+.env.example
 
-# Aiken
-plutus.json
-*.plutus
+# ==================== BACKEND SPECIFIC ====================
+apps/backend/src/.env*
+apps/backend/.env*
+apps/backend/node_modules/
+apps/backend/dist/
+apps/backend/build/
+apps/backend/coverage/
 
-# Hydra
-hydra-node/data/
+# ==================== FRONTEND SPECIFIC ====================
+apps/frontend/src/.env*
+apps/frontend/.env*
+apps/frontend/node_modules/
+apps/frontend/dist/
+apps/frontend/build/
+apps/frontend/.next/
+apps/frontend/coverage/
 
-# OS
-.DS_Store
-Thumbs.db
+# ==================== AI MODEL ====================
+agents/ai_model/.env*
+agents/ai_model/__pycache__/
+agents/ai_model/venv/
+agents/ai_model/.venv/
+agents/ai_model/*.egg-info/
 
-# Secrets & Keys
-*.key
-*.pem
-*.seed
-wallet.json
-.aws/
-.ssh/
-secrets.yaml
-config-secrets.json
-private-key.json
+# Model files (keep weights in docs if needed)
+agents/ai_model/models/*.pkl
+agents/ai_model/models/*.joblib
+agents/ai_model/models/*.pth
+agents/ai_model/models/*.h5
+agents/ai_model/src/models/*.pkl
+agents/ai_model/src/models/*.joblib
 
-# Local Configuration
-local.env
-.local/
-config.local.js
-config.local.json
-settings.local.json
+# Data cache/temp
+agents/ai_model/data/*.csv
+agents/ai_model/data/*.json
+agents/ai_model/data/export/
+agents/ai_model/data/shap/
+agents/ai_model/*.csv
+agents/ai_model/notebooks/.ipynb_checkpoints/
 
-# Database & Cache
+# ==================== MASUMI ORCHESTRATOR ====================
+masumi/.env*
+masumi/orchestrator/.env*
+masumi/orchestrator/__pycache__/
+masumi/orchestrator/venv/
+masumi/orchestrator/.venv/
+
+# ==================== DATABASE & CACHE ====================
 *.db
 *.sqlite
 *.sqlite3
 .cache/
 cache/
 .redis/
+.postgres/
+.mongo/
 
-# Turbo & Build Cache
-.turbo/
-.next/
-
-# Generated Files
-*.generated.ts
-*.generated.js
-*.pb.go
-dist-*
-
-# Temporary Files
-*.tmp
-*.temp
-temp/
-tmp/
-*.bak
-*.backup
-*.swp
-*.swo
-*~
-
-# Docker
-.dockerignore
-docker-compose.override.yml
-
-# Cardano & Blockchain
-cardano-node-socket/
-*.stake.addr
-*.payment.addr
-protocol-parameters.json
-
-# Credentials & Auth
-.credentials
-credentials.json
-auth.json
-token.json
-refresh_token.json
-
-# IDE & Editor
+# ==================== IDE & EDITOR ====================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+.idea/
+.idea_modules/
+*.sublime-project
+*.sublime-workspace
+.netbeans/
 .eclipse
 .classpath
 .project
@@ -138,3 +153,191 @@ refresh_token.json
 .settings/
 jsconfig.json.local
 tsconfig.json.local
+*.swp
+*.swo
+*~
+
+# ==================== OS ====================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.windows-terminal-settings.json
+
+# ==================== SECRETS & KEYS ====================
+*.key
+*.pem
+*.pub
+*.seed
+*.keystore
+wallet.json
+.secrets/
+secrets/
+.aws/
+.ssh/
+.credentials
+credentials.json
+auth.json
+token.json
+refresh_token.json
+secrets.yaml
+secrets.json
+config-secrets.json
+private-key.json
+.env.secrets
+apikeys.json
+.api-keys
+
+# ==================== BLOCKCHAIN ====================
+# Cardano
+cardano-node-socket/
+cardano-node-data/
+*.stake.addr
+*.payment.addr
+*.address
+protocol-parameters.json
+/blockchain-state/
+
+# Plutus & Aiken
+plutus.json
+*.plutus
+*.txin
+plutus/
+.plutus/
+
+# Hydra
+hydra-node/data/
+hydra-node/logs/
+hydra-node/.hydra/
+hydra-state/
+
+# ==================== DOCKER ====================
+.dockerignore
+docker-compose.override.yml
+.docker-compose.local.yml
+docker/.env*
+Dockerfile.local
+
+# ==================== BUILD & ARTIFACTS ====================
+dist-*
+.turbo/
+.next/
+out/
+*.generated.ts
+*.generated.js
+*.pb.go
+*.generated.*
+
+# ==================== TEMPORARY FILES ====================
+*.tmp
+*.temp
+*.log
+temp/
+tmp/
+*.bak
+*.backup
+.tmp/
+.temp/
+
+# ==================== LOCAL CONFIGURATION ====================
+local.env
+.local/
+config.local.js
+config.local.json
+settings.local.json
+.vscode.local/
+
+# ==================== TURBO & MONOREPO ====================
+.turbo/
+.turbo-cache/
+cache/
+
+# ==================== RUST (if applicable) ====================
+target/
+Cargo.lock
+*.rlib
+
+# ==================== LOGS ====================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+debug.log
+pm2.log
+
+# ==================== TESTING ====================
+coverage/
+.nyc_output/
+.mocha.env
+pytest.ini
+.pytest_cache/
+__coverage__/
+
+# ==================== VSCODE WORKSPACE ====================
+*.code-workspace
+.vscode/*.log
+
+# ==================== PROCESS MANAGERS ====================
+.pm2/
+.forever/
+.nodemon.json.local
+
+# ==================== JUPYTER NOTEBOOKS ====================
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ==================== SPECIFIC APPLICATION FILES ====================
+# Frontend
+apps/frontend/src/**/*.css.local
+apps/frontend/public/uploads/
+
+# Backend
+apps/backend/uploads/
+apps/backend/temp/
+apps/backend/logs/
+
+# AI Model
+agents/ai_model/data/processed/
+agents/ai_model/data/raw/
+agents/ai_model/notebooks/.ipynb_checkpoints/
+agents/ai_model/experiment_results/
+
+# ==================== MISCELLANEOUS ====================
+.env.template
+.env.example
+*.dist
+.DS_Store
+.AppleDouble
+.LSOverride
+.project
+.pydevproject
+.settings/org.eclipse.core.resources.prefs
+
+# ==================== BUNDLE ANALYSIS ====================
+.webpack-bundle-analyzer/
+bundle-report.html
+report.html
+
+# ==================== GENERATED API DOCUMENTATION ====================
+docs/generated/
+api-docs/generated/
+
+# ==================== GITHUB SPECIFIC ====================
+.github/actions/*/lib/index.js.bak
+
+# ==================== CI/CD ====================
+.github/workflows/.env*
+.gitlab-ci.local.yml
+.circleci/.env*
+
+# ==================== KEEP THESE ====================
+!.gitkeep
+!.gitignore
+!.gitattributes

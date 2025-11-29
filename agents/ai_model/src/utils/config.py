@@ -3,10 +3,13 @@ utils/config.py
 Central configuration module for AUREV Guard AI agents.
 Handles paths, directories, and environment variables.
 """
-
+from dotenv import load_dotenv
 import os
 from pathlib import Path
 from dotenv import load_dotenv
+
+DATA_DIR = os.path.join("aurevguard", "agents", "ai_model", "data")
+MODEL_DIR = os.path.join("aurevguard", "agents", "ai_model", "models")
 
 # --- Load environment variables from .env if present ---
 ENV_PATH = Path(__file__).resolve().parent.parent.parent / ".env"

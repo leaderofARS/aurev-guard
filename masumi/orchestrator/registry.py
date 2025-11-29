@@ -1,29 +1,34 @@
-# orchestrator/registry.py
-from typing import Dict, List, TypedDict
+from typing import List, Dict, Any
+from pydantic import BaseModel
 
-class AgentDescriptor(TypedDict):
+
+class AgentDescriptor(BaseModel):
     name: str
     capabilities: List[str]
     endpoint: str
-    auth: dict
+    auth: Dict[str, Any]
     version: str
     enabled: bool
+
+    def to_dict(self) -> Dict[str, Any]:
+        """
+        Compatibility helper: works across Pydantic v1 and v2.
+        """
+        if hasattr(self, "model_dump"):   # Pydantic v2
+            return self.model_dump()
+        return self.dict()                # Pydantic v1
+
 
 class AgentRegistry:
     def __init__(self):
         self._agents: Dict[str, AgentDescriptor] = {}
 
     def register(self, agent: AgentDescriptor):
-        if agent["name"] in self._agents:
-            raise ValueError("Duplicate agent")
-        if not agent["capabilities"]:
-            raise ValueError("Capabilities required")
-        self._agents[agent["name"]] = agent
-
-    def enable(self, name: str, enabled: bool):
-        self._agents[name]["enabled"] = enabled
+        self._agents[agent.name] = agent
 
     def get(self, name: str) -> AgentDescriptor:
+        if name not in self._agents:
+            raise KeyError(f"Agent '{name}' not found")
         return self._agents[name]
 
     def list(self) -> List[AgentDescriptor]:

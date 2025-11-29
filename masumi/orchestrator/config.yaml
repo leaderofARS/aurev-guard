@@ -1,16 +1,179 @@
 agents:
   - name: payment
-    capabilities: ["validate_settle"]
+    capabilities: ["validate_settle", "health"]
     endpoint: http://localhost:8081
     auth:
       type: none
     version: "1.0.0"
     enabled: true
+    description: "Payment validation and settlement agent"
 
   - name: compliance
-    capabilities: ["score_payment"]
+    capabilities: ["score_payment", "health"]
     endpoint: http://localhost:8082
     auth:
       type: none
     version: "1.0.0"
     enabled: true
+    description: "Compliance scoring and policy evaluation agent"
+
+  - name: ai_model
+    capabilities:
+      - predict
+      - health
+      - train/initialize
+      - train/run
+      - config/training
+      - data/quality
+    endpoint: http://localhost:8083
+    auth:
+      type: none
+    version: "1.0.0"
+    enabled: true
+    description: "AI Model Training and Inference Engine"
+
+# ============================================
+# TRAINING CONFIGURATION
+# ============================================
+training:
+  enabled: true
+  # Data loading
+  data:
+    source: agents/ai_model/data/transactions.json
+    blockfrost_api_key: ${BLOCKFROST_API_KEY}
+    blockfrost_project: mainnet
+    max_blocks: 500
+    tx_count_per_address: 50
+    ensure_cache: true
+    min_tx_per_address: 15
+
+  # Feature Engineering
+  features:
+    time_windows: [24h, 7d, 30d]
+    include_volume: true
+    include_entropy: true
+    include_daily_agg: true
+    include_graph: true
+    
+  # Graph Analysis
+  graph:
+    edge_weight_method: frequency
+    compute_degree: true
+    compute_weighted_degree: true
+    compute_clustering: true
+    compute_centrality: [betweenness, closeness, eigenvector]
+    use_community_detection: true
+
+  # Anomaly Detection
+  anomaly:
+    models: [isolation_forest, one_class_svm, lof]
+    contamination: 0.1
+    ensemble: true
+    ensemble_method: voting
+    scaling: standard
+
+  # Risk Scoring (Random Forest)
+  risk_model:
+    model_type: random_forest
+    n_estimators: 200
+    max_depth: 20
+    test_size: 0.2
+    cv_folds: 5
+    class_weight: balanced
+
+  # SHAP Explainability
+  explainability:
+    explainer_type: tree
+    compute_interaction_values: false
+    save_artifacts: true
+    save_shap_values: true
+    save_per_address_json: true
+    save_plot_images: true
+
+  # Data Export
+  export:
+    export_dir: agents/ai_model/data/export
+    export_features_csv: true
+    export_predictions_json: true
+    export_addresses_json: true
+    export_timeseries_json: true
+
+  # Live Pipeline
+  live_pipeline:
+    enabled: false
+    update_frequency_seconds: 3600
+    batch_inference: true
+    batch_size: 100
+    cache_predictions: true
+
+# ============================================
+# WORKFLOWS
+# ============================================
+workflows:
+  settle:
+    description: "Payment settlement with risk assessment"
+    steps:
+      - agent: ai_model
+        capability: predict
+        required: true
+      - agent: compliance
+        capability: score_payment
+        required: conditional
+      - agent: payment
+        capability: validate_settle
+        required: true
+    timeout_seconds: 30
+
+  ai_predict:
+    description: "AI model prediction only"
+    steps:
+      - agent: ai_model
+        capability: predict
+        required: true
+    timeout_seconds: 10
+
+  ai_train:
+    description: "Initialize AI training pipeline"
+    steps:
+      - agent: ai_model
+        capability: train/initialize
+        required: true
+    timeout_seconds: 60
+
+  ai_train_run:
+    description: "Execute AI training pipeline"
+    steps:
+      - agent: ai_model
+        capability: train/run
+        required: true
+    timeout_seconds: 3600
+
+  ai_config:
+    description: "Get/update AI training configuration"
+    steps:
+      - agent: ai_model
+        capability: config/training
+        required: true
+    timeout_seconds: 10
+
+  data_quality:
+    description: "Assess data quality"
+    steps:
+      - agent: ai_model
+        capability: data/quality
+        required: true
+    timeout_seconds: 30
+
+# ============================================
+# LOGGING & MONITORING
+# ============================================
+logging:
+  level: INFO
+  format: json
+  correlation_tracking: true
+
+monitoring:
+  track_metrics: true
+  track_latency: true
+  track_errors: true
+  export_metrics: true
