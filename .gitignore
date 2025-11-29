@@ -1,0 +1,140 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Production
+build/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Rust
+target/
+Cargo.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+*.egg-info/
+
+# Aiken
+plutus.json
+*.plutus
+
+# Hydra
+hydra-node/data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets & Keys
+*.key
+*.pem
+*.seed
+wallet.json
+.aws/
+.ssh/
+secrets.yaml
+config-secrets.json
+private-key.json
+
+# Local Configuration
+local.env
+.local/
+config.local.js
+config.local.json
+settings.local.json
+
+# Database & Cache
+*.db
+*.sqlite
+*.sqlite3
+.cache/
+cache/
+.redis/
+
+# Turbo & Build Cache
+.turbo/
+.next/
+
+# Generated Files
+*.generated.ts
+*.generated.js
+*.pb.go
+dist-*
+
+# Temporary Files
+*.tmp
+*.temp
+temp/
+tmp/
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Cardano & Blockchain
+cardano-node-socket/
+*.stake.addr
+*.payment.addr
+protocol-parameters.json
+
+# Credentials & Auth
+.credentials
+credentials.json
+auth.json
+token.json
+refresh_token.json
+
+# IDE & Editor
+.eclipse
+.classpath
+.project
+.c9/
+*.launch
+.settings/
+jsconfig.json.local
+tsconfig.json.local

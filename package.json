@@ -1,0 +1,10 @@
+{
+  "name": "aurev-guard",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "agents/*",
+    "smart-contracts"
+  ]
+}
