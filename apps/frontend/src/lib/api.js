@@ -1,45 +1,27 @@
-<<<<<<< Updated upstream
-const BASE = import.meta.env.VITE_API_BASE || ""; 
-// Example: VITE_API_BASE="http://localhost:4000"
+const BASE = import.meta.env.VITE_API_BASE || "";
 
-async function request(path, body = {}) {
-  const res = await fetch(BASE + path, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(body),
-  });
+async function request(path, body = {}, method = "POST") {
+  const url = BASE + path;
 
-  if (!res.ok) {
-    const msg = await res.text();
-    throw new Error(`HTTP ${res.status}: ${msg}`);
-  }
+  const opts =
+    method === "GET"
+      ? undefined
+      : {
+          method,
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(body),
+        };
 
-=======
-const BASE = import.meta.env.VITE_API_BASE || '';
-
-async function post(path, body = {}) {
-  const res = await fetch(BASE + path, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(body),
-  });
+  const res = await fetch(url, opts);
   if (!res.ok) {
     const txt = await res.text();
     throw new Error(`HTTP ${res.status}: ${txt}`);
   }
->>>>>>> Stashed changes
   return await res.json();
 }
 
 export async function scanAddress(address) {
-<<<<<<< Updated upstream
   return request("/scan/address", { address });
-}
-
-export async function contractLog(payload) {
-  return request("/contract/log", payload);
 }
 
 export async function getAiScore(address) {
@@ -48,37 +30,13 @@ export async function getAiScore(address) {
 
 export async function getAgentDecision(address, riskScore) {
   return request("/agent/decision", { address, riskScore });
-=======
-  return post('/scan/address', { address });
-}
-
-export async function getAiScore(address) {
-  return post('/ai/score', { address });
-}
-
-export async function getAgentDecision(address, riskScore) {
-  return post('/agent/decision', { address, riskScore });
 }
 
 export async function contractLog(payload) {
-  return post('/contract/log', payload);
->>>>>>> Stashed changes
+  return request("/contract/log", payload);
 }
 
 export async function getRiskHistory(address) {
-  const res = await fetch(`${BASE}/risk/history/${address}`);
-<<<<<<< Updated upstream
-
-  if (!res.ok) {
-    const msg = await res.text();
-    throw new Error(`HTTP ${res.status}: ${msg}`);
-  }
-
-=======
-  if (!res.ok) {
-    const txt = await res.text();
-    throw new Error(`HTTP ${res.status}: ${txt}`);
-  }
->>>>>>> Stashed changes
-  return await res.json();
+  // GET endpoint
+  return request(`/risk/history/${address}`, {}, "GET");
 }

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { enableWallet, getUsedAddresses } from "../lib/cardano";
+import { setWallet, clearWallet } from "../lib/wallet";
 
 export default function WalletConnect({ onConnect }) {
   const [status, setStatus] = useState("idle");
@@ -22,6 +23,8 @@ export default function WalletConnect({ onConnect }) {
         address: primary,
         walletName,
       });
+      // store globally for other components (e.g., signing)
+      setWallet(api, { walletName });
 
       setStatus("connected");
     } catch (err) {
@@ -34,10 +37,11 @@ export default function WalletConnect({ onConnect }) {
     setStatus("idle");
     setAddress("");
     onConnect?.(null);
+    clearWallet();
   }
 
   return (
-    <div className="p-4 border rounded-xl bg-white shadow">
+    <div className="w-full p-4 border rounded-xl bg-white shadow">
       <h3 className="text-lg font-semibold mb-2">Wallet</h3>
 
       {status !== "connected" ? (
@@ -63,9 +67,7 @@ export default function WalletConnect({ onConnect }) {
         </div>
       )}
 
-      {error && (
-        <p className="text-red-600 text-sm mt-2">Error: {error}</p>
-      )}
+      {error && <p className="text-red-600 text-sm mt-2">Error: {error}</p>}
 
       <p className="text-xs text-gray-500 mt-2">
         Works with CIP-30 wallets like Nami / Flint.
