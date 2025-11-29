@@ -3,6 +3,9 @@ import { v4 as uuidv4 } from 'uuid';
 import crypto from 'crypto';
 import config from './config/index.js';
 import { saveDecisionBundle, getDecisionBundle } from './decisionStore.js';
+import * as orchestratorClient from './services/orchestratorClient.js';
+import * as aiModelAdapter from './services/aiModelAdapter.js';
+import * as paymentAgentAdapter from './services/paymentAgentAdapter.js';
 
 // POST /scan/address
 export async function postScanAddress(req, res) {
@@ -14,19 +17,11 @@ export async function postScanAddress(req, res) {
   }
 
   try {
-    // Call Python AI stub
-    const aiRes = await fetch(`${config.PY_AI_URL}/ai/score`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ address }),
-      timeout: 5000
+    // Call AI Model Adapter (routes to orchestrator or direct call)
+    const aiData = await aiModelAdapter.getPrediction({
+      address,
+      features: {}
     });
-
-    let aiData;
-    if (!aiRes.ok) {
-      throw new Error('AI service error');
-    }
-    aiData = await aiRes.json();
 
     // Create decision bundle
     const bundle = {
@@ -35,9 +30,11 @@ export async function postScanAddress(req, res) {
       address,
       riskScore: aiData.riskScore,
       riskLevel: aiData.riskLevel,
-      explanation: aiData.explanation,
-      features: aiData.features || { sample: 'data' },
-      modelHash: aiData.modelHash,
+      isAnomaly: aiData.isAnomaly || false,
+      confidence: aiData.confidence || 0,
+      explanation: aiData.explanation || 'AI analysis performed',
+      features: aiData.rawData || aiData.features || {},
+      modelHash: aiData.modelHash || 'ai-v1-2024-11-30',
       masumiDecision: null,
       proofId: null,
       decisionHash: null,
@@ -54,19 +51,25 @@ export async function postScanAddress(req, res) {
     console.log(`[${requestId}] Scan complete: score=${bundle.riskScore}`);
 
     return res.json({
-      ...aiData,
+      address,
+      riskScore: aiData.riskScore,
+      riskLevel: aiData.riskLevel,
+      isAnomaly: aiData.isAnomaly,
+      confidence: aiData.confidence,
       requestId
     });
 
   } catch (err) {
-    console.warn(`[${requestId}] AI fallback:`, err.message);
+    console.warn(`[${requestId}] AI prediction failed:`, err.message);
     
     // Fallback response
     const fallback = {
       address,
       riskScore: 50,
       riskLevel: 'MEDIUM',
-      explanation: 'AI unavailable fallback',
+      isAnomaly: false,
+      confidence: 0,
+      explanation: 'AI unavailable - fallback mode',
       features: { fallback: true },
       modelHash: 'fallback-v1',
       timestamp: new Date().toISOString()
@@ -76,7 +79,13 @@ export async function postScanAddress(req, res) {
       requestId,
       timestamp: fallback.timestamp,
       address,
-      ...fallback,
+      riskScore: fallback.riskScore,
+      riskLevel: fallback.riskLevel,
+      isAnomaly: fallback.isAnomaly,
+      confidence: fallback.confidence,
+      explanation: fallback.explanation,
+      features: fallback.features,
+      modelHash: fallback.modelHash,
       masumiDecision: null,
       proofId: null,
       decisionHash: null,
@@ -104,26 +113,70 @@ export async function postAgentDecision(req, res) {
     });
   }
 
-  const bundle = getDecisionBundle(requestId);
-  if (!bundle) {
-    return res.status(404).json({ 
-      error: 'Decision bundle not found',
+  try {
+    const bundle = getDecisionBundle(requestId);
+    if (!bundle) {
+      return res.status(404).json({ 
+        error: 'Decision bundle not found',
+        requestId: req.requestId 
+      });
+    }
+
+    // 1. Validate settlement with Payment Agent
+    const paymentValidation = await paymentAgentAdapter.getSettleValidation({
+      transaction_id: requestId,
+      features: bundle.features || {}
+    });
+
+    console.log(`[${requestId}] Payment validation: ${paymentValidation.paymentStatus}`);
+
+    // 2. If payment is valid, get compliance decision
+    let complianceDecision = 'PENDING';
+    
+    if (paymentValidation.isValid) {
+      try {
+        const complianceResult = await paymentAgentAdapter.validateWithCompliance(
+          { transaction_id: requestId, features: bundle.features || {} },
+          { 
+            riskScore: bundle.riskScore,
+            riskLevel: bundle.riskLevel,
+            isAnomaly: bundle.isAnomaly
+          }
+        );
+        
+        complianceDecision = complianceResult.complianceDecision.toUpperCase();
+        console.log(`[${requestId}] Compliance decision: ${complianceDecision}`);
+      } catch (err) {
+        console.warn(`[${requestId}] Compliance check failed:`, err.message);
+        complianceDecision = 'PENDING';
+      }
+    } else {
+      complianceDecision = 'REJECTED';
+    }
+
+    // Update bundle
+    bundle.masumiDecision = complianceDecision;
+    bundle.paymentStatus = paymentValidation.paymentStatus;
+    bundle.status = 'decision_made';
+    saveDecisionBundle(requestId, bundle);
+
+    console.log(`[${requestId}] Agent decision: ${complianceDecision}`);
+
+    return res.json({
+      masumiRequestId: requestId,
+      status: 'completed',
+      decision: complianceDecision,
+      paymentValidation: paymentValidation.paymentStatus
+    });
+
+  } catch (err) {
+    console.error(`[${req.requestId}] Agent decision error:`, err.message);
+    return res.status(500).json({
+      error: 'Decision process failed',
+      message: err.message,
       requestId: req.requestId 
     });
   }
-
-  // Update bundle with Masumi decision
-  bundle.masumiDecision = 'APPROVED';
-  bundle.status = 'approved';
-  saveDecisionBundle(requestId, bundle);
-
-  console.log(`[${requestId}] Agent decision: APPROVED`);
-
-  return res.json({
-    masumiRequestId: requestId,
-    status: 'queued',
-    decision: 'APPROVED'
-  });
 }
 
 // POST /contract/log

@@ -3,6 +3,7 @@ import cors from 'cors';
 import { v4 as uuidv4 } from 'uuid';
 import config from './config/index.js';
 import routes from './routes.js';
+import * as services from './services/index.js';
 
 const app = express();
 
@@ -40,9 +41,19 @@ app.use((err, req, res, next) => {
 });
 
 const PORT = config.PORT || 3001;
-app.listen(PORT, () => {
+app.listen(PORT, async () => {
   console.log(`✅ AUREV Guard Backend running on http://localhost:${PORT}`);
   console.log(`📝 Health check: http://localhost:${PORT}/health`);
+  
+  // Initialize integration services
+  try {
+    console.log('\n🔌 Initializing integration services...');
+    await services.initializeServices({ timeout: 10000 });
+    console.log('✅ Integration services initialized\n');
+  } catch (err) {
+    console.warn('⚠️  Some integration services unavailable:', err.message);
+    console.log('   System will use fallback mode\n');
+  }
 });
 
 export default app;
