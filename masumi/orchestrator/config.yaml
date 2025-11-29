@@ -1,0 +1,16 @@
+agents:
+  - name: payment
+    capabilities: ["validate_settle"]
+    endpoint: http://localhost:8081
+    auth:
+      type: none
+    version: "1.0.0"
+    enabled: true
+
+  - name: compliance
+    capabilities: ["score_payment"]
+    endpoint: http://localhost:8082
+    auth:
+      type: none
+    version: "1.0.0"
+    enabled: true
