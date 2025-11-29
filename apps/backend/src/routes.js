@@ -1,18 +1,19 @@
 import express from 'express';
 import {
-  postAiScore,
   postScanAddress,
   postAgentDecision,
   postContractLog,
-  getRiskHistory,
+  getDecision,
+  postAnchor
 } from './controllers.js';
 
 const router = express.Router();
 
-router.post('/ai/score', postAiScore);
+// Main endpoints
 router.post('/scan/address', postScanAddress);
 router.post('/agent/decision', postAgentDecision);
 router.post('/contract/log', postContractLog);
-router.get('/risk/history/:address', getRiskHistory);
+router.get('/v1/decisions/:proofId', getDecision);
+router.post('/v1/anchor', postAnchor);
 
 export default router;
