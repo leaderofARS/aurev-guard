@@ -1,7 +1,7 @@
-<<<<<<< Updated upstream
 import { useState } from "react";
 import React from "react";
 import { Link } from "react-router-dom";
+import WalletConnect from "../components/WalletConnect";
 import RiskForm from "../components/RiskForm";
 import ComplianceModal from "../components/ComplianceModal";
 
@@ -15,10 +15,21 @@ export default function Proof() {
         <header className="flex items-center justify-between">
           <h1 className="text-2xl font-bold">Compliance Proof</h1>
           <nav className="space-x-4">
-            <Link to="/" className="text-blue-600">Wallet</Link>
-            <Link to="/risk" className="text-blue-600">Risk Checker</Link>
+            <Link to="/" className="text-blue-600">
+              Wallet
+            </Link>
+            <Link to="/risk" className="text-blue-600">
+              Risk Checker
+            </Link>
           </nav>
         </header>
+
+        {/* Allow connecting a wallet on the Proof page so user can autofill address */}
+        <WalletConnect
+          onConnect={(session) => {
+            if (session) setLastAddress(session.address);
+          }}
+        />
 
         <RiskForm
           defaultAddress={lastAddress}
@@ -28,6 +39,13 @@ export default function Proof() {
           }}
         />
 
+        {!lastResult && (
+          <div className="p-4 bg-white rounded-xl border border-slate-200 text-center text-sm text-slate-600">
+            Run a scan (enter an address or connect a wallet) to generate a
+            compliance proof.
+          </div>
+        )}
+
         {lastResult && (
           <ComplianceModal
             address={lastAddress}
@@ -35,44 +53,6 @@ export default function Proof() {
             metadata={lastResult.details}
           />
         )}
-=======
-import React, { useEffect, useState } from 'react';
-import { getRiskHistory } from '../lib/api';
-
-export default function Proof() {
-  const [address, setAddress] = useState(localStorage.getItem('aurev_address') || '');
-  const [history, setHistory] = useState([]);
-  const [error, setError] = useState('');
-
-  async function load() {
-    if(!address) return;
-    try{
-      const res = await getRiskHistory(address);
-      setHistory(res.events || res.data?.events || []);
-    }catch(err){ setError(err.message || 'failed'); }
-  }
-
-  useEffect(()=>{ load(); }, []);
-
-  return (
-    <div className="p-4">
-      <h2 className="text-xl font-semibold">Proof History</h2>
-      <div className="mt-3">
-        <input className="p-2 border w-full" value={address} onChange={(e)=>setAddress(e.target.value)} />
-        <button className="mt-2 px-3 py-1 border" onClick={load}>Load History</button>
-      </div>
-
-      {error && <div className="text-red-600 mt-2">{error}</div>}
-
-      <div className="mt-4 space-y-3">
-        {history.length === 0 && <div className="text-sm text-gray-600">No events</div>}
-        {history.map((ev, i)=> (
-          <div key={i} className="p-3 border rounded bg-white">
-            <div className="text-xs text-gray-500">{ev.type} • {ev.timestamp}</div>
-            <pre className="text-xs mt-2">{JSON.stringify(ev, null, 2)}</pre>
-          </div>
-        ))}
->>>>>>> Stashed changes
       </div>
     </div>
   );
