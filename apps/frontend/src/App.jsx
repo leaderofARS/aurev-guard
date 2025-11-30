@@ -15,7 +15,6 @@ import RiskChecker from "./pages/RiskChecker";
 export default function App() {
   return (
     <WalletProvider>
-      <BrowserRouter>
         <div className="p-6">
 
           {/* Header + Navigation */}
@@ -44,7 +43,6 @@ export default function App() {
           </Routes>
 
         </div>
-      </BrowserRouter>
     </WalletProvider>
   );
 }
