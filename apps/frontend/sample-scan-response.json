@@ -1,0 +1,6 @@
+{
+  "address": "addr_test1...",
+  "riskScore": 42,
+  "riskLevel": "MEDIUM",
+  "explanation": "Sample fallback response"
+}

@@ -7,11 +7,17 @@ export default function RiskCard({ result }) {
     score >= 75
       ? { label: "HIGH RISK", color: "bg-red-100 text-red-800 border-red-200" }
       : score >= 50
-      ? { label: "MEDIUM RISK", color: "bg-yellow-100 text-yellow-800 border-yellow-200" }
-      : { label: "LOW RISK", color: "bg-green-100 text-green-800 border-green-200" };
+      ? {
+          label: "MEDIUM RISK",
+          color: "bg-yellow-100 text-yellow-800 border-yellow-200",
+        }
+      : {
+          label: "LOW RISK",
+          color: "bg-green-100 text-green-800 border-green-200",
+        };
 
   return (
-    <div className="p-4 rounded-xl border bg-white shadow">
+    <div className="w-full p-4 rounded-xl border bg-white shadow">
       <div className="flex items-center justify-between">
         <div>
           <div className="text-sm text-gray-600">Risk Score</div>

@@ -1,0 +1,10 @@
+Demo Playbook — AUREV Guard (short)
+
+1) Start Python AI stub: `cd python-ai && python -m pip install -r requirements.txt && uvicorn app:app --port 5000`
+2) Start backend: `cd apps/backend && npm install && npm start` (backend listens on port 3001)
+3) Start frontend: `cd apps/frontend && npm install && npm run dev` (open the Vite URL)
+4) Open browser to Frontend, go to Connect page. Click "Connect Wallet" (or paste address manually) — note the connected address.
+5) Go to Risk page, ensure address is prefilled, click "Check Risk". Confirm riskScore and color box appear.
+6) Click "Generate Proof". Confirm unsignedTxHex is shown.
+7) Click "Sign with Wallet". If wallet present, approve signing; otherwise simulated signedTxHex appears.
+8) Go to Proof page, load history for address and show events.

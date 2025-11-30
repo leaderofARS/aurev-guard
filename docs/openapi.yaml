@@ -1,0 +1,31 @@
+openapi: 3.0.0
+info:
+  title: AUREV Guard API (MVP)
+  version: 0.1.0
+paths:
+  /payments:
+    post:
+      summary: Create a payment
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                to:
+                  type: string
+                amount:
+                  type: number
+      responses:
+        "200":
+          description: created
+  /payments/{id}/draft:
+    post:
+      summary: Build unsigned draft CBOR for payment
+  /payments/{id}/settle:
+    post:
+      summary: Submit signed CBOR for settlement
+  /decisions:
+    post:
+      summary: Create a decision
