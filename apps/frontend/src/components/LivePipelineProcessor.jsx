@@ -1,16 +1,45 @@
 import React, { useState } from 'react';
-import { Play, Pause, RefreshCw, CheckCircle, AlertCircle } from 'lucide-react';
-import axios from 'axios';
+import { Play, Pause, RefreshCw, CheckCircle, AlertCircle, Wallet } from 'lucide-react';
+import { enableWallet, sendSimplePayment } from '../lib/cardano';
 
-const LivePipelineProcessor = ({ walletAddress, onComplete }) => {
+const LivePipelineProcessor = ({ walletAddress, onComplete, useRealData = false }) => {
   const [jobId, setJobId] = useState(null);
-  const [status, setStatus] = useState('idle'); // idle, processing, completed, error
+  const [status, setStatus] = useState('idle'); // idle, payment_required, processing, completed, error
   const [progress, setProgress] = useState(0);
   const [results, setResults] = useState(null);
   const [error, setError] = useState(null);
   const [pollingId, setPollingId] = useState(null);
+  const [paymentTxHash, setPaymentTxHash] = useState(null);
+  const [paymentAddress] = useState('addr_test1qpu5vlrf4xkxv2qpwngf6cjhtw542ayty80v8dyr49rf5ewvxwdrt70qlcpeeagscasafhffqsxy36t90ldv06wqrk2qum8x5w'); // Testnet payment address
 
-  const startPipeline = async () => {
+  const handlePayment = async () => {
+    try {
+      setStatus('payment_required');
+      setError(null);
+
+      // Enable wallet
+      const { api, walletName } = await enableWallet();
+      console.log(`💰 Connected to ${walletName} wallet`);
+
+      // Send payment (0.17 ADA = 17,000,000 lovelace)
+      const txHash = await sendSimplePayment(api, paymentAddress, 0.17);
+      console.log(`✅ Payment sent: ${txHash}`);
+
+      setPaymentTxHash(txHash);
+
+      // Wait a moment for transaction to propagate
+      await new Promise(resolve => setTimeout(resolve, 2000));
+
+      // Start pipeline with payment hash
+      await startPipeline(txHash);
+    } catch (err) {
+      console.error('Payment error:', err);
+      setError(`Payment failed: ${err.message}`);
+      setStatus('error');
+    }
+  };
+
+  const startPipeline = async (txHash = null) => {
     if (!walletAddress) {
       setError('Wallet address is required');
       setStatus('error');
@@ -22,39 +51,61 @@ const LivePipelineProcessor = ({ walletAddress, onComplete }) => {
     setProgress(5);
 
     try {
-      const response = await axios.post(
-        'http://localhost:5000/api/live-pipeline/start',
+      // Choose endpoint based on mode
+      const endpoint = useRealData ? '/api/real-pipeline/start' : '/api/live-pipeline/start';
+      const statusEndpoint = useRealData ? '/api/real-pipeline/status' : '/api/live-pipeline/status';
+
+      const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5000';
+      const response = await fetch(
+        `${API_BASE}${endpoint}`,
         {
-          walletAddress,
-          transactionId: `txn_${Date.now()}`,
-        },
-        { timeout: 10000 }
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            walletAddress,
+            transactionId: `txn_${Date.now()}`,
+            paymentTxHash: txHash || paymentTxHash,
+          }),
+        }
       );
 
-      if (response.data.success) {
-        setJobId(response.data.jobId);
-        pollJobStatus(response.data.jobId);
+      if (!response.ok) {
+        const errData = await response.json();
+        setError(errData.error || 'Failed to start pipeline');
+        setStatus('error');
+        return;
+      }
+
+      const data = await response.json();
+      if (data.success) {
+        setJobId(data.jobId);
+        pollJobStatus(data.jobId, statusEndpoint);
       } else {
-        setError(response.data.error || 'Failed to start pipeline');
+        setError(data.error || 'Failed to start pipeline');
         setStatus('error');
       }
     } catch (err) {
-      setError(err.response?.data?.error || err.message || 'Failed to start pipeline');
+      setError(err.message || 'Failed to start pipeline');
       setStatus('error');
       setProgress(0);
     }
   };
 
-  const pollJobStatus = async (jId) => {
+  const pollJobStatus = async (jId, statusEndpoint = '/api/live-pipeline/status') => {
     const interval = setInterval(async () => {
       try {
-        const response = await axios.get(
-          `http://localhost:5000/api/live-pipeline/status/${jId}`,
-          { timeout: 10000 }
+        const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5000';
+        const response = await fetch(
+          `${API_BASE}${statusEndpoint}/${jId}`
         );
 
-        if (response.data.success) {
-          const jobData = response.data;
+        if (!response.ok) {
+          throw new Error('Failed to fetch status');
+        }
+
+        const data = await response.json();
+        if (data.success) {
+          const jobData = data;
           setProgress(jobData.progress || 0);
 
           if (jobData.status === 'completed') {
@@ -106,13 +157,34 @@ const LivePipelineProcessor = ({ walletAddress, onComplete }) => {
 
       {status === 'idle' && (
         <button
-          onClick={startPipeline}
+          onClick={useRealData ? handlePayment : () => startPipeline()}
           disabled={!walletAddress}
           className="flex items-center gap-2 px-4 py-2 bg-green-600 hover:bg-green-700 disabled:bg-gray-400 text-white rounded-lg font-semibold transition-colors"
         >
-          <Play size={18} />
-          Start Analysis
+          {useRealData ? (
+            <>
+              <Wallet size={18} />
+              Pay & Start Analysis (0.17 ADA)
+            </>
+          ) : (
+            <>
+              <Play size={18} />
+              Start Analysis
+            </>
+          )}
         </button>
+      )}
+
+      {status === 'payment_required' && (
+        <div className="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-500">
+          <div className="flex items-center gap-2 mb-2">
+            <Wallet className="text-yellow-600" size={20} />
+            <span className="text-yellow-800 font-medium">Processing Payment...</span>
+          </div>
+          <p className="text-sm text-yellow-700">
+            Please approve the transaction in your wallet (Eternl/Nami).
+          </p>
+        </div>
       )}
 
       {status === 'processing' && (
@@ -145,11 +217,11 @@ const LivePipelineProcessor = ({ walletAddress, onComplete }) => {
 
             <div className="text-xs text-gray-500 space-y-1">
               <p>📊 Fetching transaction data from Cardano...</p>
+              <p>🔧 Engineering features...</p>
               <p>🧠 Running AI models for risk assessment...</p>
               <p>⚡ Processing with orchestrator...</p>
             </div>
           </div>
-
           {jobId && (
             <p className="text-xs text-gray-500 mt-3">Job ID: {jobId}</p>
           )}
@@ -180,12 +252,37 @@ const LivePipelineProcessor = ({ walletAddress, onComplete }) => {
                     </div>
                     <div className="flex justify-between">
                       <span className="text-gray-700">Prediction:</span>
-                      <span className={`font-bold ${
-                        results.prediction.prediction === 'HIGH_RISK'
-                          ? 'text-red-600'
-                          : 'text-green-600'
-                      }`}>
+                      <span className={`font-bold ${results.prediction.prediction === 'HIGH_RISK'
+                        ? 'text-red-600'
+                        : 'text-green-600'
+                        }`}>
                         {results.prediction.prediction}
+                      </span>
+                    </div>
+                    <div className="flex justify-between pt-2 border-t border-gray-200">
+                      <span className="text-gray-700 font-medium">Risk Level:</span>
+                      <span className={`font-bold px-3 py-1 rounded text-white ${results.prediction.risk_label === 'HIGH'
+                        ? 'bg-red-600'
+                        : results.prediction.risk_label === 'MEDIUM'
+                          ? 'bg-orange-600'
+                          : 'bg-green-600'
+                        }`}>
+                        {results.prediction.risk_label || 'N/A'}
+                      </span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Confidence:</span>
+                      <span className="font-bold text-blue-600">
+                        {(results.prediction.confidence * 100).toFixed(1)}%
+                      </span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Anomaly Detected:</span>
+                      <span className={`font-bold ${results.prediction.is_anomaly
+                        ? 'text-red-600'
+                        : 'text-green-600'
+                        }`}>
+                        {results.prediction.is_anomaly ? '⚠️ Yes' : '✓ No'}
                       </span>
                     </div>
                   </>
@@ -226,13 +323,108 @@ const LivePipelineProcessor = ({ walletAddress, onComplete }) => {
                 </details>
               )}
 
-              <button
-                onClick={reset}
-                className="mt-3 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded font-medium text-sm transition-colors"
-              >
-                <RefreshCw size={14} className="inline mr-1" />
-                Analyze Again
-              </button>
+              {/* AI Analysis Section */}
+              {(() => {
+                const narrative = results.orchestrator_response?.narrative || results.orchestrator_response?.explanation?.narrative;
+                const isMock = narrative && narrative.includes("Mock prediction returned");
+
+                if (!narrative || isMock) return null;
+
+                return (
+                  <div className="mt-4 bg-purple-50 p-4 rounded-lg border border-purple-200">
+                    <div className="flex items-center gap-2 mb-3">
+                      <span className="text-xl">🧠</span>
+                      <h4 className="font-bold text-purple-900">AI Risk Analysis</h4>
+                    </div>
+
+                    {/* Narrative */}
+                    <div className="bg-white p-3 rounded border border-purple-100 shadow-sm mb-3">
+                      <p className="text-gray-800 text-sm leading-relaxed">
+                        {narrative}
+                      </p>
+                    </div>
+
+                    {/* Risk Drivers */}
+                    {(results.orchestrator_response.top_risk_drivers?.length > 0 || results.orchestrator_response.explanation?.top_risk_drivers?.length > 0) && (
+                      <div className="mb-3">
+                        <h5 className="text-xs font-bold text-purple-800 uppercase tracking-wide mb-2">Key Risk Drivers</h5>
+                        <div className="space-y-2">
+                          {(results.orchestrator_response.top_risk_drivers || results.orchestrator_response.explanation?.top_risk_drivers || []).slice(0, 3).map((driver, idx) => (
+                            <div key={idx} className="flex items-center justify-between bg-white px-3 py-2 rounded border border-purple-100">
+                              <span className="text-sm text-gray-700">{typeof driver === 'string' ? driver : driver.feature}</span>
+                              {typeof driver === 'object' && driver.importance && (
+                                <span className="text-xs font-bold text-purple-600">{(driver.importance * 100).toFixed(0)}% Impact</span>
+                              )}
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                );
+              })()}
+
+              {/* Recent Transactions Preview */}
+              {results.blockfrost_data?.transactions?.length > 0 && (
+                <div className="mt-4">
+                  <h4 className="font-bold text-gray-700 mb-2 flex items-center gap-2">
+                    <span className="text-xl">📜</span> Recent Transactions
+                  </h4>
+                  <div className="bg-white border border-gray-200 rounded-lg overflow-hidden max-h-60 overflow-y-auto">
+                    <table className="w-full text-sm text-left">
+                      <thead className="bg-gray-50 text-gray-600 font-medium border-b">
+                        <tr>
+                          <th className="px-3 py-2">Time</th>
+                          <th className="px-3 py-2">Hash</th>
+                          <th className="px-3 py-2 text-right">Amount (ADA)</th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-gray-100">
+                        {results.blockfrost_data.transactions.slice(0, 10).map((tx) => {
+                          // Find amount sent to this wallet
+                          const output = tx.outputs.find(o => o.address === walletAddress);
+                          const amount = output
+                            ? (parseInt(output.amount.find(a => a.unit === 'lovelace')?.quantity || 0) / 1000000).toFixed(2)
+                            : '0.00';
+
+                          return (
+                            <tr key={tx.tx_hash} className="hover:bg-gray-50">
+                              <td className="px-3 py-2 text-gray-600">
+                                {new Date(tx.block_time).toLocaleDateString()}
+                              </td>
+                              <td className="px-3 py-2 font-mono text-xs text-blue-600 truncate max-w-[100px]" title={tx.tx_hash}>
+                                {tx.tx_hash.substring(0, 8)}...
+                              </td>
+                              <td className="px-3 py-2 text-right font-medium text-gray-800">
+                                {amount} ₳
+                              </td>
+                            </tr>
+                          );
+                        })}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              )}
+
+              <div className="mt-4 flex gap-2">
+                <button
+                  onClick={reset}
+                  className="flex-1 px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded font-medium text-sm transition-colors flex items-center justify-center gap-2"
+                >
+                  <RefreshCw size={16} />
+                  Analyze Another Wallet
+                </button>
+
+                <details className="relative group">
+                  <summary className="px-3 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded cursor-pointer list-none h-full flex items-center">
+                    <span className="text-xs font-bold">JSON</span>
+                  </summary>
+                  <div className="absolute bottom-full right-0 mb-2 w-96 bg-gray-900 text-gray-100 p-4 rounded-lg shadow-xl text-xs font-mono overflow-auto max-h-96 z-50 hidden group-open:block">
+                    <pre>{JSON.stringify(results, null, 2)}</pre>
+                  </div>
+                </details>
+              </div>
             </div>
           </div>
         </div>

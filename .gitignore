@@ -341,3 +341,33 @@ api-docs/generated/
 !.gitkeep
 !.gitignore
 !.gitattributes
+
+# ==================== PROJECT SPECIFIC SECRETS & DATA ====================
+transactions.json
+wallet_config.json
+payment_data.json
+*.pem
+*.key
+private_key.txt
+seed_phrase.txt
+mnemonic.txt
+blockfrost.json
+lucid.config.js
+apps/frontend/src/polyfills.js
+
+# ==================== RECURSIVE SECRETS (SAFETY NET) ====================
+**/.env
+**/.env.*
+**/*.pem
+**/*.key
+**/*.p12
+**/secrets.yaml
+**/secrets.json
+**/*.log
+
+
+# ==================== GENERATED DATA FILES ====================
+shap_explanation_results.json
+shap_results.json
+random_features.json
+orchestrator_error.log

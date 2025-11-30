@@ -17,9 +17,18 @@ export const scanAddress = asyncHandler(async (req, res) => {
   // Calculate risk score (mock logic)
   const riskScore = Math.floor(Math.random() * 100);
 
+  // Determine risk level
+  let riskLevel = 'LOW';
+  if (riskScore > 80) riskLevel = 'HIGH';
+  else if (riskScore > 50) riskLevel = 'MEDIUM';
+
   const scanResult = {
+    requestId: req.requestId,
     address,
     riskScore,
+    riskLevel,
+    explanation: `Risk score calculated based on ${transactions.transactions.length} recent transactions.`,
+    modelHash: 'mock-model-v1',
     transactionCount: transactions.transactions.length,
     balance: addressInfo.balance,
     firstSeen: addressInfo.firstTx,
@@ -30,8 +39,6 @@ export const scanAddress = asyncHandler(async (req, res) => {
   // Store in history
   historyStore.addScan(address, scanResult);
 
-  res.json({
-    success: true,
-    data: scanResult,
-  });
+  // Return flattened result for frontend compatibility
+  res.json(scanResult);
 });

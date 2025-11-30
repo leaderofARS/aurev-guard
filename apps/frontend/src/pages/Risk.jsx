@@ -2,6 +2,7 @@
 import { useState, useContext } from "react";
 import NavBar from "../components/NavBar";
 import { WalletContext } from "../context/WalletContext";
+import WalletRiskAnalyzer from "../components/WalletRiskAnalyzer";
 import { Input } from "../components/ui/input";
 import { Label } from "../components/ui/label";
 import { Button } from "../components/ui/button";
@@ -12,7 +13,7 @@ import {
   CardTitle,
 } from "../components/ui/card";
 
-const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:3001";
+const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:5000";
 
 export default function Risk() {
   const { wallet } = useContext(WalletContext);
@@ -140,6 +141,19 @@ export default function Risk() {
               {error && (
                 <p className="text-destructive text-sm mt-2">{error}</p>
               )}
+            </CardContent>
+          </Card>
+
+          {/* New Live Pipeline Analysis Section */}
+          <Card className="border-blue-500/50 bg-blue-950/20">
+            <CardHeader>
+              <CardTitle className="text-blue-300">Live Pipeline Analysis</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p className="text-sm text-gray-300 mb-4">
+                Analyze wallet risk using real blockchain data with feature engineering and ML models.
+              </p>
+              <WalletRiskAnalyzer walletAddress={address || wallet?.address} />
             </CardContent>
           </Card>
 

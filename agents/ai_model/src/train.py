@@ -18,7 +18,7 @@ def safe_load_csv(filename: str) -> pd.DataFrame:
     try:
         return pd.read_csv(path)
     except Exception as e:
-        print(f"⚠️ Could not load {filename}: {e}")
+        print(f"WARNING: Could not load {filename}: {e}")
         return pd.DataFrame()
 
 def safe_load_json(filename: str):
@@ -27,7 +27,7 @@ def safe_load_json(filename: str):
         with open(path, "r") as f:
             return json.load(f)
     except Exception as e:
-        print(f"⚠️ Could not load {filename}: {e}")
+        print(f"WARNING: Could not load {filename}: {e}")
         return {}
 
 anomaly_df = safe_load_csv("anomaly_results.csv")
@@ -39,9 +39,9 @@ transactions = safe_load_json("transactions.json")
 try:
     iso_model = joblib.load(os.path.join(MODEL_DIR, "isolationforest.pkl"))
     rf_model = joblib.load(os.path.join(MODEL_DIR, "randomforest.pkl"))
-    print("✅ Models loaded successfully")
+    print("Models loaded successfully")
 except Exception as e:
-    print(f"⚠️ Could not load models: {e}")
+    print(f"WARNING: Could not load models: {e}")
     iso_model, rf_model = None, None
 
 # --- Health endpoint ---

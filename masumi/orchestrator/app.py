@@ -1,3 +1,9 @@
+
+"""
+Wallet analysis endpoint was moved below app definition to ensure imports and app exist before route registration.
+"""
+
+ 
 import yaml
 import httpx
 import logging
@@ -237,6 +243,60 @@ async def predict_risk(
         }
     }
     return route_request(registry, payload)
+
+
+@app.post("/masumi/analyze-wallet")
+async def analyze_wallet(req: Request):
+    """
+    Analyze a wallet for risk and anomalies.
+    Backend calls this endpoint with wallet features.
+    Routes to AI model agent for prediction and explanation.
+    """
+    try:
+        body = await req.json()
+        wallet_address = body.get("wallet_address")
+
+        if not wallet_address:
+            raise HTTPException(status_code=400, detail="wallet_address required")
+
+        # Prepare features for AI model
+        ai_payload = {
+            "workflow": "ai_predict",
+            "payload": {
+                "wallet_address": wallet_address,
+                "transaction_id": body.get("transaction_id"),
+                "features": {
+                    "tx_count_24h": body.get("tx_count_24h", 0),
+                    "total_value_24h": body.get("total_value_24h", 0),
+                    "largest_value_24h": body.get("largest_value_24h", 0),
+                    "std_value_24h": body.get("std_value_24h", 0),
+                    "unique_counterparts_24h": body.get("unique_counterparts_24h", 0),
+                    "entropy_of_destinations": body.get("entropy_of_destinations", 0),
+                    "share_of_daily_volume": body.get("share_of_daily_volume", 0),
+                    "relative_max_vs_global": body.get("relative_max_vs_global", 0),
+                },
+                "include_explanation": True,
+                "include_shap": True,
+            }
+        }
+
+        # Route to AI model through route_request
+        result = route_request(registry, ai_payload)
+
+        # Extract AI response
+        ai_response = result.get("prediction", {}).get("response", {})
+
+        logger.info(f"✅ Wallet analysis complete: {wallet_address}, risk_score={ai_response.get('risk_score')}")
+
+        return {
+            "status": "success",
+            "wallet_address": wallet_address,
+            "analysis": ai_response,
+            "timestamp": datetime.now().isoformat(),
+        }
+    except Exception as e:
+        logger.error(f"Wallet analysis error: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
 
 # --- Data Quality Assessment ---
 
