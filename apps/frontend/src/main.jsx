@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css"; // Tailwind global styles
+import { BrowserRouter } from "react-router-dom";
 
 // Development-only: optionally inject a fake CIP-30 wallet provider when
 // VITE_USE_FAKE_WALLET=true is set in the dev environment. This allows
@@ -17,6 +18,8 @@ if (import.meta.env.VITE_USE_FAKE_WALLET === "true") {
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
