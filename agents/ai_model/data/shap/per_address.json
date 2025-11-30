@@ -1,0 +1,3502 @@
+[
+  {
+    "address": "addr_test1qp23yv7k4kzhd2rntjamkda4q7hdn9qkrf63u9p8ce6fhwdeve3p6rsav4v5mdcz8qzcfenrlwhrs2ffk04ac44ermfq5t8ljx",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.39314172959690463
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.38724540426475357
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.30398969120497277
+      },
+      {
+        "feature": "total_received",
+        "shap_value": -0.22632870445629957
+      },
+      {
+        "feature": "total_sent",
+        "shap_value": -0.21159395466171488
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qp5r7gm03mw08u9zkfrxvdr5phwg9n2mn90mcthpmea6kmt5tuww9mf3pzmp3nrvjm95hfju2v57w6f5d54h8eqd2wysqkvsl9",
+    "top_contributors": [
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.4353480717131843
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.3920090499615541
+      },
+      {
+        "feature": "net_balance_change",
+        "shap_value": -0.3820985115563007
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.2627296746825352
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -0.24738970817120376
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qp6h0qzy8e5dw238qzde33tz6qtgjegdphrawy4h7uch05x889c9re4ajppf7f6u9vz2rxwjfd0epkcs7wdvfpjh5h7qvn4ck4",
+    "top_contributors": [
+      {
+        "feature": "total_sent",
+        "shap_value": -0.4059453379004683
+      },
+      {
+        "feature": "total_received",
+        "shap_value": -0.39104318906503266
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.3694821965789887
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.34481521474873505
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -0.3025282374961125
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qp6ruunvywyrn2ldrxwk3h9dw254rgcwmp6g9prfjx53ntv898ykky2499xvnfn5eprxza4ctcvyvh96zhq8yn7p03lq2z8mze",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.3985234778692155
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.3709226469294323
+      },
+      {
+        "feature": "total_sent",
+        "shap_value": -0.3406978532889226
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.3344418081923458
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -0.3254465726931196
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qpfpxx2m56u7td8duem6kkcdw25kfyd0jcv7g7hwup797p5d0v7l822u4xea8zty37320uz3nwdl88agexcj9n7s986q5j40uk",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.3425868969127849
+      },
+      {
+        "feature": "tx_count",
+        "shap_value": -0.2817419354114083
+      },
+      {
+        "feature": "tx_per_day",
+        "shap_value": -0.259481677395908
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.24140308414402684
+      },
+      {
+        "feature": "total_sent",
+        "shap_value": -0.1889133815888603
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qpgq2n6vpdwskfjk0uzj9askyele649ghtz8q9r9m2r07hxw6a59ugz9wl2t82g3nggzgxpz99unwe48cx8zrct66p7syxy2l0",
+    "top_contributors": [
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.4630916840554368
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.4138140528123656
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.2813732970058898
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.24574763418775727
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.2225818782084103
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qphpmu6qm46rgvvnxfwfc8a57y4dj20x665ulr5xjaywh93s8cfm5nnkkn5kve26gvssg7wp77jnxleujwcz8xs7v29qcdvhz8",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.3426634760780956
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.2125489087787962
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.19242974913112623
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.18479499671230523
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.17081121906859312
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qpsxak49pveycp2phjqzr9gfmttf9dqsx5t404xq4dz4u7ja2vzlmkj7ck88c4n40ehps56gxvts9x2weqgq89gfef5snjnwz3",
+    "top_contributors": [
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.387532350538132
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.368012284618206
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.3145193756983118
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.24073004141925855
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.20928185387084358
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qptu9takwxy2309end3nuu54lpw4cpxlp7lunzqd25p69g7q9hp5y0uxq0mmautdg2mzmhctm6e5h56rrqf0epdvpwwswx5u2w",
+    "top_contributors": [
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.38448493990226573
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.37060543456768813
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -0.2910325169855
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.25958242601985315
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.25346452513847456
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qpwrzk49m733n33krd27fdzn8yecwvju80e8c5g45asj35f2deak5yydxl5pmzdg20wgsadhu87r4elkwva8y9zge0uqs44jt2",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.4024450301017254
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.3946579034861964
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.24661379012417045
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.19995578418046492
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.195965976329585
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qq50sks40pnh5tkth68m3lrvzvlepaew6prl3u8u69nd3zu9rk398gms2eh8snp58c9skehndz9ps8ff5rfns7mfafnqt4qk0e",
+    "top_contributors": [
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": -0.6032270700225928
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.5547700424905121
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.3198159564733841
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.18178269549486314
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": -0.1368381865636535
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qqcm62zdvt38ctv432tptaqdrdh3hl2xlp4guq893hqpu6l77qrcufvgcycrglrj4qgxzfhk723vkn46patwnngwhyrqtunqtw",
+    "top_contributors": [
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.3838495720634824
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.3766622187054153
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.23326143450222092
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.19681324816754847
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.17592927289281557
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qqdxeujed4f77u82rslna9gtsrwnxqww8f3zxz8w4uz87vwy68rhqmmahtetcv2wcvsqe0ct9h6gmd8g5nsuw38rq4sqvh9dvw",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -1.393226664388998
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.6189326450938922
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.523710067566007
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -0.4414144285091599
+      },
+      {
+        "feature": "total_sent",
+        "shap_value": -0.42083758391271736
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qqj4t6m7pwqn6x3hkhs9cunj62fsgj7ezt9spvxj3mne77xp2lx7h4wuk22fmwmlhtzjvysysw663sdt6h4kwjk7ksvsfg7juk",
+    "top_contributors": [
+      {
+        "feature": "collateral_ratio",
+        "shap_value": -1.2270832744302047
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.3427989772416748
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.2883065494748618
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.23290006004061373
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.1965818406631704
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qqkxdt3sav4cz3r5xnrsstlxzlhuzhvyd2qm6wxz0gd63ee77fl6k08e6egytyweyv8w6al94rphdc47mrdzent8gazsykeyrk",
+    "top_contributors": [
+      {
+        "feature": "collateral_ratio",
+        "shap_value": -2.5868327035313414
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.8715157355893522
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.2286056454545131
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": -0.21354894671282756
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": -0.16407325824648678
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qqm56vjt0wa9xj2r5hye682ps9gz3ksw75cv45fdmhktpkfffsx09epxg2f586qkf0znd963phxjs2ja9849kh8d0xnsc7mp78",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.394946552540158
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -0.3869507269123041
+      },
+      {
+        "feature": "total_sent",
+        "shap_value": -0.37179489378040803
+      },
+      {
+        "feature": "total_received",
+        "shap_value": -0.34415168955669917
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.31970038436329495
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qqpe6v4c95v0jlgjm5578w3san3eycf0hcfxwpp0yafze8mxjxnr4tyryejp4kxyqu0u82wv4hx6f6pqns9dknetaqgsmzzz6e",
+    "top_contributors": [
+      {
+        "feature": "total_sent",
+        "shap_value": -0.8364049511679488
+      },
+      {
+        "feature": "total_received",
+        "shap_value": -0.7932668647077884
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.7703059680310083
+      },
+      {
+        "feature": "collateral_ratio",
+        "shap_value": -0.7702376725692134
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -0.5468193845243592
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qqs88lem3gleyjj9lhhrxwj3q7uzvjyphce62pcf90wgutnl4my4md9cdrttjnk02vrmpc2av7a9vdnx600ekjrsfwvs50rr8m",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.3984915590278279
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.37783362187786357
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.3284393172807945
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.2835702647064119
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.21016120595787705
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qqtrjd6wx44xz5gkc9yl8xn6zjnzc2kns3y2tvdpmauvj2ey4t05exc5mmvkka0f75qkhw8ae9d27znqq82nqlr9x0ashdk5m0",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.3822121088167679
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.34635477822157223
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -0.33044945500388184
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": -0.3011604648660964
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.2900734808045357
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qqxnkqmvh6akr6jujzhw2mtf4uzf5n4a5p2drl5ha4hxqdw4pfgmdkjmu2z0rlxept3rfnha98xrmyf7v2vy5dal07wst360ex",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.35811281692042873
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.24621080387127556
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.2457495285360869
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.24127619526263738
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.16545114562067673
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qqynu5d8p9yc7garta6z4g34e2tlzye5ty8uy6ljmffnpnjv7ncp3yppt0gcr50u60y43x32fgadhnl35u9hfqyql2pqepxt0y",
+    "top_contributors": [
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.38448493990226573
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.37060543456768813
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -0.2910325169855
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.25958242601985315
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.25346452513847456
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qqzllc620hkk05l5cyg38wgflrunzw70x5h6825g03gu4yyc85y96hdkqtarg95gewuezjvkw8zt530tnmglhrzccdds5vxw0m",
+    "top_contributors": [
+      {
+        "feature": "collateral_ratio",
+        "shap_value": -0.8402631941125824
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.7848086573427725
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.3883042813225757
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.3405349819167371
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": -0.28315342108943764
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qr23z9axxwyh5zaj2ewqvfu6xd899tddxgasrwu35p2vgw9gvst4lcyrhmg0vtwq5g4tx25etraqj2cm6kwd8ly0eaaqwpc2hs",
+    "top_contributors": [
+      {
+        "feature": "collateral_ratio",
+        "shap_value": -1.0610426225485923
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.34833922001765394
+      },
+      {
+        "feature": "total_sent",
+        "shap_value": -0.2835871049361917
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.25321323009338026
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.24347853112319523
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qr5dmng8myuymt0rrwltw5uasv8vjcqchlmstz4z3uz0z8awj3v2656xdwvnztjpm69n6072xkqjmuzqhttpa65u5dhssuht5q",
+    "top_contributors": [
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.38448493990226573
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.37060543456768813
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -0.2910325169855
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.25958242601985315
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.25346452513847456
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qr7cxnat868zymckfjrqltzzj7fppqt7v48qak2p6g2sj06cg82zr8nkulez36wc4hwcfq3z4hdu7730798vs97njpeq93repj",
+    "top_contributors": [
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.38448493990226573
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.37060543456768813
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -0.2910325169855
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.25958242601985315
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.25346452513847456
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qr88apxadqac8v2vnnvmpyrvk0xx9d2ra0v2urg5px0n4jvc9dhu5g4hywcenl666x9rv8t04x2sk2ddfvemsve9gums47fdsm",
+    "top_contributors": [
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.38448493990226573
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.37060543456768813
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -0.2910325169855
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.25958242601985315
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.25346452513847456
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qr8dpq940a3eakdynmhqe0e5w97cuwmzcr57cya7elyj4leqq4t92l789cpu4xe53q5j8rve5vw86kwm20qq324qrrjq4frkla",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.3372540023989377
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.20988837345458827
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.19231161914086778
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.18239456154059766
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.16841488007459382
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qr92dwmyvzd42up52tx6cscu9z8tnnjw06kncruqx8x9fqs4j8jp6f3kanswkahdspqsdq0ym3dqmaygts6lxa34yyxsxl9ceu",
+    "top_contributors": [
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.4284572178692339
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.4165152270957534
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -0.3340919821325248
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.2740894631629229
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.2495260597239658
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qrc7cs8cheuertfezmfpgvx29zkxsdnvkkuwv8zwpccke9fn0v303jq75nv6v9fd663jh925nkq69c3atmrm72v64mhs8xh49z",
+    "top_contributors": [
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.38448493990226573
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.37060543456768813
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -0.2910325169855
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.25958242601985315
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.25346452513847456
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qrj4akkyph45y4ulcsj8jvsj6z8lgfppjxamj9duxahef4wvl7fp8sn9tq5w542gj772zg6qhx0m9qd4t652us2m7xdqcxt2u4",
+    "top_contributors": [
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": -0.6621154169290805
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.2969397254429121
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.24291563155978668
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.1852153252487904
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.16151892798072245
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qrj6nmj7c4lm7yafjxvzkvcf9hgqq9dp88lld7pjgnvekdvd0v7l822u4xea8zty37320uz3nwdl88agexcj9n7s986qwlg8ps",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.3459746357831612
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.21485970719473813
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.19275958019210956
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.18556880857459615
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.17089634612722837
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qrjwjlw94q2xx0wv9edc4zga55vnvk8hne0ppnj35489jk0045mvduz0uq4glknq2jjp9kfvnkwen3czk5ejyvyq92zqc5zdvp",
+    "top_contributors": [
+      {
+        "feature": "net_balance_change",
+        "shap_value": -1.1356546746698986
+      },
+      {
+        "feature": "total_received",
+        "shap_value": -0.5005431039059799
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.4642013593183495
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -0.4440915479505417
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.40805148738443214
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qrqp0rwtuy4as2d0gu7ezyzx85759k7wsq4u860cy6zxq740de9hgwfj472mw57psjmpevgsezv0xkcchmhn4ye9kluse5gflu",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.341231967370965
+      },
+      {
+        "feature": "collateral_ratio",
+        "shap_value": 0.12289976656864554
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": -0.11235505520857508
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.11149947496898668
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.09633916276180957
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qrrhnm2qjzlj3tjxugjutm46dn2urfrwjhk6t6x70m5lg9tx2u29lwmh79hdqadrshxp2akncef7yd85fhdnrx89n83sd337nr",
+    "top_contributors": [
+      {
+        "feature": "collateral_ratio",
+        "shap_value": -1.0121849809925765
+      },
+      {
+        "feature": "total_sent",
+        "shap_value": -0.6150948319198782
+      },
+      {
+        "feature": "total_received",
+        "shap_value": -0.5811376886946291
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.37075972855471057
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -0.3402942775814865
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qrrnwdlq0sy7m9zw3kw0mxvat6almfj7ck045883tp8lxs6f5kfqjtkjgwqv93fcleg95ks8ghxl6zm03cl9ysct0auqqje3ym",
+    "top_contributors": [
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.38448493990226573
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.37060543456768813
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -0.2910325169855
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.25958242601985315
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.25346452513847456
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qruhen60uwzpwnnr7gjs50z2v8u9zyfw6zunet4k42zrpr54mrlv55f93rs6j48wt29w90hlxt4rvpvshe55k5r9mpvqjv2wt4",
+    "top_contributors": [
+      {
+        "feature": "unique_counterparties",
+        "shap_value": -1.445288174168026
+      },
+      {
+        "feature": "tx_count",
+        "shap_value": -1.2837098827841145
+      },
+      {
+        "feature": "tx_per_day",
+        "shap_value": -1.2035529685517696
+      },
+      {
+        "feature": "total_received",
+        "shap_value": -0.9674049993700975
+      },
+      {
+        "feature": "total_sent",
+        "shap_value": -0.9183791812489964
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qrumevq7kkyljesjhdtwuugwrf84qcfnlmuwgr9pmwpl8wdc27djcryfv4gxdyhw088dgy2v566wgq8jqyd4cw0agrdqdt3m2e",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.346311946020088
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.21131533003426248
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.19494623483727544
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.1829110925942057
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.17703519730761047
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qrxjgv6u2dn33nejvwxfmnqcwq9nezrpw56e9a9um4zcz84mkp0e9hzqmp3aslsvqnp5jdjdth9pz0qqxap2q696v97qsp850d",
+    "top_contributors": [
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.38448493990226573
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.37060543456768813
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -0.2910325169855
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.25958242601985315
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.25346452513847456
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qryvvl7una3saemqjdwu22y99vuhzhr7xw2xttcvpyq6hnjuc56up2uxzajkkhdemkjdnt0yn5g7wx3va69zw4lxeuhsp8q3dl",
+    "top_contributors": [
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.33909306664931693
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.31246658911835506
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.14451989955092223
+      },
+      {
+        "feature": "collateral_ratio",
+        "shap_value": 0.12038078221808154
+      },
+      {
+        "feature": "total_received",
+        "shap_value": 0.11785309393376393
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qz26nc7324hlhh06h80nfwcytjtu564uqtm6u8nh3p4t5988dh9fenf62rjattemwj6a6qhjge9wjsux6nu070azylaqqws8mq",
+    "top_contributors": [
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.41102300938798264
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.40848296484159774
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.29384335528698885
+      },
+      {
+        "feature": "total_sent",
+        "shap_value": -0.26538369514021154
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -0.2273403784681875
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qz49hkts3ryrep28q56chcl0na2q2qzy54ln0ulsw37lhzy6628j0jzrkxqq4py3s8d7tuu9klkhakcfnrwrpcredgasp674m6",
+    "top_contributors": [
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.38448493990226573
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.37060543456768813
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -0.2910325169855
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.25958242601985315
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.25346452513847456
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qz4jwtndvlxv4w6tyr24fla9luhnnsd0mlt5g9t3e4zx7wf92cnwrt0frm05f274wrdfhee4f250tk30qupudnf9nvhqmnh7cn",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.4055398492787413
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.34956440043559694
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.24718604553306278
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.20453084438044558
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.19379021662152437
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qz58xfza4s7qm2agzqghk5ahkr76ectl5ah3kyvnxnewkkw5cdds9sxqtxh5pll747354mwjnlsn3wkcrtccu0056n8s7wl96f",
+    "top_contributors": [
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": -0.6621154169290805
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.2969397254429121
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.24291563155978668
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.1852153252487904
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.16151892798072245
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qz9jfhecgrlw4yw8wknddnnpw2ah0t3n967zz9ffrssl3pdct9f58ux0fyazdlzgl3vuua05dcqnengw4vm6n0cxl4fq47fdde",
+    "top_contributors": [
+      {
+        "feature": "collateral_ratio",
+        "shap_value": -1.4131914077048584
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": -0.605329729262489
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.2671512577959368
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": -0.1801788361462171
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.16263834057080886
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qz9z9ulm4z5nqvmz0g9qs6hv7z6zqgz8fla6ggvkqxkv9et6jn2qx8lw5ag55yd5z4d5ltw8ru4xflel9pfs9c09k2rs8zdpqk",
+    "top_contributors": [
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.3958881065339874
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.36027931738027563
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.24109702036449657
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.20525182677804657
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.18825141006482363
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qzjlvcktfaxlwkc2vjw88mvxdm8dreejklxe34dea64efkal3yq6fxf0xa3nyxfrjcszcddjcyc8fv6q4dj2hxhed9kssca2ee",
+    "top_contributors": [
+      {
+        "feature": "burstiness",
+        "shap_value": -2.2142332588978673
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.35130547429884307
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.22248857358136942
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": -0.19247322408105086
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.09598559971590148
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qzkgz6nnr7na88fjuj2t7meyuvr5dtjt459e0ltc72z9p0tcjnf37v8r0z0vkrf0h76vlvxa2464k8cjpzekewlk7ppqjl46kp",
+    "top_contributors": [
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.38448493990226573
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.37060543456768813
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -0.2910325169855
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.25958242601985315
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.25346452513847456
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qzqq4tw0zma4q7ghx45uezt4pzkfgu86zd6swhnlr9f4jkf7wpxhx9vkuae835jm95yxhm2qhjkp5kzdynh36gl37dkqnz203d",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.3886114604193425
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.3724128748579891
+      },
+      {
+        "feature": "net_balance_change",
+        "shap_value": -0.31478996500179335
+      },
+      {
+        "feature": "total_received",
+        "shap_value": -0.2699411303007856
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.2615237561626884
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qzuj54degd86nn0fmn7melfuc8jln6zsug9knw06jdatgyu2m4n8ptzy49y25r6pe677yfgyrskvayeg4t7q4q25stwsu5cvm9",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.3372540023989377
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.20988837345458827
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.19231161914086778
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.18239456154059766
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.16841488007459382
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qzvsq8gc7xkr7tj07xt5l904fx0g8vzlpa8dke642k72s07rvgpva40ylulzvweu2yhhhmfsdyvp0ev82hfltn5azjcqy2hd4a",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.3790760364059539
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -0.3716623364015094
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.3292751855630134
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": -0.307904046243265
+      },
+      {
+        "feature": "unique_counterparties",
+        "shap_value": -0.27152763811854036
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qzyp52q023yfcvrj902k2hs9gn258ddnsrcg3p540vy7ldd7h569fuf63k3lj4frpp6c9mv0eegedj5qjffyc44qezuseuuy9y",
+    "top_contributors": [
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.387532350538132
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.368012284618206
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.3145193756983118
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.24073004141925855
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.20928185387084358
+      }
+    ]
+  },
+  {
+    "address": "addr_test1qzz5gfc0dmrqeya5wyf30gpr0g4ldhxwwxuhh0mv7n489j4jsgj6cajkxp5huugd5nvtfch2cpke8y25usqrxee0ez3q926uzr",
+    "top_contributors": [
+      {
+        "feature": "collateral_ratio",
+        "shap_value": -0.7402141627677131
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.3269561164595413
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.18875984650519054
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.15930495335049719
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.14160782155604784
+      }
+    ]
+  },
+  {
+    "address": "addr_test1vpy494af9z9th4anvcjnp8pxfsyfmkakqshaw6v784qph9qtutwc9",
+    "top_contributors": [
+      {
+        "feature": "tx_count",
+        "shap_value": -1.288422277630244
+      },
+      {
+        "feature": "tx_per_day",
+        "shap_value": -1.1696468398506528
+      },
+      {
+        "feature": "collateral_ratio",
+        "shap_value": -0.8871714083319729
+      },
+      {
+        "feature": "total_sent",
+        "shap_value": -0.7826012699916673
+      },
+      {
+        "feature": "total_received",
+        "shap_value": -0.7015255769805914
+      }
+    ]
+  },
+  {
+    "address": "addr_test1vqeux7xwusdju9dvsj8h7mca9aup2k439kfmwy773xxc2hcu7zy99",
+    "top_contributors": [
+      {
+        "feature": "net_balance_change",
+        "shap_value": -1.623629617478701
+      },
+      {
+        "feature": "total_sent",
+        "shap_value": -0.7105270298656723
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.6847841072216241
+      },
+      {
+        "feature": "unique_counterparties",
+        "shap_value": -0.5684748324629353
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -0.4508630063326655
+      }
+    ]
+  },
+  {
+    "address": "addr_test1vryumtuh5u0zkk3e7cvv4f568umz5xrt8077cz5ehemjzzcu0edde",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.3544191762247424
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.3372965240743444
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.3270370522148665
+      },
+      {
+        "feature": "net_balance_change",
+        "shap_value": -0.28506419704903707
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.2588861068739017
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wp0gzp4v5r2zhskqutftc2v8pge7yjkuhhxgdrmfpwv0h8q8wncs6",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.6171746258522153
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.3198172471342217
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.2541411777684546
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.2458007406361661
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.22584317414122473
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wp0zd2jtjvkk2evq59hpqqjztvaffpwd7tm3lscre927zxg36etun",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.5888571819061859
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.2580064658734231
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.25006440981764905
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.22691460684738557
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.1969782731751515
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wp4y7k88m8mekc0hlcd6z0jgwn8fssy3axhapz74xgeu5hsdzcpdu",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.5881889337285879
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.2577209066252224
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.24898803622271695
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.2292130024165172
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.19955996041537236
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wp5ty7h0nlt3v5dhd647dx2rvapesghgxarjwyv2xh4dmhq9atx32",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.7547052099721405
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.17463027156983355
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.17217914392840608
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": 0.12218505892334794
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": 0.1204472201528264
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wp7pw67qhvud2j0q5u0yams975wmx8shxreau235ugwzm4s3830m9",
+    "top_contributors": [
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.61917471761773
+      },
+      {
+        "feature": "unique_counterparties",
+        "shap_value": -0.5989914950318282
+      },
+      {
+        "feature": "tx_count",
+        "shap_value": -0.458056382248813
+      },
+      {
+        "feature": "tx_per_day",
+        "shap_value": -0.37105117180169567
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.25937576112659255
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wp82uw2sqcwf3rzkww2mm5g5sj226els624jw6gzpvj5nggymcl22",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -1.1921393099602458
+      },
+      {
+        "feature": "total_received",
+        "shap_value": -0.2862943856886357
+      },
+      {
+        "feature": "total_sent",
+        "shap_value": -0.2743345311323933
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.22904229903755255
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.2028010637141005
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wp867cwenl586mcuft35d7qy56ucyjqg5pqy00vyd7c75hcq7cn8u",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.33386008769435693
+      },
+      {
+        "feature": "tx_count",
+        "shap_value": -0.2814977082872059
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.2772866518535602
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.22086924362415303
+      },
+      {
+        "feature": "tx_per_day",
+        "shap_value": -0.1707262175704991
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wpcyj0yjzsp9qawt2esgea5efjdd029fzcp9qprf666jzfqt9cr4e",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.3212876088846312
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.18567277040615346
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.16743265947673838
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": -0.1538181514238096
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": 0.12666447289637606
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wpe5ghttuandwx2v5vukd8art24pj6g2fwtny64xl9dnp2cz7jgu0",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.659213346361044
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.27668309618096537
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.2406583262045792
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.22627704610866572
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.20952251489472934
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wpeecpsjvtfu4uumvcpksn0fg3tje23y8jq8l2l4a8d7e8se7eryj",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.6881775384951394
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.27044045750579726
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.25203809709967406
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.19226282379924697
+      },
+      {
+        "feature": "net_balance_change",
+        "shap_value": 0.13622647316084846
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wperr0p4kc9w7mwlf23037xq5wz3y8hmfntptv6jy56fmvq50espl",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.5881889337285879
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.2577209066252224
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.24898803622271695
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.2292130024165172
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.19955996041537236
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wpex0tw5j299xkwa0teknpzwlj4eqz62q5fjljyngwdvxlqw4eqmt",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.7403542599975194
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.504975851312587
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.2507833860945898
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.18019175732207726
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": -0.13519233231522487
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wpgexmeunzsykesf42d4eqet5yvzeap6trjnflxqtkcf66g0kpnxt",
+    "top_contributors": [
+      {
+        "feature": "tx_count",
+        "shap_value": -1.3819040268289549
+      },
+      {
+        "feature": "tx_per_day",
+        "shap_value": -1.2685430138439246
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.486701052091937
+      },
+      {
+        "feature": "net_balance_change",
+        "shap_value": -0.35266979889828703
+      },
+      {
+        "feature": "total_sent",
+        "shap_value": -0.24076949602626888
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wpjv7a9cse3k4pd44c0lc42yenmcyzaqtgr3rs9xu8l2v6sn24smp",
+    "top_contributors": [
+      {
+        "feature": "burstiness",
+        "shap_value": -0.4919695843924579
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.27909006699020894
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.1520602954933122
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": -0.13993105772414316
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.13741828408189466
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wpmae9vv3d5757y6lgfy5z7qk9du8teqhvd7xl53ftuzmjcllkwrs",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.29960370437986333
+      },
+      {
+        "feature": "tx_count",
+        "shap_value": -0.2959413620375938
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.2800820703979392
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.23779772215191974
+      },
+      {
+        "feature": "tx_per_day",
+        "shap_value": -0.2078106433509046
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wpmcnpr36xjk7exddlg3pcypc8u3hykvzjz0yjq2ldypjzs630u48",
+    "top_contributors": [
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -1.8479230336522008
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -1.833878724887115
+      },
+      {
+        "feature": "total_received",
+        "shap_value": -1.7241574650837137
+      },
+      {
+        "feature": "total_sent",
+        "shap_value": -1.6644019917528334
+      },
+      {
+        "feature": "high_value_ratio",
+        "shap_value": -1.1975742471926603
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wpr4hzrfgp3rj448fkw7qk2yjq5ymxyqt3mcdjkzz6vp55g3h542j",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -1.0972665164408038
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.23319556628792998
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": -0.1857475065421226
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.1515109415173646
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.12227441513524562
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wpu3cx4qn4kcukgqmcwraqsxvrpyza4afnvty04jxseudfcnn9eke",
+    "top_contributors": [
+      {
+        "feature": "burstiness",
+        "shap_value": -0.4718284813267276
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.2707661387922501
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.20036156844820383
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.18544711691289975
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.16998837136345069
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wpxs63au9yehzl8uhwkyjt84zhrf9slaflhhnvjtg7ukhks8sxm0t",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.302423972751724
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.28326453543441577
+      },
+      {
+        "feature": "tx_count",
+        "shap_value": -0.25639323746754006
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.24743587802569578
+      },
+      {
+        "feature": "tx_per_day",
+        "shap_value": -0.149024267935149
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wq0fhqgpnxem4csqd4wqpewy39345zg9x7ve2wx5uh3c8zqtscmux",
+    "top_contributors": [
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": -1.3525632550015902
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.25236694340442667
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.1395211519498619
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": 0.12688385932283647
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": 0.12022033110934675
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wq2wz32lpptwv8u4lmprhjxzp5d5ytawg9du286tfj3t9rsz7rh20",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.6519814576139066
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.2274814648454316
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.20167979570506414
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.17632597427022467
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.15437071778714626
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wq4xzlt0pv9dnc6zqpn46fksmqwkj9v5zqpezcr4e53d96q5d66g4",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.9513785774273928
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.30743541375927147
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.24123505010859175
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.2104821741504353
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.14722679392126722
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wq56fh9yhketc88zpc9z4ca3k8wdv0yr5hjezw6lgauuttc8786r9",
+    "top_contributors": [
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": -1.3512196950662156
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.2674315783484161
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.24042834885184486
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.16420086336900658
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": -0.12882719936581977
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wq5ue9d95z4cjhs4msf8vd54fa4xz7y90xjh3vq9u7nce0c35xlrs",
+    "top_contributors": [
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": -1.2682842832918475
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.25460919715651026
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.2485115648934141
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.16280281892163634
+      },
+      {
+        "feature": "net_balance_change",
+        "shap_value": 0.12988168838335298
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wq6mp7qks38uptyzxxtlk0pth8mnmyp3h7je6fsxva47qgs2h0a28",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.31754096775353113
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.21658516809012804
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": -0.1680729530253364
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": 0.12612767357793286
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.12385968479725978
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wq8xga0gmzpcm8v3q2l4s5fmx5u0eur8fdz7dvqhldz0lng249f0d",
+    "top_contributors": [
+      {
+        "feature": "tx_count",
+        "shap_value": -1.5913657896005078
+      },
+      {
+        "feature": "tx_per_day",
+        "shap_value": -1.5818502341611689
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.2541879477791486
+      },
+      {
+        "feature": "total_received",
+        "shap_value": -0.24114321487514798
+      },
+      {
+        "feature": "total_sent",
+        "shap_value": -0.2248799412924999
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wq9ry3j4j3nuq788xamnkkmsnkv8pp4umnz7gxcv4746puc3uj3ce",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.659213346361044
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.27668309618096537
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.2406583262045792
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.22627704610866572
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.20952251489472934
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wqagte6fw0fzvqttky8nngq3xuyg26hjgsyvd8hfs060wvq0t48ka",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.679405823934149
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.27184254344199144
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.25212350722754356
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.1918826008188837
+      },
+      {
+        "feature": "net_balance_change",
+        "shap_value": 0.13728852144495565
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wqfwyq6csgtlfadwj8ezw6my4x2j7qrw8j30m33z6pvefdscdqgmj",
+    "top_contributors": [
+      {
+        "feature": "burstiness",
+        "shap_value": -0.42808675867300083
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.27134495943310716
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.19008067841666612
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.1720888648285698
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.15806814614855996
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wqh4yha0ndhwykrh9cuhr47nh2y97zvkls74h4jq6uhlpacujv3z3",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.302423972751724
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.2836593044549408
+      },
+      {
+        "feature": "tx_count",
+        "shap_value": -0.2563239675433817
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.24802487360874914
+      },
+      {
+        "feature": "tx_per_day",
+        "shap_value": -0.14773456373016638
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wqjgfxlh64s7589jeakme3j56zezcgv0nvqf2pyx9tnd0scaw5e8p",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.302423972751724
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.2836593044549408
+      },
+      {
+        "feature": "tx_count",
+        "shap_value": -0.2563239675433817
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.24802487360874914
+      },
+      {
+        "feature": "tx_per_day",
+        "shap_value": -0.14773456373016638
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wqmffm22h5qlr5rw50ksdqr9c56yj3jxa00h40pqqurs36cgzwxgp",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.5864397491853426
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.25808835118083
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.2500688403348022
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.22627187350775313
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.1925802384985409
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wqnz6yeq5scgwaxgmuyz0f3am7exfspw6g24gyzguf67wuglkf6n8",
+    "top_contributors": [
+      {
+        "feature": "burstiness",
+        "shap_value": -0.46746414539772
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.2754127009410467
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.20765795066047843
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": -0.15196316877004393
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.11379948428851899
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wqpkspjhdfz37vtd8g6yvkt6jqqpew0p49gua93j33a7tjsqrsf9k",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.329761243790413
+      },
+      {
+        "feature": "tx_count",
+        "shap_value": -0.30249579101146784
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.275112192796574
+      },
+      {
+        "feature": "tx_per_day",
+        "shap_value": -0.22329128257671835
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.21766651388661343
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wqt2v8zcpjldyu2zcwz3yuu8p4wpk0hzaqwthh23qgs5xgg7266qn",
+    "top_contributors": [
+      {
+        "feature": "tx_count",
+        "shap_value": -0.4538909341516331
+      },
+      {
+        "feature": "unique_counterparties",
+        "shap_value": -0.4061882774559637
+      },
+      {
+        "feature": "tx_per_day",
+        "shap_value": -0.35869675636015835
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.30118984020370015
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.1850677054563106
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wquaytcc6ug4zku26z0lwg2p3rr3n84m6cu5ym003340nvswytdsn",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.7490095125289674
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.17933681391754666
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.1728233457541178
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": 0.12215979030341853
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": 0.12008536404351398
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wqx8zmxzh6xxpch9zapf60azwm5ze9fsfa7e3ea6vjuzm2ctgrjju",
+    "top_contributors": [
+      {
+        "feature": "tx_count",
+        "shap_value": -0.4130673100420511
+      },
+      {
+        "feature": "tx_per_day",
+        "shap_value": -0.32324573470395557
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.28545403444304296
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.2621179016869324
+      },
+      {
+        "feature": "unique_counterparties",
+        "shap_value": -0.23864410810187492
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wqzdedqpy2ljhf70dw89p399z836dvmgs7sn6qyr0gndu7gp9k7en",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.8028177460737919
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.42574948997165907
+      },
+      {
+        "feature": "unique_counterparties",
+        "shap_value": -0.26863101776414555
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.22769725883172118
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": -0.13067664891285619
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wqzsngca2uu8z8lk0hudfkw300cllua300r3exeeax70xcq4k9hyu",
+    "top_contributors": [
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.8038680777041449
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -0.4129804636549253
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.3853738427169832
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": -0.34175339918943914
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.3149823911690828
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wqzuhlst26gyd3z4nqglyxf5tp06w06ejwmkdys9d003rpg2s0tua",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.3138962261504822
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": -0.30518096728226374
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.30488317295065004
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.20657797177138962
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.1618247928091106
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wqzwpaeqty24g73cnp6h7qyvm68hht5dxsvpnsus0tprv4gceyth2",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.6348445137939877
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.22881237153732312
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.2045487760826429
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.17939998103923338
+      },
+      {
+        "feature": "tx_count",
+        "shap_value": 0.1420194111661447
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wr4c5ruvn9ss5r4davqh8nf964c8t2hu7kl8cqmxt42hdwqhuqp46",
+    "top_contributors": [
+      {
+        "feature": "burstiness",
+        "shap_value": -0.6063206237221157
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.24052455882669627
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.21938400900712896
+      },
+      {
+        "feature": "total_received",
+        "shap_value": -0.21700875409297526
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -0.20572593797679187
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wr58mfjzx6x8ew7erz64dlr4uw7hupjvqrn5epurq3tedrgqzssx5",
+    "top_contributors": [
+      {
+        "feature": "burstiness",
+        "shap_value": -0.5269975989343217
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.26321762475076976
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.22743373148316393
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": -0.20037001587584743
+      },
+      {
+        "feature": "collateral_ratio",
+        "shap_value": 0.10366700433406184
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wr5y0f3f6rjh5w9ynjphaf6j79c5tg3xnywzgzw93rnf2jqgmf0mh",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.7799544365788321
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.27181645482890493
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.16869061492207452
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": -0.121446843185637
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": 0.12132579188614556
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wr62e0vzmj9mj7qapaecc0yjyk0rgp9yutyqa5qc29xdkzctrz3qn",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.7286488353165524
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.32771109484293426
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.2612740599829121
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.19197618601571803
+      },
+      {
+        "feature": "net_balance_change",
+        "shap_value": 0.12878376786861706
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wr78sqd8ltkjl4t375cv9d5kv8psssd8wk2qct3qm7lu6nccg6nke",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.6114176636014621
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.3095625550068461
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.2542132493380491
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.24470879323262032
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.2263854641967346
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wr8s48slcgnz44uv2yvu6am5y0zvk93lffw80gnl9ns64tsdqedsl",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.6402548920096295
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.2288418833598044
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.20428814589551625
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.17912572324943607
+      },
+      {
+        "feature": "tx_count",
+        "shap_value": 0.1407872256782943
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wrdk050fs7r9537m9wxfnqzmjsxnmud5v8le6vjh6k5jhvchuyj76",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.3164713841119805
+      },
+      {
+        "feature": "tx_count",
+        "shap_value": -0.28640382477486737
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.22492124194728522
+      },
+      {
+        "feature": "tx_per_day",
+        "shap_value": -0.15288894444832812
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": 0.13429621305801911
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wrem0cch36ywuyfmf9zlmh0keayhw4txnkf0nsav4kmt2hsg4whlw",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.7806048424593391
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.2917727341214244
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.1677124516762137
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": -0.14361872799411007
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": 0.12082509861773968
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wrgqt57hqa04uy928n5lgqdfllwr6fd9a5a0wjxf87e6g6g0d7ecm",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.6073961895229911
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.26256495033401167
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.25518834704610927
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.248236092373005
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.21907877328247422
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wrhgfy9xkftac320syvujslc9t9za2hevxecmvj050ntxwqdz596n",
+    "top_contributors": [
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.3060676458546032
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": -0.2554961831182272
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.24042209494914216
+      },
+      {
+        "feature": "unique_counterparties",
+        "shap_value": -0.21451814959407373
+      },
+      {
+        "feature": "tx_per_day",
+        "shap_value": -0.16962074960162954
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wrjarvxfuj82nqz3r65rg3plnn8z4l7wy2jjxtwfr5wcyucu0a447",
+    "top_contributors": [
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.9168111428484604
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.3015583340158251
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": -0.17914015384752843
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.14351574874038261
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": 0.11782572153344287
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wrpjqever8rezsvkc05cew572uw6w0wakk6caupycp4kf5g2zalzc",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.2975950182368114
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.15684376050604057
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": 0.13507698022241071
+      },
+      {
+        "feature": "net_balance_change",
+        "shap_value": 0.12751429546231605
+      },
+      {
+        "feature": "total_received",
+        "shap_value": 0.11659778928153525
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wrrx9y5xzuumqxsk2q9l2qwusdfuj23c3ctqxf2dhw5q9hgcyg2d0",
+    "top_contributors": [
+      {
+        "feature": "burstiness",
+        "shap_value": -0.5727206383008819
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.2636338351122389
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.19661660270856554
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.17031837398105099
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.15911006962665958
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wrswzjuscfnne4wqpuqpckpvjehj9m344sy886kttgwq2wc8g2xa8",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.33386008769435693
+      },
+      {
+        "feature": "tx_count",
+        "shap_value": -0.28160659698145263
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.2768918828330351
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.22018310801617327
+      },
+      {
+        "feature": "tx_per_day",
+        "shap_value": -0.17180170113012488
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wrsx6gftxpsy90esyks0ddjd4636g2v5a63t47ztzrd2r3cfekl8s",
+    "top_contributors": [
+      {
+        "feature": "burstiness",
+        "shap_value": -0.6203657182390672
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.26827166351311726
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.21974024521376717
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": -0.17533635896430438
+      },
+      {
+        "feature": "net_balance_change",
+        "shap_value": 0.10739886753947794
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wru93xpnc6v2svsq79kyyegj0mv4mdl83sdtp8dgtu9y78smvhuhs",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.3710579018482325
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": -0.3093260027914201
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.267805031139902
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.20212311185802134
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.16663751411885655
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wrumn0zm9c858kghqrzjhhv555rgzt9hzje3sksh2e7ggaqewfxd4",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.29772071814137
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": -0.1808831746097055
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.13929815611199098
+      },
+      {
+        "feature": "collateral_ratio",
+        "shap_value": 0.10995721984885015
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.107942344738648
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wrxqwmj2twfn5rtp6w4cvkehk0ucnkeklggcfpz76ktrsdsx47pvl",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.29964794976204473
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.2812591619287666
+      },
+      {
+        "feature": "tx_count",
+        "shap_value": -0.2678863502515505
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.24358347529527669
+      },
+      {
+        "feature": "tx_per_day",
+        "shap_value": -0.1579142713571707
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wz05ca0ksvk9q2jmacy7m28n9qnfelh3h68cw0s60w5nhwgwu6d9y",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.302423972751724
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.28326453543441577
+      },
+      {
+        "feature": "tx_count",
+        "shap_value": -0.25639323746754006
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.24743587802569578
+      },
+      {
+        "feature": "tx_per_day",
+        "shap_value": -0.149024267935149
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wz0ts5l5c7d56ymeg0w8d5ugvr2rrtc8rux36qal8nmttkcvun065",
+    "top_contributors": [
+      {
+        "feature": "burstiness",
+        "shap_value": -0.5076527470881216
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.27061739270065
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.19783883161815632
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.19055994458986894
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.17377091263307423
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wz46tk8vdvlq6a5cccgysw7nfw4r0frnxdmkhyxaxgxal0guru5sm",
+    "top_contributors": [
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.37874242919254447
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.3307652701309595
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": -0.2666142064877043
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.21336899080035643
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.1552430934361209
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wz4ydpqxpstg453xlr6v3elpg578ussvk8ezunkj62p9wjq7uw9zq",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.9206453717548608
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.250872147241404
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.17161774593352438
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.16405406283629415
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": -0.14737701659143387
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wz6sedftk7l7x8yj650hwsvfkksejwjrvllfwfqq33jx8xqq34k2n",
+    "top_contributors": [
+      {
+        "feature": "tx_count",
+        "shap_value": -0.3946872256017422
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.30639442574538506
+      },
+      {
+        "feature": "tx_per_day",
+        "shap_value": -0.2552274840507364
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.20355314071044944
+      },
+      {
+        "feature": "unique_counterparties",
+        "shap_value": -0.19190479770529134
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wz6t5wlw4u2tzjt3u3syqf72t98gl5247rxm7xk6nj7n39ql4j96k",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.679405823934149
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.27184254344199144
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.25212350722754356
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.1918826008188837
+      },
+      {
+        "feature": "net_balance_change",
+        "shap_value": 0.13728852144495565
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wz7r6jckeamgmk7md4583v8ztzyn9as8jfa0f8up3cgm0pcfc2qk5",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.6350110647445911
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.22881237153732312
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.2026969231304932
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.1789846986183799
+      },
+      {
+        "feature": "tx_count",
+        "shap_value": 0.14240783320162548
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wz7ueqtqrz4kqfep99d8z7wwjwfu52md2k9hljvuj4w08yc3mjw6u",
+    "top_contributors": [
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": -1.2682842832918475
+      },
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.25460919715651026
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.2485115648934141
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.16280281892163634
+      },
+      {
+        "feature": "net_balance_change",
+        "shap_value": 0.12988168838335298
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wz808v50lg7hecd9x2h2jauzl7dj40klzstwawh9ugavuzqklrl2s",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.6114176636014621
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.3095625550068461
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.2542132493380491
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.24470879323262032
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.2263854641967346
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wzahpwnwnme6ch40xhsz6mqpvpuklua3zumjmvd6rad079cw824v4",
+    "top_contributors": [
+      {
+        "feature": "burstiness",
+        "shap_value": -0.43863028097452095
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.2710746556873707
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.20053475878502078
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.19074717125299004
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.17370076852981722
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wzc8m27kmthnelxvaa8fr23eu452nckvpnj233czpxwfv9qpj2rm6",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.6600502447859246
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.22564242342723517
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.21445792554676937
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.19643743861980922
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.17391586457164285
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+    "top_contributors": [
+      {
+        "feature": "unique_counterparties",
+        "shap_value": -1.86493874954162
+      },
+      {
+        "feature": "tx_count",
+        "shap_value": -1.748072323045152
+      },
+      {
+        "feature": "tx_per_day",
+        "shap_value": -1.4972085834196738
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.4077817280169765
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": -0.1782946901862328
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wzdk0xh4d79x3m8rjflefmfqq0975pqu02zcxlea2xdamfsq2k43m",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.7851377039816434
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.43161679894202415
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.2051550040101077
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.16472912997501585
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.1505634287551168
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wzdxcp8m35jaap2ltwpz7pqdgku4lfm48akt57g779yajtgywjwm2",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.3190364878668234
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.31006559250474897
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": -0.3029325000602377
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": 0.21229535503135183
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.16969397380177098
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+    "top_contributors": [
+      {
+        "feature": "unique_counterparties",
+        "shap_value": -1.6107882682551005
+      },
+      {
+        "feature": "tx_count",
+        "shap_value": -1.2564055559669876
+      },
+      {
+        "feature": "tx_per_day",
+        "shap_value": -1.1950958659269093
+      },
+      {
+        "feature": "net_balance_change",
+        "shap_value": -0.434919275767465
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.406639191804634
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wzkw2yk6ffmd5ugx8uprpf2ujxx2at5kkptpkt5yzwu2twq6mqjur",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.26740551110297106
+      },
+      {
+        "feature": "unique_counterparties",
+        "shap_value": -0.1463578369634929
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": 0.12563489002196243
+      },
+      {
+        "feature": "collateral_ratio",
+        "shap_value": 0.10952158146389175
+      },
+      {
+        "feature": "total_received",
+        "shap_value": 0.10877782924807798
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wzmevtuvx4ywk7hv844ps85v9uq7jjchkpae076hhh6dtjg2wdx9w",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.5864397491853426
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.25808835118083
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.2500688403348022
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.22627187350775313
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.1925802384985409
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wzngjz9t8f5cvgclxj6ve3vfj0tjuf4dmynyfx6cwf4m9es34vmlk",
+    "top_contributors": [
+      {
+        "feature": "burstiness",
+        "shap_value": -0.40267572378819105
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.2711462507863682
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.20078830698101793
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.19017778759692403
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.17367416754524687
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wznh7wflxy0m28ny6anvu3kgtd4s8v9w0vzu9affzqd3xssppnguc",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.6762202696614442
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.22946088046170093
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.22412375874428853
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.19001164217384206
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.1708528027160161
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wzwhp7acq658tg05mfnuqr060f3a3c4gp5tejydyjj77yxcc9n9zj",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.3192474071016598
+      },
+      {
+        "feature": "tx_count",
+        "shap_value": -0.2758353271371083
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.22926187955803182
+      },
+      {
+        "feature": "tx_per_day",
+        "shap_value": -0.14292595803163166
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": 0.13553103115037504
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wzyurx5m64r0k9q789qnrz2x8sl7g4anum0ezf5l5u7zalg6ydplp",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.9223583798973466
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.25138378789684496
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.16808445756276846
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.1673784408913346
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": -0.14218796157410069
+      }
+    ]
+  },
+  {
+    "address": "addr_test1wzzv7v5slyrs4gkgr793ak4upmhs4xrk00f48s3vd4rlplctm5aak",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.6073961895229911
+      },
+      {
+        "feature": "burstiness",
+        "shap_value": -0.26256495033401167
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.25518834704610927
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.248236092373005
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": 0.21907877328247422
+      }
+    ]
+  },
+  {
+    "address": "addr_test1xp3g6ayyt3e0m9w3jtxr84mf877nhqh4snt2g7ww43yf6lx4w8kmdszpx27e3wpawvkcqcrhrl9ra09stpe8ahtznzesm8x8rk",
+    "top_contributors": [
+      {
+        "feature": "max_tx_size",
+        "shap_value": -1.9032600340861567
+      },
+      {
+        "feature": "total_received",
+        "shap_value": -1.3994038574383543
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -1.285741029219053
+      },
+      {
+        "feature": "total_sent",
+        "shap_value": -1.2039680762303002
+      },
+      {
+        "feature": "high_value_ratio",
+        "shap_value": -1.130190954803011
+      }
+    ]
+  },
+  {
+    "address": "addr_test1xz429ta7d8akqvk6rtkavja8kshy4m3dplm2sgx60rp0fk3pmuk902u7lh609tzz54f32s49s5uf6sphu2zer00a2k4qkq40f9",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": 0.40633727904821126
+      },
+      {
+        "feature": "smart_contract_flag",
+        "shap_value": 0.40451885221653894
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": 0.26198005803408836
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -0.19103452793911102
+      },
+      {
+        "feature": "counterparty_diversity",
+        "shap_value": 0.17725674541747294
+      }
+    ]
+  },
+  {
+    "address": "addr_test1zpt24v32hpd88w3l0wmwg3mhs9lm5dzrnn0d22n6seznmjy9rk398gms2eh8snp58c9skehndz9ps8ff5rfns7mfafnqf5lz9g",
+    "top_contributors": [
+      {
+        "feature": "velocity_hours",
+        "shap_value": -0.5042955780577516
+      },
+      {
+        "feature": "inflow_outflow_asymmetry",
+        "shap_value": -0.42315445899948345
+      },
+      {
+        "feature": "tx_per_day",
+        "shap_value": -0.1526127250479482
+      },
+      {
+        "feature": "collateral_ratio",
+        "shap_value": 0.10262736415617611
+      },
+      {
+        "feature": "timing_entropy",
+        "shap_value": -0.09283947510305582
+      }
+    ]
+  },
+  {
+    "address": "addr_test1zqudngxpumflu6gh45hw3tkeuzeq3vmgvr25f6y60t7n0rhvt20ehwqu594stgx7mw6855w20cxsnt5g5r7zy8j5nnuqlh5wkk",
+    "top_contributors": [
+      {
+        "feature": "total_received",
+        "shap_value": -1.938738993959789
+      },
+      {
+        "feature": "total_sent",
+        "shap_value": -1.8369307963296753
+      },
+      {
+        "feature": "high_value_ratio",
+        "shap_value": -1.3225995773449868
+      },
+      {
+        "feature": "max_tx_size",
+        "shap_value": -1.0639809163624112
+      },
+      {
+        "feature": "avg_tx_size",
+        "shap_value": -1.041590216249122
+      }
+    ]
+  }
+]

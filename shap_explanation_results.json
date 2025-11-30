@@ -1,0 +1,65 @@
+{
+  "timestamp": "2025-11-30T02:56:35.274789",
+  "wallet_address": "addr_test1qpredicted56574149",
+  "input_features": {
+    "tx_count": 8.53,
+    "total_received": 515019.02,
+    "total_sent": 685516.3,
+    "max_tx_size": 38563.18,
+    "avg_tx_size": 34541.43,
+    "net_balance_change": -107.85,
+    "unique_counterparties": 6.95,
+    "tx_per_day": 13.64,
+    "active_days": 0.58,
+    "burstiness": 1260617.7,
+    "collateral_ratio": 0.048,
+    "smart_contract_flag": 0,
+    "high_value_ratio": 0.335,
+    "counterparty_diversity": 0.309,
+    "inflow_outflow_asymmetry": 0.15,
+    "timing_entropy": -5.92,
+    "velocity_hours": 0.26,
+    "IsolationForest": 0.55
+  },
+  "prediction_results": {
+    "risk_score": "error: The feature names should match those that were passed during fit.\nFeature names unseen at fit time:\n- IsolationForest\n- active_days\n- avg_tx_size\n- burstiness\n- collateral_ratio\n- ...\nFeature names seen at fit time, yet now missing:\n- avg_value_7d\n- entropy_of_destinations\n- std_value_7d\n- tx_count_24h\n- unique_counterparts_30d\n",
+    "anomaly_flag": "error: The feature names should match those that were passed during fit.\nFeature names unseen at fit time:\n- IsolationForest\n- active_days\n- avg_tx_size\n- burstiness\n- collateral_ratio\n- ...\nFeature names seen at fit time, yet now missing:\n- entropy_of_destinations\n- largest_value_24h\n- relative_max_vs_global\n- share_of_daily_volume\n- std_value_24h\n- ...\n"
+  },
+  "full_response": {
+    "workflow": "ai_predict",
+    "prediction": {
+      "prediction": {
+        "risk_score": "error: The feature names should match those that were passed during fit.\nFeature names unseen at fit time:\n- IsolationForest\n- active_days\n- avg_tx_size\n- burstiness\n- collateral_ratio\n- ...\nFeature names seen at fit time, yet now missing:\n- avg_value_7d\n- entropy_of_destinations\n- std_value_7d\n- tx_count_24h\n- unique_counterparts_30d\n",
+        "anomaly_flag": "error: The feature names should match those that were passed during fit.\nFeature names unseen at fit time:\n- IsolationForest\n- active_days\n- avg_tx_size\n- burstiness\n- collateral_ratio\n- ...\nFeature names seen at fit time, yet now missing:\n- entropy_of_destinations\n- largest_value_24h\n- relative_max_vs_global\n- share_of_daily_volume\n- std_value_24h\n- ...\n"
+      },
+      "input": {
+        "wallet_address": "addr_test1qpredicted56574149",
+        "transaction_id": null,
+        "features": {
+          "tx_count": 8.53,
+          "total_received": 515019.02,
+          "total_sent": 685516.3,
+          "max_tx_size": 38563.18,
+          "avg_tx_size": 34541.43,
+          "net_balance_change": -107.85,
+          "unique_counterparties": 6.95,
+          "tx_per_day": 13.64,
+          "active_days": 0.58,
+          "burstiness": 1260617.7,
+          "collateral_ratio": 0.048,
+          "smart_contract_flag": 0,
+          "high_value_ratio": 0.335,
+          "counterparty_diversity": 0.309,
+          "inflow_outflow_asymmetry": 0.15,
+          "timing_entropy": -5.92,
+          "velocity_hours": 0.26,
+          "IsolationForest": 0.55
+        },
+        "include_explanation": true,
+        "include_shap": true
+      }
+    },
+    "status": "success",
+    "correlation_id": null
+  }
+}

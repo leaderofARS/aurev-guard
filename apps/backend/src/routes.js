@@ -17,7 +17,7 @@ router.post("/contract/log", postContractLog);
 router.get("/v1/decisions/:proofId", getDecision);
 router.post("/v1/anchor", postAnchor);
 
-// Landing/marketing metadata used by the frontend
+// Landing / marketing metadata for frontend
 router.get("/project", getProject);
 
 export default router;

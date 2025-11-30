@@ -1,53 +1,7 @@
-<<<<<<< Updated upstream
-import { useState } from "react";
-import React from "react";
-import { Link } from "react-router-dom";
-import RiskForm from "../components/RiskForm";
-import ComplianceModal from "../components/ComplianceModal";
-
-export default function Proof() {
-  const [lastResult, setLastResult] = useState(null);
-  const [lastAddress, setLastAddress] = useState("");
-
-  return (
-    <div className="min-h-screen p-8 bg-gray-50">
-      <div className="max-w-3xl mx-auto space-y-6">
-        <header className="flex items-center justify-between">
-          <h1 className="text-2xl font-bold">Compliance Proof</h1>
-          <nav className="space-x-4">
-            <Link to="/" className="text-blue-600">Wallet</Link>
-            <Link to="/risk" className="text-blue-600">Risk Checker</Link>
-          </nav>
-        </header>
-
-        <RiskForm
-          defaultAddress={lastAddress}
-          onResult={(res, addr) => {
-            setLastResult(res);
-            setLastAddress(addr);
-          }}
-        />
-
-        {lastResult && (
-          <ComplianceModal
-            address={lastAddress}
-            score={lastResult.score}
-            metadata={lastResult.details}
-          />
-        )}
-=======
 // src/pages/Proof.jsx
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import NavBar from "../components/NavBar";
-import { Button } from "../components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from "../components/ui/card";
-import { Input } from "../components/ui/input";
-import { Label } from "../components/ui/label";
 
 const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:3001";
 
@@ -56,20 +10,23 @@ export default function Proof() {
   const [bundle, setBundle] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  const [anchorResult, setAnchorResult] = useState(null);
+  const [anchorLoading, setAnchorLoading] = useState(false);
 
   async function fetchDecision() {
     setError("");
     setBundle(null);
-    setAnchorResult(null);
+
     if (!proofId.trim()) {
       setError("Please enter a Proof ID");
       return;
     }
+
     setLoading(true);
     try {
       const res = await fetch(`${API_BASE}/v1/decisions/${proofId}`);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      if (!res.ok) {
+        throw new Error(`HTTP ${res.status}: ${await res.text()}`);
+      }
       const data = await res.json();
       setBundle(data);
     } catch (err) {
@@ -79,10 +36,11 @@ export default function Proof() {
     }
   }
 
-  async function handleAnchor() {
-    if (!bundle?.proofId) return setError("No proof available to anchor");
-    setError("");
-    setLoading(true);
+  async function anchorHash() {
+    if (!bundle || !bundle.proofId) return;
+
+    setAnchorLoading(true);
+
     try {
       const res = await fetch(`${API_BASE}/v1/anchor`, {
         method: "POST",
@@ -92,164 +50,266 @@ export default function Proof() {
           strategy: "hash-only",
         }),
       });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+      if (!res.ok) {
+        throw new Error(`HTTP ${res.status}: ${await res.text()}`);
+      }
+
       const data = await res.json();
-      setAnchorResult(data);
+      setBundle({
+        ...bundle,
+        anchoredTxId: data.anchoredTxId,
+        status: "anchored",
+      });
+
+      alert(`Anchored! TxId: ${data.anchoredTxId}`);
     } catch (err) {
-      setError(err.message || "Failed to anchor proof");
+      alert(`Anchor failed: ${err.message}`);
     } finally {
-      setLoading(false);
+      setAnchorLoading(false);
     }
   }
 
+  function copyToClipboard(text) {
+    navigator.clipboard.writeText(text);
+    alert("Copied to clipboard!");
+  }
+
+  function getRiskColor(level) {
+    if (level === "HIGH")
+      return "text-red-600 bg-red-100 border-red-300";
+    if (level === "MEDIUM")
+      return "text-yellow-600 bg-yellow-100 border-yellow-300";
+    return "text-green-600 bg-green-100 border-green-300";
+  }
+
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#0f0a1f] via-purple-950 to-[#0f0a1f]">
+    <div className="min-h-screen bg-gray-50">
       <NavBar />
-      <div className="pt-20 max-w-7xl mx-auto px-6 py-8">
-        <div className="space-y-6">
-          <Card>
-            <CardHeader>
-              <CardTitle>Fetch Decision Bundle</CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <div>
-                <Label htmlFor="proofId">Proof ID</Label>
-                <Input
-                  id="proofId"
-                  value={proofId}
-                  onChange={(e) => setProofId(e.target.value)}
-                  placeholder="proof-xxxxxxxx-xxxx-xxxx"
-                  className="mt-2"
-                />
-              </div>
-              <div className="flex gap-3">
-                <Button onClick={fetchDecision} disabled={loading}>
-                  {loading ? "Loading..." : "Fetch Decision Bundle"}
-                </Button>
-                <Button
-                  onClick={() => {
-                    setProofId("");
-                    setBundle(null);
-                    setAnchorResult(null);
-                    setError("");
-                  }}
-                  variant="secondary"
-                >
-                  Clear
-                </Button>
-              </div>
-              {error && (
-                <p className="text-destructive text-sm mt-2">{error}</p>
-              )}
-            </CardContent>
-          </Card>
 
-          {bundle && (
-            <Card>
-              <CardHeader>
-                <CardTitle>Bundle Information</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-3">
-                  <div>
-                    <strong>Request ID:</strong>{" "}
-                    <span className="font-mono">{bundle.requestId}</span>
-                  </div>
-                  <div>
-                    <strong>Address:</strong>{" "}
-                    <span className="font-mono break-all">
-                      {bundle.address}
-                    </span>
-                  </div>
-                  <div>
-                    <strong>Risk Score:</strong> {bundle.riskScore} —{" "}
-                    <em>{bundle.riskLevel}</em>
-                  </div>
-                  <div>
-                    <strong>Explanation:</strong> {bundle.explanation}
-                  </div>
-                  <div>
-                    <strong>Model:</strong> {bundle.modelHash}
-                  </div>
-                  <div>
-                    <strong>Proof ID:</strong>{" "}
-                    <span className="font-mono">{bundle.proofId || "—"}</span>
-                  </div>
-                  <div>
-                    <strong>Decision Hash:</strong>{" "}
-                    <span className="font-mono break-all">
-                      {bundle.decisionHash || "—"}
-                    </span>
-                  </div>
-                  <div>
-                    <strong>Unsigned TX:</strong>{" "}
-                    <span className="font-mono break-all">
-                      {bundle.unsignedTxHex || "—"}
-                    </span>
-                  </div>
-                  <div className="mt-3 flex gap-3">
-                    {bundle.proofId && (
-                      <Button
-                        onClick={() =>
-                          navigator.clipboard?.writeText(bundle.proofId)
-                        }
-                      >
-                        Copy proofId
-                      </Button>
-                    )}
-                    {bundle.decisionHash && (
-                      <Button
-                        onClick={() =>
-                          navigator.clipboard?.writeText(bundle.decisionHash)
-                        }
-                      >
-                        Copy decisionHash
-                      </Button>
-                    )}
-                    <Button
-                      onClick={() =>
-                        window.open(
-                          `/v1/decisions/${bundle.proofId || proofId}`,
-                          "_blank"
-                        )
-                      }
-                    >
-                      Open full bundle (new tab)
-                    </Button>
-                    <Button
-                      onClick={handleAnchor}
-                      disabled={loading || !bundle.proofId}
-                    >
-                      Anchor Proof
-                    </Button>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          )}
+      <div className="max-w-4xl mx-auto p-8 space-y-8 pt-20">
+        {/* Header */}
+        <header className="flex items-center justify-between">
+          <h1 className="text-2xl font-bold">Decision Proof Panel</h1>
+          <nav className="space-x-4">
+            <Link to="/" className="text-blue-600 hover:underline">
+              Wallet
+            </Link>
+            <Link to="/risk" className="text-blue-600 hover:underline">
+              Risk Checker
+            </Link>
+          </nav>
+        </header>
 
-          {anchorResult && (
-            <Card>
-              <CardHeader>
-                <CardTitle>Anchor Result</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div>
-                  <div>
-                    <strong>Anchored Tx ID:</strong>{" "}
-                    <span className="font-mono break-all">
-                      {anchorResult.anchoredTxId}
-                    </span>
-                  </div>
-                  <div className="text-sm text-gray-400">
-                    Status: {anchorResult.status}
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+        {/* Proof ID input */}
+        <div className="p-4 border rounded-xl bg-white shadow">
+          <label className="block text-sm mb-1 font-medium">Proof ID</label>
+
+          <input
+            value={proofId}
+            onChange={(e) => setProofId(e.target.value)}
+            className="w-full border p-2 rounded-md"
+            placeholder="proof-xxxxxxxx-xxxx-xxxx"
+          />
+
+          <button
+            onClick={fetchDecision}
+            disabled={loading}
+            className="mt-3 px-4 py-2 bg-blue-600 text-white rounded-md disabled:opacity-60"
+          >
+            {loading ? "Loading..." : "Fetch Decision Bundle"}
+          </button>
+
+          {error && (
+            <p className="text-red-600 text-sm mt-2">{error}</p>
           )}
         </div>
->>>>>>> Stashed changes
+
+        {/* Decision Bundle */}
+        {bundle && (
+          <div className="space-y-6">
+            {/* Meta */}
+            <div className="p-4 border rounded-xl bg-white shadow">
+              <h3 className="text-lg font-semibold mb-3">Bundle Information</h3>
+              <div className="grid grid-cols-2 gap-3 text-sm">
+                <div>
+                  <span className="text-gray-600">Request ID:</span>
+                  <p className="font-mono">{bundle.requestId}</p>
+                </div>
+                <div>
+                  <span className="text-gray-600">Proof ID:</span>
+                  <p className="font-mono">{bundle.proofId}</p>
+                </div>
+                <div>
+                  <span className="text-gray-600">Timestamp:</span>
+                  <p>{new Date(bundle.timestamp).toLocaleString()}</p>
+                </div>
+                <div>
+                  <span className="text-gray-600">Status:</span>
+                  <p className="font-semibold">{bundle.status.toUpperCase()}</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Risk */}
+            <div className="p-4 border rounded-xl bg-white shadow">
+              <h3 className="text-lg font-semibold mb-3">Risk Assessment</h3>
+
+              <p className="font-mono text-sm break-all">
+                {bundle.address}
+              </p>
+
+              <div className="flex items-center gap-3 mt-2">
+                <div className="text-3xl font-bold">{bundle.riskScore}</div>
+                <span
+                  className={`px-3 py-1 rounded-md text-sm font-semibold border ${getRiskColor(
+                    bundle.riskLevel
+                  )}`}
+                >
+                  {bundle.riskLevel}
+                </span>
+              </div>
+            </div>
+
+            {/* Explanation */}
+            <div className="p-4 border rounded-xl bg-white shadow">
+              <h3 className="text-lg font-semibold mb-2">AI Explanation</h3>
+              <p className="text-gray-700">{bundle.explanation}</p>
+            </div>
+
+            {/* Features */}
+            <div className="p-4 border rounded-xl bg-white shadow">
+              <h3 className="text-lg font-semibold mb-3">Feature Analysis</h3>
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="border-b">
+                    <th className="text-left py-2">Feature</th>
+                    <th className="text-right py-2">Value</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {Object.entries(bundle.features || {}).map(
+                    ([key, value]) => (
+                      <tr key={key} className="border-b">
+                        <td className="py-2">{key}</td>
+                        <td className="text-right py-2 font-mono">
+                          {JSON.stringify(value)}
+                        </td>
+                      </tr>
+                    )
+                  )}
+                </tbody>
+              </table>
+            </div>
+
+            {/* Hashes */}
+            <div className="p-4 border rounded-xl bg-white shadow">
+              <h3 className="text-lg font-semibold mb-3">
+                Cryptographic Verification
+              </h3>
+
+              <div className="space-y-2 text-sm">
+                <div>
+                  <span className="text-gray-600">Model Hash:</span>
+                  <p className="font-mono break-all">{bundle.modelHash}</p>
+                </div>
+
+                {bundle.decisionHash && (
+                  <div>
+                    <span className="text-gray-600">Decision Hash:</span>
+                    <div className="flex items-center gap-2 mt-1">
+                      <p className="font-mono break-all flex-1">
+                        {bundle.decisionHash}
+                      </p>
+                      <button
+                        onClick={() =>
+                          copyToClipboard(bundle.decisionHash)
+                        }
+                        className="px-3 py-1 border rounded-md hover:bg-gray-50"
+                      >
+                        Copy
+                      </button>
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+
+            {/* Unsigned Tx */}
+            {bundle.unsignedTxHex && (
+              <div className="p-4 border rounded-xl bg-white shadow">
+                <h3 className="text-lg font-semibold mb-3">
+                  Unsigned Transaction
+                </h3>
+                <textarea
+                  readOnly
+                  value={bundle.unsignedTxHex}
+                  className="w-full p-3 bg-gray-50 rounded-md text-xs font-mono border"
+                  rows="4"
+                />
+                <button
+                  onClick={() =>
+                    copyToClipboard(bundle.unsignedTxHex)
+                  }
+                  className="mt-2 px-4 py-2 border rounded-md hover:bg-gray-50"
+                >
+                  Copy Unsigned Tx
+                </button>
+              </div>
+            )}
+
+            {/* Signed Tx */}
+            {bundle.signedTxHex && (
+              <div className="p-4 border rounded-xl bg-white shadow">
+                <h3 className="text-lg font-semibold mb-3">
+                  Signed Transaction
+                </h3>
+                <textarea
+                  readOnly
+                  value={bundle.signedTxHex}
+                  className="w-full p-3 bg-gray-50 rounded-md text-xs font-mono border"
+                  rows="4"
+                />
+                <button
+                  onClick={() =>
+                    copyToClipboard(bundle.signedTxHex)
+                  }
+                  className="mt-2 px-4 py-2 border rounded-md hover:bg-gray-50"
+                >
+                  Copy Signed Tx
+                </button>
+              </div>
+            )}
+
+            {/* Anchor */}
+            {bundle.decisionHash && !bundle.anchoredTxId && (
+              <div className="p-4 border rounded-xl bg-white shadow">
+                <button
+                  onClick={anchorHash}
+                  disabled={anchorLoading}
+                  className="px-4 py-2 bg-purple-600 text-white rounded-md disabled:opacity-60"
+                >
+                  {anchorLoading ? "Anchoring..." : "⚓ Anchor Hash On-Chain"}
+                </button>
+                <p className="text-xs text-gray-600 mt-2">
+                  Mock anchor: records decision hash on-chain
+                </p>
+              </div>
+            )}
+
+            {/* Anchored */}
+            {bundle.anchoredTxId && (
+              <div className="p-4 border rounded-xl bg-green-50 border-green-300 shadow">
+                <h3 className="text-lg font-semibold mb-2 text-green-800">
+                  ✓ Anchored
+                </h3>
+                <p className="font-mono break-all text-sm">
+                  {bundle.anchoredTxId}
+                </p>
+              </div>
+            )}
+          </div>
+        )}
       </div>
     </div>
   );

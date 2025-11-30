@@ -27,10 +27,11 @@ export default function RiskForm({ defaultAddress, onResult }) {
   }
 
   return (
-    <form onSubmit={submit} className="p-4 border rounded-xl bg-white shadow">
-      <label className="block text-sm mb-1 font-medium">
-        Wallet address
-      </label>
+    <form
+      onSubmit={submit}
+      className="w-full p-4 border rounded-xl bg-white shadow"
+    >
+      <label className="block text-sm mb-1 font-medium">Wallet address</label>
 
       <input
         value={address}
@@ -57,9 +58,7 @@ export default function RiskForm({ defaultAddress, onResult }) {
         </button>
       </div>
 
-      {error && (
-        <p className="text-red-600 text-sm mt-2">{error}</p>
-      )}
+      {error && <p className="text-red-600 text-sm mt-2">{error}</p>}
     </form>
   );
 }

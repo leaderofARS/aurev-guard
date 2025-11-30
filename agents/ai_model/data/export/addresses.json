@@ -1,0 +1,5882 @@
+[
+  {
+    "address": "addr_test1qp23yv7k4kzhd2rntjamkda4q7hdn9qkrf63u9p8ce6fhwdeve3p6rsav4v5mdcz8qzcfenrlwhrs2ffk04ac44ermfq5t8ljx",
+    "volume": {
+      "tx_count": 2,
+      "total_received_ada": 14999.819891,
+      "total_sent_ada": 10000.0,
+      "net_balance_change_ada": 4999.819890999999,
+      "max_tx_size_ada": 10000.0,
+      "avg_tx_size_ada": 3571.4028415714283
+    },
+    "behavior": {
+      "unique_counterparties": 2,
+      "tx_per_day": 2.0,
+      "active_days": 1,
+      "burstiness": 37845.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 0.1999942364704774,
+      "timing_entropy": -0.0,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1269487112396621,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qp23yv7k4kzhd2rntjamkda4q7hdn9qkrf63u9p8ce6fhwdeve3p6rsav4v5mdcz8qzcfenrlwhrs2ffk04ac44ermfq5t8ljx",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qp5r7gm03mw08u9zkfrxvdr5phwg9n2mn90mcthpmea6kmt5tuww9mf3pzmp3nrvjm95hfju2v57w6f5d54h8eqd2wysqkvsl9",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 4999.831331,
+      "total_sent_ada": 10000.0,
+      "net_balance_change_ada": -5000.168669,
+      "max_tx_size_ada": 10000.0,
+      "avg_tx_size_ada": 7499.915665500001
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": -0.3333483263019232,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1186101244493945,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qp5r7gm03mw08u9zkfrxvdr5phwg9n2mn90mcthpmea6kmt5tuww9mf3pzmp3nrvjm95hfju2v57w6f5d54h8eqd2wysqkvsl9",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qp6h0qzy8e5dw238qzde33tz6qtgjegdphrawy4h7uch05x889c9re4ajppf7f6u9vz2rxwjfd0epkcs7wdvfpjh5h7qvn4ck4",
+    "volume": {
+      "tx_count": 5,
+      "total_received_ada": 49088.950138,
+      "total_sent_ada": 49257.791723,
+      "net_balance_change_ada": -168.84158500000194,
+      "max_tx_size_ada": 9893.494873,
+      "avg_tx_size_ada": 8195.56182175
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 5.0,
+      "active_days": 1,
+      "burstiness": 110518.694214876,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.2,
+      "inflow_outflow_asymmetry": -0.0017167989686799,
+      "timing_entropy": 0.6500224216483541,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.0913011800547311,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qp6h0qzy8e5dw238qzde33tz6qtgjegdphrawy4h7uch05x889c9re4ajppf7f6u9vz2rxwjfd0epkcs7wdvfpjh5h7qvn4ck4",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qp6ruunvywyrn2ldrxwk3h9dw254rgcwmp6g9prfjx53ntv898ykky2499xvnfn5eprxza4ctcvyvh96zhq8yn7p03lq2z8mze",
+    "volume": {
+      "tx_count": 2,
+      "total_received_ada": 18898.376703,
+      "total_sent_ada": 18908.725657,
+      "net_balance_change_ada": -10.34895399999732,
+      "max_tx_size_ada": 9456.950067,
+      "avg_tx_size_ada": 9451.77559
+    },
+    "behavior": {
+      "unique_counterparties": 2,
+      "tx_per_day": 2.0,
+      "active_days": 1,
+      "burstiness": 1463190.222222222,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": -0.0002737304197887,
+      "timing_entropy": -0.0,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.105066347026639,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qp6ruunvywyrn2ldrxwk3h9dw254rgcwmp6g9prfjx53ntv898ykky2499xvnfn5eprxza4ctcvyvh96zhq8yn7p03lq2z8mze",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qpfpxx2m56u7td8duem6kkcdw25kfyd0jcv7g7hwup797p5d0v7l822u4xea8zty37320uz3nwdl88agexcj9n7s986q5j40uk",
+    "volume": {
+      "tx_count": 12,
+      "total_received_ada": 5066.214307,
+      "total_sent_ada": 5473.362987,
+      "net_balance_change_ada": -407.1486800000002,
+      "max_tx_size_ada": 987.380719,
+      "avg_tx_size_ada": 376.4134747857143
+    },
+    "behavior": {
+      "unique_counterparties": 4,
+      "tx_per_day": 12.0,
+      "active_days": 1,
+      "burstiness": 250709.55555555547,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.3333333333333333,
+      "inflow_outflow_asymmetry": -0.0386304562927569,
+      "timing_entropy": 0.8112781244591328,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.0940252076641072,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qpfpxx2m56u7td8duem6kkcdw25kfyd0jcv7g7hwup797p5d0v7l822u4xea8zty37320uz3nwdl88agexcj9n7s986q5j40uk",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qpgq2n6vpdwskfjk0uzj9askyele649ghtz8q9r9m2r07hxw6a59ugz9wl2t82g3nggzgxpz99unwe48cx8zrct66p7syxy2l0",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 8999.819891,
+      "total_sent_ada": 10000.0,
+      "net_balance_change_ada": -1000.1801090000008,
+      "max_tx_size_ada": 10000.0,
+      "avg_tx_size_ada": 3166.6366485
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": -0.0526415573799083,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1405438351678635,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qpgq2n6vpdwskfjk0uzj9askyele649ghtz8q9r9m2r07hxw6a59ugz9wl2t82g3nggzgxpz99unwe48cx8zrct66p7syxy2l0",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qphpmu6qm46rgvvnxfwfc8a57y4dj20x665ulr5xjaywh93s8cfm5nnkkn5kve26gvssg7wp77jnxleujwcz8xs7v29qcdvhz8",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 5.0,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 5.0,
+      "max_tx_size_ada": 5.0,
+      "avg_tx_size_ada": 5.0
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1567430778751917,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qphpmu6qm46rgvvnxfwfc8a57y4dj20x665ulr5xjaywh93s8cfm5nnkkn5kve26gvssg7wp77jnxleujwcz8xs7v29qcdvhz8",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qpsxak49pveycp2phjqzr9gfmttf9dqsx5t404xq4dz4u7ja2vzlmkj7ck88c4n40ehps56gxvts9x2weqgq89gfef5snjnwz3",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 5000.0,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 5000.0,
+      "max_tx_size_ada": 5000.0,
+      "avg_tx_size_ada": 5000.0
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.135923470551997,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qpsxak49pveycp2phjqzr9gfmttf9dqsx5t404xq4dz4u7ja2vzlmkj7ck88c4n40ehps56gxvts9x2weqgq89gfef5snjnwz3",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qptu9takwxy2309end3nuu54lpw4cpxlp7lunzqd25p69g7q9hp5y0uxq0mmautdg2mzmhctm6e5h56rrqf0epdvpwwswx5u2w",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 10000.0,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 10000.0,
+      "max_tx_size_ada": 10000.0,
+      "avg_tx_size_ada": 10000.0
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1383784024238951,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qptu9takwxy2309end3nuu54lpw4cpxlp7lunzqd25p69g7q9hp5y0uxq0mmautdg2mzmhctm6e5h56rrqf0epdvpwwswx5u2w",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qpwrzk49m733n33krd27fdzn8yecwvju80e8c5g45asj35f2deak5yydxl5pmzdg20wgsadhu87r4elkwva8y9zge0uqs44jt2",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 974.151903,
+      "total_sent_ada": 979.320484,
+      "net_balance_change_ada": -5.168581000000017,
+      "max_tx_size_ada": 979.320484,
+      "avg_tx_size_ada": 976.7361935
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": -0.0026458428767132,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1568143337763757,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qpwrzk49m733n33krd27fdzn8yecwvju80e8c5g45asj35f2deak5yydxl5pmzdg20wgsadhu87r4elkwva8y9zge0uqs44jt2",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qq50sks40pnh5tkth68m3lrvzvlepaew6prl3u8u69nd3zu9rk398gms2eh8snp58c9skehndz9ps8ff5rfns7mfafnqt4qk0e",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 3.781,
+      "total_sent_ada": 23.31279,
+      "net_balance_change_ada": -19.53179,
+      "max_tx_size_ada": 23.31279,
+      "avg_tx_size_ada": 13.546895
+    },
+    "behavior": {
+      "unique_counterparties": 2,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 2.0,
+      "inflow_outflow_asymmetry": -0.7208954524265524,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.0921411243251031,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qq50sks40pnh5tkth68m3lrvzvlepaew6prl3u8u69nd3zu9rk398gms2eh8snp58c9skehndz9ps8ff5rfns7mfafnqt4qk0e",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qqcm62zdvt38ctv432tptaqdrdh3hl2xlp4guq893hqpu6l77qrcufvgcycrglrj4qgxzfhk723vkn46patwnngwhyrqtunqtw",
+    "volume": {
+      "tx_count": 2,
+      "total_received_ada": 1997.832695,
+      "total_sent_ada": 1000.0,
+      "net_balance_change_ada": 997.832695,
+      "max_tx_size_ada": 1000.0,
+      "avg_tx_size_ada": 999.277565
+    },
+    "behavior": {
+      "unique_counterparties": 2,
+      "tx_per_day": 2.0,
+      "active_days": 1,
+      "burstiness": 484.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 0.3328513618069003,
+      "timing_entropy": -0.0,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1480512249449767,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qqcm62zdvt38ctv432tptaqdrdh3hl2xlp4guq893hqpu6l77qrcufvgcycrglrj4qgxzfhk723vkn46patwnngwhyrqtunqtw",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qqdxeujed4f77u82rslna9gtsrwnxqww8f3zxz8w4uz87vwy68rhqmmahtetcv2wcvsqe0ct9h6gmd8g5nsuw38rq4sqvh9dvw",
+    "volume": {
+      "tx_count": 2,
+      "total_received_ada": 18629.790583,
+      "total_sent_ada": 18632.125809,
+      "net_balance_change_ada": -2.3352259999992384,
+      "max_tx_size_ada": 9316.646403,
+      "avg_tx_size_ada": 9315.479098
+    },
+    "behavior": {
+      "unique_counterparties": 2,
+      "tx_per_day": 2.0,
+      "active_days": 1,
+      "burstiness": 3603717.555555556,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": -6.267058235632247e-05,
+      "timing_entropy": 1.0,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": -1,
+      "OneClassSVM": 1,
+      "LOF": -1,
+      "Ensemble": -1,
+      "IsolationForest_score": -0.0233394305371341,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qqdxeujed4f77u82rslna9gtsrwnxqww8f3zxz8w4uz87vwy68rhqmmahtetcv2wcvsqe0ct9h6gmd8g5nsuw38rq4sqvh9dvw",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qqj4t6m7pwqn6x3hkhs9cunj62fsgj7ezt9spvxj3mne77xp2lx7h4wuk22fmwmlhtzjvysysw663sdt6h4kwjk7ksvsfg7juk",
+    "volume": {
+      "tx_count": 2,
+      "total_received_ada": 9690.764382,
+      "total_sent_ada": 7689.081795,
+      "net_balance_change_ada": 2001.6825870000007,
+      "max_tx_size_ada": 4683.345118,
+      "avg_tx_size_ada": 1737.9846177
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 2.0,
+      "active_days": 1,
+      "burstiness": 632.0987654320988,
+      "collateral_ratio": 0.4,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.5,
+      "inflow_outflow_asymmetry": 0.1151726296432342,
+      "timing_entropy": 1.0,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.0703591203318361,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qqj4t6m7pwqn6x3hkhs9cunj62fsgj7ezt9spvxj3mne77xp2lx7h4wuk22fmwmlhtzjvysysw663sdt6h4kwjk7ksvsfg7juk",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qqkxdt3sav4cz3r5xnrsstlxzlhuzhvyd2qm6wxz0gd63ee77fl6k08e6egytyweyv8w6al94rphdc47mrdzent8gazsykeyrk",
+    "volume": {
+      "tx_count": 2,
+      "total_received_ada": 0.0,
+      "total_sent_ada": 100.0,
+      "net_balance_change_ada": -100.0,
+      "max_tx_size_ada": 50.0,
+      "avg_tx_size_ada": 50.0
+    },
+    "behavior": {
+      "unique_counterparties": 3,
+      "tx_per_day": 2.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 1.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.5,
+      "inflow_outflow_asymmetry": -1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": -1,
+      "OneClassSVM": -1,
+      "LOF": -1,
+      "Ensemble": -1,
+      "IsolationForest_score": -0.0101970246091133,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qqkxdt3sav4cz3r5xnrsstlxzlhuzhvyd2qm6wxz0gd63ee77fl6k08e6egytyweyv8w6al94rphdc47mrdzent8gazsykeyrk",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qqm56vjt0wa9xj2r5hye682ps9gz3ksw75cv45fdmhktpkfffsx09epxg2f586qkf0znd963phxjs2ja9849kh8d0xnsc7mp78",
+    "volume": {
+      "tx_count": 4,
+      "total_received_ada": 39908.597266,
+      "total_sent_ada": 39920.271238,
+      "net_balance_change_ada": -11.673972000004142,
+      "max_tx_size_ada": 9982.820549,
+      "avg_tx_size_ada": 9978.608563
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 4.0,
+      "active_days": 1,
+      "burstiness": 5068.530612244897,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.25,
+      "inflow_outflow_asymmetry": -0.000146237472969,
+      "timing_entropy": -0.0,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1111490994803559,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qqm56vjt0wa9xj2r5hye682ps9gz3ksw75cv45fdmhktpkfffsx09epxg2f586qkf0znd963phxjs2ja9849kh8d0xnsc7mp78",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qqpe6v4c95v0jlgjm5578w3san3eycf0hcfxwpp0yafze8mxjxnr4tyryejp4kxyqu0u82wv4hx6f6pqns9dknetaqgsmzzz6e",
+    "volume": {
+      "tx_count": 7,
+      "total_received_ada": 312820.14283200004,
+      "total_sent_ada": 312846.005954,
+      "net_balance_change_ada": -25.863121999951545,
+      "max_tx_size_ada": 22351.085134,
+      "avg_tx_size_ada": 14896.813066333332
+    },
+    "behavior": {
+      "unique_counterparties": 7,
+      "tx_per_day": 7.0,
+      "active_days": 1,
+      "burstiness": 606.4973230220107,
+      "collateral_ratio": 0.3333333333333333,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": -4.133693671958214e-05,
+      "timing_entropy": -0.0,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": -1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": -0.020208261261426,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qqpe6v4c95v0jlgjm5578w3san3eycf0hcfxwpp0yafze8mxjxnr4tyryejp4kxyqu0u82wv4hx6f6pqns9dknetaqgsmzzz6e",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qqs88lem3gleyjj9lhhrxwj3q7uzvjyphce62pcf90wgutnl4my4md9cdrttjnk02vrmpc2av7a9vdnx600ekjrsfwvs50rr8m",
+    "volume": {
+      "tx_count": 4,
+      "total_received_ada": 9862.402533,
+      "total_sent_ada": 9866.657378999998,
+      "net_balance_change_ada": -4.254845999997997,
+      "max_tx_size_ada": 9854.748194,
+      "avg_tx_size_ada": 2192.117768
+    },
+    "behavior": {
+      "unique_counterparties": 2,
+      "tx_per_day": 4.0,
+      "active_days": 1,
+      "burstiness": 35683.1875,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.5,
+      "inflow_outflow_asymmetry": -0.0002156638997994,
+      "timing_entropy": -0.0,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1392783609183162,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qqs88lem3gleyjj9lhhrxwj3q7uzvjyphce62pcf90wgutnl4my4md9cdrttjnk02vrmpc2av7a9vdnx600ekjrsfwvs50rr8m",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qqtrjd6wx44xz5gkc9yl8xn6zjnzc2kns3y2tvdpmauvj2ey4t05exc5mmvkka0f75qkhw8ae9d27znqq82nqlr9x0ashdk5m0",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 8997.452941,
+      "total_sent_ada": 9497.640442,
+      "net_balance_change_ada": -500.18750100000034,
+      "max_tx_size_ada": 9497.640442,
+      "avg_tx_size_ada": 9247.5466915
+    },
+    "behavior": {
+      "unique_counterparties": 0,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.0,
+      "inflow_outflow_asymmetry": -0.0270443349834477,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": -1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1088909430607912,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qqtrjd6wx44xz5gkc9yl8xn6zjnzc2kns3y2tvdpmauvj2ey4t05exc5mmvkka0f75qkhw8ae9d27znqq82nqlr9x0ashdk5m0",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qqxnkqmvh6akr6jujzhw2mtf4uzf5n4a5p2drl5ha4hxqdw4pfgmdkjmu2z0rlxept3rfnha98xrmyf7v2vy5dal07wst360ex",
+    "volume": {
+      "tx_count": 2,
+      "total_received_ada": 700.0,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 700.0,
+      "max_tx_size_ada": 400.0,
+      "avg_tx_size_ada": 350.0
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 2.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.5,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.140165092571412,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qqxnkqmvh6akr6jujzhw2mtf4uzf5n4a5p2drl5ha4hxqdw4pfgmdkjmu2z0rlxept3rfnha98xrmyf7v2vy5dal07wst360ex",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qqynu5d8p9yc7garta6z4g34e2tlzye5ty8uy6ljmffnpnjv7ncp3yppt0gcr50u60y43x32fgadhnl35u9hfqyql2pqepxt0y",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 10000.0,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 10000.0,
+      "max_tx_size_ada": 10000.0,
+      "avg_tx_size_ada": 10000.0
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1383784024238951,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qqynu5d8p9yc7garta6z4g34e2tlzye5ty8uy6ljmffnpnjv7ncp3yppt0gcr50u60y43x32fgadhnl35u9hfqyql2pqepxt0y",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qqzllc620hkk05l5cyg38wgflrunzw70x5h6825g03gu4yyc85y96hdkqtarg95gewuezjvkw8zt530tnmglhrzccdds5vxw0m",
+    "volume": {
+      "tx_count": 3,
+      "total_received_ada": 10406.715854,
+      "total_sent_ada": 10422.392152,
+      "net_balance_change_ada": -15.676297999998496,
+      "max_tx_size_ada": 6738.88139,
+      "avg_tx_size_ada": 2314.345334
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 3.0,
+      "active_days": 1,
+      "burstiness": 2441836.0,
+      "collateral_ratio": 0.3333333333333333,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.3333333333333333,
+      "inflow_outflow_asymmetry": -0.000752614946136,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 0.5
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.0008694286925096,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qqzllc620hkk05l5cyg38wgflrunzw70x5h6825g03gu4yyc85y96hdkqtarg95gewuezjvkw8zt530tnmglhrzccdds5vxw0m",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qr23z9axxwyh5zaj2ewqvfu6xd899tddxgasrwu35p2vgw9gvst4lcyrhmg0vtwq5g4tx25etraqj2cm6kwd8ly0eaaqwpc2hs",
+    "volume": {
+      "tx_count": 5,
+      "total_received_ada": 15001.47031,
+      "total_sent_ada": 15033.205123,
+      "net_balance_change_ada": -31.73481299999912,
+      "max_tx_size_ada": 1882.498675,
+      "avg_tx_size_ada": 1877.1672145625
+    },
+    "behavior": {
+      "unique_counterparties": 3,
+      "tx_per_day": 5.0,
+      "active_days": 1,
+      "burstiness": 49465.39555555555,
+      "collateral_ratio": 0.375,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.6,
+      "inflow_outflow_asymmetry": -0.0010566058245174,
+      "timing_entropy": -0.0,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.0853571772377846,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qr23z9axxwyh5zaj2ewqvfu6xd899tddxgasrwu35p2vgw9gvst4lcyrhmg0vtwq5g4tx25etraqj2cm6kwd8ly0eaaqwpc2hs",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qr5dmng8myuymt0rrwltw5uasv8vjcqchlmstz4z3uz0z8awj3v2656xdwvnztjpm69n6072xkqjmuzqhttpa65u5dhssuht5q",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 10000.0,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 10000.0,
+      "max_tx_size_ada": 10000.0,
+      "avg_tx_size_ada": 10000.0
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1383784024238951,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qr5dmng8myuymt0rrwltw5uasv8vjcqchlmstz4z3uz0z8awj3v2656xdwvnztjpm69n6072xkqjmuzqhttpa65u5dhssuht5q",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qr7cxnat868zymckfjrqltzzj7fppqt7v48qak2p6g2sj06cg82zr8nkulez36wc4hwcfq3z4hdu7730798vs97njpeq93repj",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 10000.0,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 10000.0,
+      "max_tx_size_ada": 10000.0,
+      "avg_tx_size_ada": 10000.0
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1383784024238951,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qr7cxnat868zymckfjrqltzzj7fppqt7v48qak2p6g2sj06cg82zr8nkulez36wc4hwcfq3z4hdu7730798vs97njpeq93repj",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qr88apxadqac8v2vnnvmpyrvk0xx9d2ra0v2urg5px0n4jvc9dhu5g4hywcenl666x9rv8t04x2sk2ddfvemsve9gums47fdsm",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 10000.0,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 10000.0,
+      "max_tx_size_ada": 10000.0,
+      "avg_tx_size_ada": 10000.0
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1383784024238951,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qr88apxadqac8v2vnnvmpyrvk0xx9d2ra0v2urg5px0n4jvc9dhu5g4hywcenl666x9rv8t04x2sk2ddfvemsve9gums47fdsm",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qr8dpq940a3eakdynmhqe0e5w97cuwmzcr57cya7elyj4leqq4t92l789cpu4xe53q5j8rve5vw86kwm20qq324qrrjq4frkla",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 0.96975,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 0.96975,
+      "max_tx_size_ada": 0.96975,
+      "avg_tx_size_ada": 0.96975
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1568195581216976,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qr8dpq940a3eakdynmhqe0e5w97cuwmzcr57cya7elyj4leqq4t92l789cpu4xe53q5j8rve5vw86kwm20qq324qrrjq4frkla",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qr92dwmyvzd42up52tx6cscu9z8tnnjw06kncruqx8x9fqs4j8jp6f3kanswkahdspqsdq0ym3dqmaygts6lxa34yyxsxl9ceu",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 9997.723866,
+      "total_sent_ada": 9998.861933,
+      "net_balance_change_ada": -1.1380669999998645,
+      "max_tx_size_ada": 9998.861933,
+      "avg_tx_size_ada": 9998.2928995
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": -5.691306563227296e-05,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1430217559455216,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qr92dwmyvzd42up52tx6cscu9z8tnnjw06kncruqx8x9fqs4j8jp6f3kanswkahdspqsdq0ym3dqmaygts6lxa34yyxsxl9ceu",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qrc7cs8cheuertfezmfpgvx29zkxsdnvkkuwv8zwpccke9fn0v303jq75nv6v9fd663jh925nkq69c3atmrm72v64mhs8xh49z",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 10000.0,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 10000.0,
+      "max_tx_size_ada": 10000.0,
+      "avg_tx_size_ada": 10000.0
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1383784024238951,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qrc7cs8cheuertfezmfpgvx29zkxsdnvkkuwv8zwpccke9fn0v303jq75nv6v9fd663jh925nkq69c3atmrm72v64mhs8xh49z",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qrj4akkyph45y4ulcsj8jvsj6z8lgfppjxamj9duxahef4wvl7fp8sn9tq5w542gj772zg6qhx0m9qd4t652us2m7xdqcxt2u4",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 1.14646,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 1.14646,
+      "max_tx_size_ada": 1.14646,
+      "avg_tx_size_ada": 1.14646
+    },
+    "behavior": {
+      "unique_counterparties": 2,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 2.0,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": -1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1197095561862695,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qrj4akkyph45y4ulcsj8jvsj6z8lgfppjxamj9duxahef4wvl7fp8sn9tq5w542gj772zg6qhx0m9qd4t652us2m7xdqcxt2u4",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qrj6nmj7c4lm7yafjxvzkvcf9hgqq9dp88lld7pjgnvekdvd0v7l822u4xea8zty37320uz3nwdl88agexcj9n7s986qwlg8ps",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 6.0,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 6.0,
+      "max_tx_size_ada": 6.0,
+      "avg_tx_size_ada": 6.0
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1567430778751917,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qrj6nmj7c4lm7yafjxvzkvcf9hgqq9dp88lld7pjgnvekdvd0v7l822u4xea8zty37320uz3nwdl88agexcj9n7s986qwlg8ps",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qrjwjlw94q2xx0wv9edc4zga55vnvk8hne0ppnj35489jk0045mvduz0uq4glknq2jjp9kfvnkwen3czk5ejyvyq92zqc5zdvp",
+    "volume": {
+      "tx_count": 10,
+      "total_received_ada": 100000.0,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 100000.0,
+      "max_tx_size_ada": 10000.0,
+      "avg_tx_size_ada": 10000.0
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 10.0,
+      "active_days": 1,
+      "burstiness": 198397.2098765432,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.1,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": 1.7219280948873623,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": -1,
+      "OneClassSVM": -1,
+      "LOF": -1,
+      "Ensemble": -1,
+      "IsolationForest_score": -0.0181320503774715,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qrjwjlw94q2xx0wv9edc4zga55vnvk8hne0ppnj35489jk0045mvduz0uq4glknq2jjp9kfvnkwen3czk5ejyvyq92zqc5zdvp",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qrqp0rwtuy4as2d0gu7ezyzx85759k7wsq4u860cy6zxq740de9hgwfj472mw57psjmpevgsezv0xkcchmhn4ye9kluse5gflu",
+    "volume": {
+      "tx_count": 4,
+      "total_received_ada": 242.831859,
+      "total_sent_ada": 75.0,
+      "net_balance_change_ada": 167.831859,
+      "max_tx_size_ada": 75.0,
+      "avg_tx_size_ada": 52.9719765
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 4.0,
+      "active_days": 1,
+      "burstiness": 204577.84000000003,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.25,
+      "inflow_outflow_asymmetry": 0.528052346696937,
+      "timing_entropy": 0.6500224216483541,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1208461991539005,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qrqp0rwtuy4as2d0gu7ezyzx85759k7wsq4u860cy6zxq740de9hgwfj472mw57psjmpevgsezv0xkcchmhn4ye9kluse5gflu",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qrrhnm2qjzlj3tjxugjutm46dn2urfrwjhk6t6x70m5lg9tx2u29lwmh79hdqadrshxp2akncef7yd85fhdnrx89n83sd337nr",
+    "volume": {
+      "tx_count": 9,
+      "total_received_ada": 168716.34490700002,
+      "total_sent_ada": 169785.035367,
+      "net_balance_change_ada": -1068.6904599999834,
+      "max_tx_size_ada": 10000.0,
+      "avg_tx_size_ada": 9402.81611872222
+    },
+    "behavior": {
+      "unique_counterparties": 4,
+      "tx_per_day": 9.0,
+      "active_days": 1,
+      "burstiness": 221215.52979591835,
+      "collateral_ratio": 0.4444444444444444,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.4444444444444444,
+      "inflow_outflow_asymmetry": -0.0031571229019359,
+      "timing_entropy": 1.2651680569341983,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": -1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.0104363923195651,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qrrhnm2qjzlj3tjxugjutm46dn2urfrwjhk6t6x70m5lg9tx2u29lwmh79hdqadrshxp2akncef7yd85fhdnrx89n83sd337nr",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qrrnwdlq0sy7m9zw3kw0mxvat6almfj7ck045883tp8lxs6f5kfqjtkjgwqv93fcleg95ks8ghxl6zm03cl9ysct0auqqje3ym",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 10000.0,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 10000.0,
+      "max_tx_size_ada": 10000.0,
+      "avg_tx_size_ada": 10000.0
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1383784024238951,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qrrnwdlq0sy7m9zw3kw0mxvat6almfj7ck045883tp8lxs6f5kfqjtkjgwqv93fcleg95ks8ghxl6zm03cl9ysct0auqqje3ym",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qruhen60uwzpwnnr7gjs50z2v8u9zyfw6zunet4k42zrpr54mrlv55f93rs6j48wt29w90hlxt4rvpvshe55k5r9mpvqjv2wt4",
+    "volume": {
+      "tx_count": 170,
+      "total_received_ada": 1613838.4873360002,
+      "total_sent_ada": 1614040.088706,
+      "net_balance_change_ada": -201.6013699998148,
+      "max_tx_size_ada": 4787.088175,
+      "avg_tx_size_ada": 4746.880258885294
+    },
+    "behavior": {
+      "unique_counterparties": 67,
+      "tx_per_day": 170.0,
+      "active_days": 1,
+      "burstiness": 2745.316746232981,
+      "collateral_ratio": 0.5,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.3941176470588235,
+      "inflow_outflow_asymmetry": -6.245630535675751e-05,
+      "timing_entropy": 1.9360083030469617,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": -1,
+      "OneClassSVM": -1,
+      "LOF": -1,
+      "Ensemble": -1,
+      "IsolationForest_score": -0.1782549040424326,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qruhen60uwzpwnnr7gjs50z2v8u9zyfw6zunet4k42zrpr54mrlv55f93rs6j48wt29w90hlxt4rvpvshe55k5r9mpvqjv2wt4",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qrumevq7kkyljesjhdtwuugwrf84qcfnlmuwgr9pmwpl8wdc27djcryfv4gxdyhw088dgy2v566wgq8jqyd4cw0agrdqdt3m2e",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 12.0,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 12.0,
+      "max_tx_size_ada": 12.0,
+      "avg_tx_size_ada": 12.0
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.155660040950016,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qrumevq7kkyljesjhdtwuugwrf84qcfnlmuwgr9pmwpl8wdc27djcryfv4gxdyhw088dgy2v566wgq8jqyd4cw0agrdqdt3m2e",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qrxjgv6u2dn33nejvwxfmnqcwq9nezrpw56e9a9um4zcz84mkp0e9hzqmp3aslsvqnp5jdjdth9pz0qqxap2q696v97qsp850d",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 10000.0,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 10000.0,
+      "max_tx_size_ada": 10000.0,
+      "avg_tx_size_ada": 10000.0
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1383784024238951,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qrxjgv6u2dn33nejvwxfmnqcwq9nezrpw56e9a9um4zcz84mkp0e9hzqmp3aslsvqnp5jdjdth9pz0qqxap2q696v97qsp850d",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qryvvl7una3saemqjdwu22y99vuhzhr7xw2xttcvpyq6hnjuc56up2uxzajkkhdemkjdnt0yn5g7wx3va69zw4lxeuhsp8q3dl",
+    "volume": {
+      "tx_count": 4,
+      "total_received_ada": 11.0,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 11.0,
+      "max_tx_size_ada": 5.0,
+      "avg_tx_size_ada": 2.75
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 4.0,
+      "active_days": 1,
+      "burstiness": 1205.5555555555554,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.25,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1275116507154678,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qryvvl7una3saemqjdwu22y99vuhzhr7xw2xttcvpyq6hnjuc56up2uxzajkkhdemkjdnt0yn5g7wx3va69zw4lxeuhsp8q3dl",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qz26nc7324hlhh06h80nfwcytjtu564uqtm6u8nh3p4t5988dh9fenf62rjattemwj6a6qhjge9wjsux6nu070azylaqqws8mq",
+    "volume": {
+      "tx_count": 2,
+      "total_received_ada": 14074.461647,
+      "total_sent_ada": 14774.798633,
+      "net_balance_change_ada": -700.3369859999984,
+      "max_tx_size_ada": 7537.483563,
+      "avg_tx_size_ada": 7212.31507
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 2.0,
+      "active_days": 1,
+      "burstiness": 127008.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.5,
+      "inflow_outflow_asymmetry": -0.0242757346012616,
+      "timing_entropy": -0.0,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1311746415729958,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qz26nc7324hlhh06h80nfwcytjtu564uqtm6u8nh3p4t5988dh9fenf62rjattemwj6a6qhjge9wjsux6nu070azylaqqws8mq",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qz49hkts3ryrep28q56chcl0na2q2qzy54ln0ulsw37lhzy6628j0jzrkxqq4py3s8d7tuu9klkhakcfnrwrpcredgasp674m6",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 10000.0,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 10000.0,
+      "max_tx_size_ada": 10000.0,
+      "avg_tx_size_ada": 10000.0
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1383784024238951,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qz49hkts3ryrep28q56chcl0na2q2qzy54ln0ulsw37lhzy6628j0jzrkxqq4py3s8d7tuu9klkhakcfnrwrpcredgasp674m6",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qz4jwtndvlxv4w6tyr24fla9luhnnsd0mlt5g9t3e4zx7wf92cnwrt0frm05f274wrdfhee4f250tk30qupudnf9nvhqmnh7cn",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 841.245524,
+      "total_sent_ada": 851.420793,
+      "net_balance_change_ada": -10.175268999999956,
+      "max_tx_size_ada": 851.420793,
+      "avg_tx_size_ada": 846.3331585000001
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": -0.0060113850543408,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1583934092222418,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qz4jwtndvlxv4w6tyr24fla9luhnnsd0mlt5g9t3e4zx7wf92cnwrt0frm05f274wrdfhee4f250tk30qupudnf9nvhqmnh7cn",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qz58xfza4s7qm2agzqghk5ahkr76ectl5ah3kyvnxnewkkw5cdds9sxqtxh5pll747354mwjnlsn3wkcrtccu0056n8s7wl96f",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 1.14646,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 1.14646,
+      "max_tx_size_ada": 1.14646,
+      "avg_tx_size_ada": 1.14646
+    },
+    "behavior": {
+      "unique_counterparties": 2,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 2.0,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": -1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1197095561862695,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qz58xfza4s7qm2agzqghk5ahkr76ectl5ah3kyvnxnewkkw5cdds9sxqtxh5pll747354mwjnlsn3wkcrtccu0056n8s7wl96f",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qz9jfhecgrlw4yw8wknddnnpw2ah0t3n967zz9ffrssl3pdct9f58ux0fyazdlzgl3vuua05dcqnengw4vm6n0cxl4fq47fdde",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 6.852757,
+      "total_sent_ada": 10.0,
+      "net_balance_change_ada": -3.1472430000000005,
+      "max_tx_size_ada": 5.0,
+      "avg_tx_size_ada": 4.21318925
+    },
+    "behavior": {
+      "unique_counterparties": 2,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.5,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 2.0,
+      "inflow_outflow_asymmetry": -0.1867494440227198,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": -1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.0702010245710073,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qz9jfhecgrlw4yw8wknddnnpw2ah0t3n967zz9ffrssl3pdct9f58ux0fyazdlzgl3vuua05dcqnengw4vm6n0cxl4fq47fdde",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qz9z9ulm4z5nqvmz0g9qs6hv7z6zqgz8fla6ggvkqxkv9et6jn2qx8lw5ag55yd5z4d5ltw8ru4xflel9pfs9c09k2rs8zdpqk",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 1000.0,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 1000.0,
+      "max_tx_size_ada": 1000.0,
+      "avg_tx_size_ada": 1000.0
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1452839947115012,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qz9z9ulm4z5nqvmz0g9qs6hv7z6zqgz8fla6ggvkqxkv9et6jn2qx8lw5ag55yd5z4d5ltw8ru4xflel9pfs9c09k2rs8zdpqk",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qzjlvcktfaxlwkc2vjw88mvxdm8dreejklxe34dea64efkal3yq6fxf0xa3nyxfrjcszcddjcyc8fv6q4dj2hxhed9kssca2ee",
+    "volume": {
+      "tx_count": 3,
+      "total_received_ada": 345.0,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 345.0,
+      "max_tx_size_ada": 321.0,
+      "avg_tx_size_ada": 115.0
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 3.0,
+      "active_days": 1,
+      "burstiness": 8357881.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.3333333333333333,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": 0.9182958340544896,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": -1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.0120945600027511,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qzjlvcktfaxlwkc2vjw88mvxdm8dreejklxe34dea64efkal3yq6fxf0xa3nyxfrjcszcddjcyc8fv6q4dj2hxhed9kssca2ee",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qzkgz6nnr7na88fjuj2t7meyuvr5dtjt459e0ltc72z9p0tcjnf37v8r0z0vkrf0h76vlvxa2464k8cjpzekewlk7ppqjl46kp",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 10000.0,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 10000.0,
+      "max_tx_size_ada": 10000.0,
+      "avg_tx_size_ada": 10000.0
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1383784024238951,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qzkgz6nnr7na88fjuj2t7meyuvr5dtjt459e0ltc72z9p0tcjnf37v8r0z0vkrf0h76vlvxa2464k8cjpzekewlk7ppqjl46kp",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qzqq4tw0zma4q7ghx45uezt4pzkfgu86zd6swhnlr9f4jkf7wpxhx9vkuae835jm95yxhm2qhjkp5kzdynh36gl37dkqnz203d",
+    "volume": {
+      "tx_count": 2,
+      "total_received_ada": 19999.831507,
+      "total_sent_ada": 10000.0,
+      "net_balance_change_ada": 9999.831507,
+      "max_tx_size_ada": 10000.0,
+      "avg_tx_size_ada": 7499.95787675
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 2.0,
+      "active_days": 1,
+      "burstiness": 2640.222222222222,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.5,
+      "inflow_outflow_asymmetry": 0.3333295890234147,
+      "timing_entropy": -0.0,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1119468580068019,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qzqq4tw0zma4q7ghx45uezt4pzkfgu86zd6swhnlr9f4jkf7wpxhx9vkuae835jm95yxhm2qhjkp5kzdynh36gl37dkqnz203d",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qzuj54degd86nn0fmn7melfuc8jln6zsug9knw06jdatgyu2m4n8ptzy49y25r6pe677yfgyrskvayeg4t7q4q25stwsu5cvm9",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 1.0,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 1.0,
+      "max_tx_size_ada": 1.0,
+      "avg_tx_size_ada": 1.0
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1568195581216976,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qzuj54degd86nn0fmn7melfuc8jln6zsug9knw06jdatgyu2m4n8ptzy49y25r6pe677yfgyrskvayeg4t7q4q25stwsu5cvm9",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qzvsq8gc7xkr7tj07xt5l904fx0g8vzlpa8dke642k72s07rvgpva40ylulzvweu2yhhhmfsdyvp0ev82hfltn5azjcqy2hd4a",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 9997.827943,
+      "total_sent_ada": 10000.0,
+      "net_balance_change_ada": -2.172056999999768,
+      "max_tx_size_ada": 10000.0,
+      "avg_tx_size_ada": 9998.9139715
+    },
+    "behavior": {
+      "unique_counterparties": 0,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.0,
+      "inflow_outflow_asymmetry": -0.00010861464586,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1129184350283443,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qzvsq8gc7xkr7tj07xt5l904fx0g8vzlpa8dke642k72s07rvgpva40ylulzvweu2yhhhmfsdyvp0ev82hfltn5azjcqy2hd4a",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qzyp52q023yfcvrj902k2hs9gn258ddnsrcg3p540vy7ldd7h569fuf63k3lj4frpp6c9mv0eegedj5qjffyc44qezuseuuy9y",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 5000.0,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 5000.0,
+      "max_tx_size_ada": 5000.0,
+      "avg_tx_size_ada": 5000.0
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.135923470551997,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qzyp52q023yfcvrj902k2hs9gn258ddnsrcg3p540vy7ldd7h569fuf63k3lj4frpp6c9mv0eegedj5qjffyc44qezuseuuy9y",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1qzz5gfc0dmrqeya5wyf30gpr0g4ldhxwwxuhh0mv7n489j4jsgj6cajkxp5huugd5nvtfch2cpke8y25usqrxee0ez3q926uzr",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 7.490852,
+      "total_sent_ada": 12.362441,
+      "net_balance_change_ada": -4.871589,
+      "max_tx_size_ada": 7.362441,
+      "avg_tx_size_ada": 4.96332325
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.25,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": -0.2453793937358402,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1231939777795472,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1qzz5gfc0dmrqeya5wyf30gpr0g4ldhxwwxuhh0mv7n489j4jsgj6cajkxp5huugd5nvtfch2cpke8y25usqrxee0ez3q926uzr",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1vpy494af9z9th4anvcjnp8pxfsyfmkakqshaw6v784qph9qtutwc9",
+    "volume": {
+      "tx_count": 140,
+      "total_received_ada": 481577.360642,
+      "total_sent_ada": 481850.526352,
+      "net_balance_change_ada": -273.16571000003023,
+      "max_tx_size_ada": 1774.753148,
+      "avg_tx_size_ada": 1720.4069410607142
+    },
+    "behavior": {
+      "unique_counterparties": 2,
+      "tx_per_day": 140.0,
+      "active_days": 1,
+      "burstiness": 2504.606033646846,
+      "collateral_ratio": 0.5,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.0142857142857142,
+      "inflow_outflow_asymmetry": -0.0002835351910482,
+      "timing_entropy": 1.9806945621946903,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": -1,
+      "OneClassSVM": 1,
+      "LOF": -1,
+      "Ensemble": -1,
+      "IsolationForest_score": -0.095971387287432,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1vpy494af9z9th4anvcjnp8pxfsyfmkakqshaw6v784qph9qtutwc9",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1vqeux7xwusdju9dvsj8h7mca9aup2k439kfmwy773xxc2hcu7zy99",
+    "volume": {
+      "tx_count": 23,
+      "total_received_ada": 0.0,
+      "total_sent_ada": 230004.6000000001,
+      "net_balance_change_ada": -230004.6000000001,
+      "max_tx_size_ada": 10000.2,
+      "avg_tx_size_ada": 10000.2
+    },
+    "behavior": {
+      "unique_counterparties": 14,
+      "tx_per_day": 23.0,
+      "active_days": 1,
+      "burstiness": 145360.3305785124,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.6086956521739131,
+      "inflow_outflow_asymmetry": -1.0,
+      "timing_entropy": 1.7712589600219495,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": -1,
+      "OneClassSVM": -1,
+      "LOF": -1,
+      "Ensemble": -1,
+      "IsolationForest_score": -0.0932634912190594,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1vqeux7xwusdju9dvsj8h7mca9aup2k439kfmwy773xxc2hcu7zy99",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1vryumtuh5u0zkk3e7cvv4f568umz5xrt8077cz5ehemjzzcu0edde",
+    "volume": {
+      "tx_count": 2,
+      "total_received_ada": 10001.0,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 10001.0,
+      "max_tx_size_ada": 10000.0,
+      "avg_tx_size_ada": 5000.5
+    },
+    "behavior": {
+      "unique_counterparties": 2,
+      "tx_per_day": 2.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.111606525277656,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1vryumtuh5u0zkk3e7cvv4f568umz5xrt8077cz5ehemjzzcu0edde",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wp0gzp4v5r2zhskqutftc2v8pge7yjkuhhxgdrmfpwv0h8q8wncs6",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 9.0,
+      "total_sent_ada": 9.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 4445744.960000001,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.136280292014949,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wp0gzp4v5r2zhskqutftc2v8pge7yjkuhhxgdrmfpwv0h8q8wncs6",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wp0zd2jtjvkk2evq59hpqqjztvaffpwd7tm3lscre927zxg36etun",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 9.0,
+      "total_sent_ada": 9.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 4387945.6,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.141541186920531,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wp0zd2jtjvkk2evq59hpqqjztvaffpwd7tm3lscre927zxg36etun",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wp4y7k88m8mekc0hlcd6z0jgwn8fssy3axhapz74xgeu5hsdzcpdu",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 9.0,
+      "total_sent_ada": 9.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 4406466.64,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1416429024396636,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wp4y7k88m8mekc0hlcd6z0jgwn8fssy3axhapz74xgeu5hsdzcpdu",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wp5ty7h0nlt3v5dhd647dx2rvapesghgxarjwyv2xh4dmhq9atx32",
+    "volume": {
+      "tx_count": 4,
+      "total_received_ada": 6.0,
+      "total_sent_ada": 12.0,
+      "net_balance_change_ada": -6.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 4.0,
+      "active_days": 1,
+      "burstiness": 3016774.56,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.5,
+      "inflow_outflow_asymmetry": -0.3333333333333333,
+      "timing_entropy": 1.0,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1019493973405862,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wp5ty7h0nlt3v5dhd647dx2rvapesghgxarjwyv2xh4dmhq9atx32",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wp7pw67qhvud2j0q5u0yams975wmx8shxreau235ugwzm4s3830m9",
+    "volume": {
+      "tx_count": 35,
+      "total_received_ada": 0.0,
+      "total_sent_ada": 2350.3421299999995,
+      "net_balance_change_ada": -2350.3421299999995,
+      "max_tx_size_ada": 69.05051,
+      "avg_tx_size_ada": 29.75116620253165
+    },
+    "behavior": {
+      "unique_counterparties": 14,
+      "tx_per_day": 35.0,
+      "active_days": 1,
+      "burstiness": 90754.30966469429,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.4,
+      "inflow_outflow_asymmetry": -1.0,
+      "timing_entropy": 1.8327376787990588,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.0366621147676121,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wp7pw67qhvud2j0q5u0yams975wmx8shxreau235ugwzm4s3830m9",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wp82uw2sqcwf3rzkww2mm5g5sj226els624jw6gzpvj5nggymcl22",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 144.0,
+      "total_sent_ada": 144.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 383122.2393351802,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.0804647829646881,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wp82uw2sqcwf3rzkww2mm5g5sj226els624jw6gzpvj5nggymcl22",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wp867cwenl586mcuft35d7qy56ucyjqg5pqy00vyd7c75hcq7cn8u",
+    "volume": {
+      "tx_count": 28,
+      "total_received_ada": 84.0,
+      "total_sent_ada": 84.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 6.0,
+      "avg_tx_size_ada": 6.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 28.0,
+      "active_days": 1,
+      "burstiness": 159512.46913580247,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.2142857142857142,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.931560284283316,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1384337943036946,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wp867cwenl586mcuft35d7qy56ucyjqg5pqy00vyd7c75hcq7cn8u",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wpcyj0yjzsp9qawt2esgea5efjdd029fzcp9qprf666jzfqt9cr4e",
+    "volume": {
+      "tx_count": 2,
+      "total_received_ada": 9.0,
+      "total_sent_ada": 5.0,
+      "net_balance_change_ada": 4.0,
+      "max_tx_size_ada": 5.0,
+      "avg_tx_size_ada": 4.666666666666667
+    },
+    "behavior": {
+      "unique_counterparties": 2,
+      "tx_per_day": 2.0,
+      "active_days": 1,
+      "burstiness": 9025.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 0.2857142857142857,
+      "timing_entropy": -0.0,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1467559416403578,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wpcyj0yjzsp9qawt2esgea5efjdd029fzcp9qprf666jzfqt9cr4e",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wpe5ghttuandwx2v5vukd8art24pj6g2fwtny64xl9dnp2cz7jgu0",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 9.0,
+      "total_sent_ada": 9.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 3644369.84,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1329957688717591,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wpe5ghttuandwx2v5vukd8art24pj6g2fwtny64xl9dnp2cz7jgu0",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wpeecpsjvtfu4uumvcpksn0fg3tje23y8jq8l2l4a8d7e8se7eryj",
+    "volume": {
+      "tx_count": 4,
+      "total_received_ada": 6.0,
+      "total_sent_ada": 6.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 4.0,
+      "active_days": 1,
+      "burstiness": 4103174.2222222234,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.5,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.0,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1166266081805027,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wpeecpsjvtfu4uumvcpksn0fg3tje23y8jq8l2l4a8d7e8se7eryj",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wperr0p4kc9w7mwlf23037xq5wz3y8hmfntptv6jy56fmvq50espl",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 9.0,
+      "total_sent_ada": 9.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 4406466.64,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1416429024396636,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wperr0p4kc9w7mwlf23037xq5wz3y8hmfntptv6jy56fmvq50espl",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wpex0tw5j299xkwa0teknpzwlj4eqz62q5fjljyngwdvxlqw4eqmt",
+    "volume": {
+      "tx_count": 4,
+      "total_received_ada": 6.0,
+      "total_sent_ada": 6.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 4.0,
+      "active_days": 1,
+      "burstiness": 4424331.555555556,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.5,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.0,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": -1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.099570115004388,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wpex0tw5j299xkwa0teknpzwlj4eqz62q5fjljyngwdvxlqw4eqmt",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wpgexmeunzsykesf42d4eqet5yvzeap6trjnflxqtkcf66g0kpnxt",
+    "volume": {
+      "tx_count": 140,
+      "total_received_ada": 0.0,
+      "total_sent_ada": 4822.9762,
+      "net_balance_change_ada": -4822.9762,
+      "max_tx_size_ada": 34.44983,
+      "avg_tx_size_ada": 34.44983
+    },
+    "behavior": {
+      "unique_counterparties": 2,
+      "tx_per_day": 140.0,
+      "active_days": 1,
+      "burstiness": 4369.574970239635,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.0142857142857142,
+      "inflow_outflow_asymmetry": -1.0,
+      "timing_entropy": 1.9806945621946903,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": -1,
+      "OneClassSVM": 1,
+      "LOF": -1,
+      "Ensemble": -1,
+      "IsolationForest_score": -0.0195741447039961,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wpgexmeunzsykesf42d4eqet5yvzeap6trjnflxqtkcf66g0kpnxt",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wpjv7a9cse3k4pd44c0lc42yenmcyzaqtgr3rs9xu8l2v6sn24smp",
+    "volume": {
+      "tx_count": 4,
+      "total_received_ada": 12.0,
+      "total_sent_ada": 12.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 6.0,
+      "avg_tx_size_ada": 6.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 4.0,
+      "active_days": 1,
+      "burstiness": 4111482.888888888,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.5,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.0,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1287949354570833,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wpjv7a9cse3k4pd44c0lc42yenmcyzaqtgr3rs9xu8l2v6sn24smp",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wpmae9vv3d5757y6lgfy5z7qk9du8teqhvd7xl53ftuzmjcllkwrs",
+    "volume": {
+      "tx_count": 26,
+      "total_received_ada": 39.0,
+      "total_sent_ada": 39.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 26.0,
+      "active_days": 1,
+      "burstiness": 178090.6496,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.2307692307692307,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.95006375643621,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1409497600745977,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wpmae9vv3d5757y6lgfy5z7qk9du8teqhvd7xl53ftuzmjcllkwrs",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wpmcnpr36xjk7exddlg3pcypc8u3hykvzjz0yjq2ldypjzs630u48",
+    "volume": {
+      "tx_count": 28,
+      "total_received_ada": 35205095.291142,
+      "total_sent_ada": 35205095.291142,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 2514649.663653,
+      "avg_tx_size_ada": 2514649.663653
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 28.0,
+      "active_days": 1,
+      "burstiness": 157933.9259259259,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 1.0,
+      "counterparty_diversity": 0.2142857142857142,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.9852281360342516,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": -1,
+      "OneClassSVM": -1,
+      "LOF": -1,
+      "Ensemble": -1,
+      "IsolationForest_score": -0.2593762778508098,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wpmcnpr36xjk7exddlg3pcypc8u3hykvzjz0yjq2ldypjzs630u48",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wpr4hzrfgp3rj448fkw7qk2yjq5ymxyqt3mcdjkzz6vp55g3h542j",
+    "volume": {
+      "tx_count": 4,
+      "total_received_ada": 60.0,
+      "total_sent_ada": 60.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 4.0,
+      "active_days": 1,
+      "burstiness": 456022.54437869845,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.5,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.0,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.0859497700535829,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wpr4hzrfgp3rj448fkw7qk2yjq5ymxyqt3mcdjkzz6vp55g3h542j",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wpu3cx4qn4kcukgqmcwraqsxvrpyza4afnvty04jxseudfcnn9eke",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 18.0,
+      "total_sent_ada": 18.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 6.0,
+      "avg_tx_size_ada": 6.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 4335809.84,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1460166365582185,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wpu3cx4qn4kcukgqmcwraqsxvrpyza4afnvty04jxseudfcnn9eke",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wpxs63au9yehzl8uhwkyjt84zhrf9slaflhhnvjtg7ukhks8sxm0t",
+    "volume": {
+      "tx_count": 28,
+      "total_received_ada": 42.0,
+      "total_sent_ada": 42.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 28.0,
+      "active_days": 1,
+      "burstiness": 142878.88340192044,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.2142857142857142,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.924174352300441,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1477694087361559,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wpxs63au9yehzl8uhwkyjt84zhrf9slaflhhnvjtg7ukhks8sxm0t",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wq0fhqgpnxem4csqd4wqpewy39345zg9x7ve2wx5uh3c8zqtscmux",
+    "volume": {
+      "tx_count": 2,
+      "total_received_ada": 3.0,
+      "total_sent_ada": 6.0,
+      "net_balance_change_ada": -3.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 2.0,
+      "active_days": 1,
+      "burstiness": 702.25,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 3.0,
+      "inflow_outflow_asymmetry": -0.3333333333333333,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.0873775874570086,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wq0fhqgpnxem4csqd4wqpewy39345zg9x7ve2wx5uh3c8zqtscmux",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wq2wz32lpptwv8u4lmprhjxzp5d5ytawg9du286tfj3t9rsz7rh20",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 9.0,
+      "total_sent_ada": 18.0,
+      "net_balance_change_ada": -9.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 3485902.4375,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": -0.3333333333333333,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1233513458643331,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wq2wz32lpptwv8u4lmprhjxzp5d5ytawg9du286tfj3t9rsz7rh20",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wq4xzlt0pv9dnc6zqpn46fksmqwkj9v5zqpezcr4e53d96q5d66g4",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 36.0,
+      "total_sent_ada": 36.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 1479902.4877126657,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1104606879536466,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wq4xzlt0pv9dnc6zqpn46fksmqwkj9v5zqpezcr4e53d96q5d66g4",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wq56fh9yhketc88zpc9z4ca3k8wdv0yr5hjezw6lgauuttc8786r9",
+    "volume": {
+      "tx_count": 2,
+      "total_received_ada": 6.0,
+      "total_sent_ada": 6.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 6.0,
+      "avg_tx_size_ada": 6.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 2.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 3.0,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.097107926054881,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wq56fh9yhketc88zpc9z4ca3k8wdv0yr5hjezw6lgauuttc8786r9",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wq5ue9d95z4cjhs4msf8vd54fa4xz7y90xjh3vq9u7nce0c35xlrs",
+    "volume": {
+      "tx_count": 2,
+      "total_received_ada": 3.0,
+      "total_sent_ada": 3.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 2.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 3.0,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1059835594016527,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wq5ue9d95z4cjhs4msf8vd54fa4xz7y90xjh3vq9u7nce0c35xlrs",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wq6mp7qks38uptyzxxtlk0pth8mnmyp3h7je6fsxva47qgs2h0a28",
+    "volume": {
+      "tx_count": 4,
+      "total_received_ada": 5.0,
+      "total_sent_ada": 15.0,
+      "net_balance_change_ada": -10.0,
+      "max_tx_size_ada": 5.0,
+      "avg_tx_size_ada": 5.0
+    },
+    "behavior": {
+      "unique_counterparties": 3,
+      "tx_per_day": 4.0,
+      "active_days": 1,
+      "burstiness": 144089.5555555556,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.75,
+      "inflow_outflow_asymmetry": -0.5,
+      "timing_entropy": -0.0,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1307099877578254,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wq6mp7qks38uptyzxxtlk0pth8mnmyp3h7je6fsxva47qgs2h0a28",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wq8xga0gmzpcm8v3q2l4s5fmx5u0eur8fdz7dvqhldz0lng249f0d",
+    "volume": {
+      "tx_count": 147,
+      "total_received_ada": 1991.4355,
+      "total_sent_ada": 2013.30875,
+      "net_balance_change_ada": -21.8732500000001,
+      "max_tx_size_ada": 1.63349,
+      "avg_tx_size_ada": 1.5967879784688996
+    },
+    "behavior": {
+      "unique_counterparties": 9,
+      "tx_per_day": 147.0,
+      "active_days": 1,
+      "burstiness": 633.8137023275394,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.0612244897959183,
+      "inflow_outflow_asymmetry": -0.0054618344230096,
+      "timing_entropy": 1.983738310338233,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": -1,
+      "OneClassSVM": -1,
+      "LOF": -1,
+      "Ensemble": -1,
+      "IsolationForest_score": -0.0078248582325867,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wq8xga0gmzpcm8v3q2l4s5fmx5u0eur8fdz7dvqhldz0lng249f0d",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wq9ry3j4j3nuq788xamnkkmsnkv8pp4umnz7gxcv4746puc3uj3ce",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 9.0,
+      "total_sent_ada": 9.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 3644369.84,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1329957688717591,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wq9ry3j4j3nuq788xamnkkmsnkv8pp4umnz7gxcv4746puc3uj3ce",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wqagte6fw0fzvqttky8nngq3xuyg26hjgsyvd8hfs060wvq0t48ka",
+    "volume": {
+      "tx_count": 4,
+      "total_received_ada": 6.0,
+      "total_sent_ada": 6.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 4.0,
+      "active_days": 1,
+      "burstiness": 4111482.888888888,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.5,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.0,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1175227068193573,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wqagte6fw0fzvqttky8nngq3xuyg26hjgsyvd8hfs060wvq0t48ka",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wqfwyq6csgtlfadwj8ezw6my4x2j7qrw8j30m33z6pvefdscdqgmj",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 18.0,
+      "total_sent_ada": 18.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 6.0,
+      "avg_tx_size_ada": 6.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 3644369.84,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1457881188313496,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wqfwyq6csgtlfadwj8ezw6my4x2j7qrw8j30m33z6pvefdscdqgmj",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wqh4yha0ndhwykrh9cuhr47nh2y97zvkls74h4jq6uhlpacujv3z3",
+    "volume": {
+      "tx_count": 28,
+      "total_received_ada": 42.0,
+      "total_sent_ada": 42.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 28.0,
+      "active_days": 1,
+      "burstiness": 159512.46913580247,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.2142857142857142,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.931560284283316,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1479144205723205,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wqh4yha0ndhwykrh9cuhr47nh2y97zvkls74h4jq6uhlpacujv3z3",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wqjgfxlh64s7589jeakme3j56zezcgv0nvqf2pyx9tnd0scaw5e8p",
+    "volume": {
+      "tx_count": 28,
+      "total_received_ada": 42.0,
+      "total_sent_ada": 42.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 28.0,
+      "active_days": 1,
+      "burstiness": 159512.46913580247,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.2142857142857142,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.931560284283316,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1479144205723205,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wqjgfxlh64s7589jeakme3j56zezcgv0nvqf2pyx9tnd0scaw5e8p",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wqmffm22h5qlr5rw50ksdqr9c56yj3jxa00h40pqqurs36cgzwxgp",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 9.0,
+      "total_sent_ada": 9.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 4378132.24,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1424595767329144,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wqmffm22h5qlr5rw50ksdqr9c56yj3jxa00h40pqqurs36cgzwxgp",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wqnz6yeq5scgwaxgmuyz0f3am7exfspw6g24gyzguf67wuglkf6n8",
+    "volume": {
+      "tx_count": 4,
+      "total_received_ada": 30.0,
+      "total_sent_ada": 30.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 15.0,
+      "avg_tx_size_ada": 15.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 4.0,
+      "active_days": 1,
+      "burstiness": 4103174.2222222234,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.5,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.0,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1248332945955104,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wqnz6yeq5scgwaxgmuyz0f3am7exfspw6g24gyzguf67wuglkf6n8",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wqpkspjhdfz37vtd8g6yvkt6jqqpew0p49gua93j33a7tjsqrsf9k",
+    "volume": {
+      "tx_count": 26,
+      "total_received_ada": 78.0,
+      "total_sent_ada": 78.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 6.0,
+      "avg_tx_size_ada": 6.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 26.0,
+      "active_days": 1,
+      "burstiness": 178090.6496,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.2307692307692307,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.95006375643621,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1341806325156521,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wqpkspjhdfz37vtd8g6yvkt6jqqpew0p49gua93j33a7tjsqrsf9k",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wqt2v8zcpjldyu2zcwz3yuu8p4wpk0hzaqwthh23qgs5xgg7266qn",
+    "volume": {
+      "tx_count": 35,
+      "total_received_ada": 42.0,
+      "total_sent_ada": 105.0,
+      "net_balance_change_ada": -63.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 12,
+      "tx_per_day": 35.0,
+      "active_days": 1,
+      "burstiness": 111813.94748263888,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.3428571428571428,
+      "inflow_outflow_asymmetry": -0.4285714285714285,
+      "timing_entropy": 1.9181244574395229,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.0984474720225935,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wqt2v8zcpjldyu2zcwz3yuu8p4wpk0hzaqwthh23qgs5xgg7266qn",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wquaytcc6ug4zku26z0lwg2p3rr3n84m6cu5ym003340nvswytdsn",
+    "volume": {
+      "tx_count": 4,
+      "total_received_ada": 6.0,
+      "total_sent_ada": 12.0,
+      "net_balance_change_ada": -6.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 4.0,
+      "active_days": 1,
+      "burstiness": 2972321.2,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.5,
+      "inflow_outflow_asymmetry": -0.3333333333333333,
+      "timing_entropy": 1.0,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1026730326623246,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wquaytcc6ug4zku26z0lwg2p3rr3n84m6cu5ym003340nvswytdsn",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wqx8zmxzh6xxpch9zapf60azwm5ze9fsfa7e3ea6vjuzm2ctgrjju",
+    "volume": {
+      "tx_count": 33,
+      "total_received_ada": 60.0,
+      "total_sent_ada": 60.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 10,
+      "tx_per_day": 33.0,
+      "active_days": 1,
+      "burstiness": 144437.5976331361,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.303030303030303,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.7609640474436812,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1210164595428663,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wqx8zmxzh6xxpch9zapf60azwm5ze9fsfa7e3ea6vjuzm2ctgrjju",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wqzdedqpy2ljhf70dw89p399z836dvmgs7sn6qyr0gndu7gp9k7en",
+    "volume": {
+      "tx_count": 3,
+      "total_received_ada": 18.0,
+      "total_sent_ada": 18.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 6.0,
+      "avg_tx_size_ada": 6.0
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 3.0,
+      "active_days": 1,
+      "burstiness": 3125877.7600000007,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.3333333333333333,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 0.5
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.0769609346218027,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wqzdedqpy2ljhf70dw89p399z836dvmgs7sn6qyr0gndu7gp9k7en",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wqzsngca2uu8z8lk0hudfkw300cllua300r3exeeax70xcq4k9hyu",
+    "volume": {
+      "tx_count": 2,
+      "total_received_ada": 0.0,
+      "total_sent_ada": 2003.0,
+      "net_balance_change_ada": -2003.0,
+      "max_tx_size_ada": 1002.0,
+      "avg_tx_size_ada": 1001.5
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 2.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.5,
+      "inflow_outflow_asymmetry": -1.0,
+      "timing_entropy": 1.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.0492040567747895,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wqzsngca2uu8z8lk0hudfkw300cllua300r3exeeax70xcq4k9hyu",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wqzuhlst26gyd3z4nqglyxf5tp06w06ejwmkdys9d003rpg2s0tua",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 2.0,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 2.0,
+      "max_tx_size_ada": 2.0,
+      "avg_tx_size_ada": 2.0
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1313673205320286,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wqzuhlst26gyd3z4nqglyxf5tp06w06ejwmkdys9d003rpg2s0tua",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wqzwpaeqty24g73cnp6h7qyvm68hht5dxsvpnsus0tprv4gceyth2",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 9.0,
+      "total_sent_ada": 18.0,
+      "net_balance_change_ada": -9.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 3457780.609375,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": -0.3333333333333333,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1253525564203418,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wqzwpaeqty24g73cnp6h7qyvm68hht5dxsvpnsus0tprv4gceyth2",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wr4c5ruvn9ss5r4davqh8nf964c8t2hu7kl8cqmxt42hdwqhuqp46",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 153.0,
+      "total_sent_ada": 153.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 51.0,
+      "avg_tx_size_ada": 51.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 4387945.6,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.0965286037980594,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wr4c5ruvn9ss5r4davqh8nf964c8t2hu7kl8cqmxt42hdwqhuqp46",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wr58mfjzx6x8ew7erz64dlr4uw7hupjvqrn5epurq3tedrgqzssx5",
+    "volume": {
+      "tx_count": 4,
+      "total_received_ada": 66.0,
+      "total_sent_ada": 66.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 33.0,
+      "avg_tx_size_ada": 33.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 4.0,
+      "active_days": 1,
+      "burstiness": 3984846.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.5,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.0,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1072853649889095,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wr58mfjzx6x8ew7erz64dlr4uw7hupjvqrn5epurq3tedrgqzssx5",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wr5y0f3f6rjh5w9ynjphaf6j79c5tg3xnywzgzw93rnf2jqgmf0mh",
+    "volume": {
+      "tx_count": 4,
+      "total_received_ada": 6.0,
+      "total_sent_ada": 12.0,
+      "net_balance_change_ada": -6.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 4.0,
+      "active_days": 1,
+      "burstiness": 2896203.84,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.5,
+      "inflow_outflow_asymmetry": -0.3333333333333333,
+      "timing_entropy": 1.0,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.0959114584054615,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wr5y0f3f6rjh5w9ynjphaf6j79c5tg3xnywzgzw93rnf2jqgmf0mh",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wr62e0vzmj9mj7qapaecc0yjyk0rgp9yutyqa5qc29xdkzctrz3qn",
+    "volume": {
+      "tx_count": 4,
+      "total_received_ada": 6.0,
+      "total_sent_ada": 6.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 4.0,
+      "active_days": 1,
+      "burstiness": 3984846.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.5,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.0,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1110672097270351,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wr62e0vzmj9mj7qapaecc0yjyk0rgp9yutyqa5qc29xdkzctrz3qn",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wr78sqd8ltkjl4t375cv9d5kv8psssd8wk2qct3qm7lu6nccg6nke",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 9.0,
+      "total_sent_ada": 9.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 4459405.6,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": -1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1368521180681854,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wr78sqd8ltkjl4t375cv9d5kv8psssd8wk2qct3qm7lu6nccg6nke",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wr8s48slcgnz44uv2yvu6am5y0zvk93lffw80gnl9ns64tsdqedsl",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 9.0,
+      "total_sent_ada": 18.0,
+      "net_balance_change_ada": -9.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 3472307.359375,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": -0.3333333333333333,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1251689120447892,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wr8s48slcgnz44uv2yvu6am5y0zvk93lffw80gnl9ns64tsdqedsl",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wrdk050fs7r9537m9wxfnqzmjsxnmud5v8le6vjh6k5jhvchuyj76",
+    "volume": {
+      "tx_count": 28,
+      "total_received_ada": 42.0,
+      "total_sent_ada": 84.0,
+      "net_balance_change_ada": -42.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 28.0,
+      "active_days": 1,
+      "burstiness": 143044.53063652586,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.2142857142857142,
+      "inflow_outflow_asymmetry": -0.3333333333333333,
+      "timing_entropy": 1.9852281360342516,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1311099894701946,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wrdk050fs7r9537m9wxfnqzmjsxnmud5v8le6vjh6k5jhvchuyj76",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wrem0cch36ywuyfmf9zlmh0keayhw4txnkf0nsav4kmt2hsg4whlw",
+    "volume": {
+      "tx_count": 4,
+      "total_received_ada": 6.0,
+      "total_sent_ada": 12.0,
+      "net_balance_change_ada": -6.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 4.0,
+      "active_days": 1,
+      "burstiness": 3210798.64,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.5,
+      "inflow_outflow_asymmetry": -0.3333333333333333,
+      "timing_entropy": 1.0,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.092023727656978,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wrem0cch36ywuyfmf9zlmh0keayhw4txnkf0nsav4kmt2hsg4whlw",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wrgqt57hqa04uy928n5lgqdfllwr6fd9a5a0wjxf87e6g6g0d7ecm",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 9.0,
+      "total_sent_ada": 9.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 4335809.84,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1379343084336949,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wrgqt57hqa04uy928n5lgqdfllwr6fd9a5a0wjxf87e6g6g0d7ecm",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wrhgfy9xkftac320syvujslc9t9za2hevxecmvj050ntxwqdz596n",
+    "volume": {
+      "tx_count": 7,
+      "total_received_ada": 9.87421,
+      "total_sent_ada": 1.40937,
+      "net_balance_change_ada": 8.464840000000002,
+      "max_tx_size_ada": 1.41799,
+      "avg_tx_size_ada": 1.4104475
+    },
+    "behavior": {
+      "unique_counterparties": 7,
+      "tx_per_day": 7.0,
+      "active_days": 1,
+      "burstiness": 1185.1020408163265,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 0.7501909854851033,
+      "timing_entropy": -0.0,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1045913955109452,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wrhgfy9xkftac320syvujslc9t9za2hevxecmvj050ntxwqdz596n",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wrjarvxfuj82nqz3r65rg3plnn8z4l7wy2jjxtwfr5wcyucu0a447",
+    "volume": {
+      "tx_count": 3,
+      "total_received_ada": 0.0,
+      "total_sent_ada": 15.0,
+      "net_balance_change_ada": -15.0,
+      "max_tx_size_ada": 5.0,
+      "avg_tx_size_ada": 5.0
+    },
+    "behavior": {
+      "unique_counterparties": 3,
+      "tx_per_day": 3.0,
+      "active_days": 1,
+      "burstiness": 174306.25,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": -1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.101270133136487,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wrjarvxfuj82nqz3r65rg3plnn8z4l7wy2jjxtwfr5wcyucu0a447",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wrpjqever8rezsvkc05cew572uw6w0wakk6caupycp4kf5g2zalzc",
+    "volume": {
+      "tx_count": 4,
+      "total_received_ada": 6.930479999999999,
+      "total_sent_ada": 5.180619999999999,
+      "net_balance_change_ada": 1.74986,
+      "max_tx_size_ada": 1.74986,
+      "avg_tx_size_ada": 1.730157142857143
+    },
+    "behavior": {
+      "unique_counterparties": 2,
+      "tx_per_day": 4.0,
+      "active_days": 1,
+      "burstiness": 37411.333333333336,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.5,
+      "inflow_outflow_asymmetry": 0.1444839857651245,
+      "timing_entropy": -0.0,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1411350154907028,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wrpjqever8rezsvkc05cew572uw6w0wakk6caupycp4kf5g2zalzc",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wrrx9y5xzuumqxsk2q9l2qwusdfuj23c3ctqxf2dhw5q9hgcyg2d0",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 45.0,
+      "total_sent_ada": 45.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 15.0,
+      "avg_tx_size_ada": 15.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 4445744.960000001,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1315590328630828,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wrrx9y5xzuumqxsk2q9l2qwusdfuj23c3ctqxf2dhw5q9hgcyg2d0",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wrswzjuscfnne4wqpuqpckpvjehj9m344sy886kttgwq2wc8g2xa8",
+    "volume": {
+      "tx_count": 28,
+      "total_received_ada": 84.0,
+      "total_sent_ada": 84.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 6.0,
+      "avg_tx_size_ada": 6.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 28.0,
+      "active_days": 1,
+      "burstiness": 142878.88340192044,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.2142857142857142,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.924174352300441,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.138249247498844,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wrswzjuscfnne4wqpuqpckpvjehj9m344sy886kttgwq2wc8g2xa8",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wrsx6gftxpsy90esyks0ddjd4636g2v5a63t47ztzrd2r3cfekl8s",
+    "volume": {
+      "tx_count": 4,
+      "total_received_ada": 30.0,
+      "total_sent_ada": 30.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 15.0,
+      "avg_tx_size_ada": 15.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 4.0,
+      "active_days": 1,
+      "burstiness": 4424331.555555556,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.5,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.0,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1177983769519174,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wrsx6gftxpsy90esyks0ddjd4636g2v5a63t47ztzrd2r3cfekl8s",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wru93xpnc6v2svsq79kyyegj0mv4mdl83sdtp8dgtu9y78smvhuhs",
+    "volume": {
+      "tx_count": 2,
+      "total_received_ada": 1321.953795,
+      "total_sent_ada": 1325.875581,
+      "net_balance_change_ada": -3.921786000000111,
+      "max_tx_size_ada": 663.918237,
+      "avg_tx_size_ada": 661.957344
+    },
+    "behavior": {
+      "unique_counterparties": 3,
+      "tx_per_day": 2.0,
+      "active_days": 1,
+      "burstiness": 61016.8888888889,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.5,
+      "inflow_outflow_asymmetry": -0.0014811324458997,
+      "timing_entropy": -0.0,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1314894883491195,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wru93xpnc6v2svsq79kyyegj0mv4mdl83sdtp8dgtu9y78smvhuhs",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wrumn0zm9c858kghqrzjhhv555rgzt9hzje3sksh2e7ggaqewfxd4",
+    "volume": {
+      "tx_count": 5,
+      "total_received_ada": 50.0,
+      "total_sent_ada": 30.0,
+      "net_balance_change_ada": 20.0,
+      "max_tx_size_ada": 10.0,
+      "avg_tx_size_ada": 10.0
+    },
+    "behavior": {
+      "unique_counterparties": 4,
+      "tx_per_day": 5.0,
+      "active_days": 1,
+      "burstiness": 746951.9591836735,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.8,
+      "inflow_outflow_asymmetry": 0.25,
+      "timing_entropy": 0.5435644431995964,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1236503435812813,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wrumn0zm9c858kghqrzjhhv555rgzt9hzje3sksh2e7ggaqewfxd4",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wrxqwmj2twfn5rtp6w4cvkehk0ucnkeklggcfpz76ktrsdsx47pvl",
+    "volume": {
+      "tx_count": 28,
+      "total_received_ada": 42.0,
+      "total_sent_ada": 42.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 28.0,
+      "active_days": 1,
+      "burstiness": 157933.9259259259,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.2142857142857142,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.9852281360342516,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.143059096823751,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wrxqwmj2twfn5rtp6w4cvkehk0ucnkeklggcfpz76ktrsdsx47pvl",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wz05ca0ksvk9q2jmacy7m28n9qnfelh3h68cw0s60w5nhwgwu6d9y",
+    "volume": {
+      "tx_count": 28,
+      "total_received_ada": 42.0,
+      "total_sent_ada": 42.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 28.0,
+      "active_days": 1,
+      "burstiness": 142878.88340192044,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.2142857142857142,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.924174352300441,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1477694087361559,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wz05ca0ksvk9q2jmacy7m28n9qnfelh3h68cw0s60w5nhwgwu6d9y",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wz0ts5l5c7d56ymeg0w8d5ugvr2rrtc8rux36qal8nmttkcvun065",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 18.0,
+      "total_sent_ada": 18.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 6.0,
+      "avg_tx_size_ada": 6.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 4459405.6,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1457700402704345,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wz0ts5l5c7d56ymeg0w8d5ugvr2rrtc8rux36qal8nmttkcvun065",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wz46tk8vdvlq6a5cccgysw7nfw4r0frnxdmkhyxaxgxal0guru5sm",
+    "volume": {
+      "tx_count": 2,
+      "total_received_ada": 20.0,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 20.0,
+      "max_tx_size_ada": 10.0,
+      "avg_tx_size_ada": 10.0
+    },
+    "behavior": {
+      "unique_counterparties": 2,
+      "tx_per_day": 2.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1244891570845929,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wz46tk8vdvlq6a5cccgysw7nfw4r0frnxdmkhyxaxgxal0guru5sm",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wz4ydpqxpstg453xlr6v3elpg578ussvk8ezunkj62p9wjq7uw9zq",
+    "volume": {
+      "tx_count": 4,
+      "total_received_ada": 24.0,
+      "total_sent_ada": 24.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 4.0,
+      "active_days": 1,
+      "burstiness": 1160912.6222222222,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.5,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.0,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1073020671211563,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wz4ydpqxpstg453xlr6v3elpg578ussvk8ezunkj62p9wjq7uw9zq",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wz6sedftk7l7x8yj650hwsvfkksejwjrvllfwfqq33jx8xqq34k2n",
+    "volume": {
+      "tx_count": 33,
+      "total_received_ada": 39.0,
+      "total_sent_ada": 99.0,
+      "net_balance_change_ada": -60.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 10,
+      "tx_per_day": 33.0,
+      "active_days": 1,
+      "burstiness": 134519.7066666667,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.303030303030303,
+      "inflow_outflow_asymmetry": -0.4347826086956521,
+      "timing_entropy": 1.924673368630172,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1145191144362638,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wz6sedftk7l7x8yj650hwsvfkksejwjrvllfwfqq33jx8xqq34k2n",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wz6t5wlw4u2tzjt3u3syqf72t98gl5247rxm7xk6nj7n39ql4j96k",
+    "volume": {
+      "tx_count": 4,
+      "total_received_ada": 6.0,
+      "total_sent_ada": 6.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 4.0,
+      "active_days": 1,
+      "burstiness": 4111482.888888888,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.5,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.0,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1175227068193573,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wz6t5wlw4u2tzjt3u3syqf72t98gl5247rxm7xk6nj7n39ql4j96k",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wz7r6jckeamgmk7md4583v8ztzyn9as8jfa0f8up3cgm0pcfc2qk5",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 9.0,
+      "total_sent_ada": 18.0,
+      "net_balance_change_ada": -9.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 3450337.609375,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": -0.3333333333333333,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.125012537385869,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wz7r6jckeamgmk7md4583v8ztzyn9as8jfa0f8up3cgm0pcfc2qk5",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wz7ueqtqrz4kqfep99d8z7wwjwfu52md2k9hljvuj4w08yc3mjw6u",
+    "volume": {
+      "tx_count": 2,
+      "total_received_ada": 3.0,
+      "total_sent_ada": 3.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 2.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 3.0,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1059835594016527,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wz7ueqtqrz4kqfep99d8z7wwjwfu52md2k9hljvuj4w08yc3mjw6u",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wz808v50lg7hecd9x2h2jauzl7dj40klzstwawh9ugavuzqklrl2s",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 9.0,
+      "total_sent_ada": 9.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 4459405.6,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": -1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1368521180681854,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wz808v50lg7hecd9x2h2jauzl7dj40klzstwawh9ugavuzqklrl2s",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wzahpwnwnme6ch40xhsz6mqpvpuklua3zumjmvd6rad079cw824v4",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 18.0,
+      "total_sent_ada": 18.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 6.0,
+      "avg_tx_size_ada": 6.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 4406466.64,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.147676280424235,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wzahpwnwnme6ch40xhsz6mqpvpuklua3zumjmvd6rad079cw824v4",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wzc8m27kmthnelxvaa8fr23eu452nckvpnj233czpxwfv9qpj2rm6",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 9.0,
+      "total_sent_ada": 18.0,
+      "net_balance_change_ada": -9.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 3433737.734375,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": -0.3333333333333333,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1202228157033126,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wzc8m27kmthnelxvaa8fr23eu452nckvpnj233czpxwfv9qpj2rm6",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+    "volume": {
+      "tx_count": 177,
+      "total_received_ada": 0.0,
+      "total_sent_ada": 599.94488,
+      "net_balance_change_ada": -599.94488,
+      "max_tx_size_ada": 5.15476,
+      "avg_tx_size_ada": 3.26057
+    },
+    "behavior": {
+      "unique_counterparties": 70,
+      "tx_per_day": 177.0,
+      "active_days": 1,
+      "burstiness": 7012.343694944609,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.3954802259887006,
+      "inflow_outflow_asymmetry": -1.0,
+      "timing_entropy": 1.9470895408722453,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": -1,
+      "OneClassSVM": -1,
+      "LOF": -1,
+      "Ensemble": -1,
+      "IsolationForest_score": -0.0973515954373334,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wzdk0xh4d79x3m8rjflefmfqq0975pqu02zcxlea2xdamfsq2k43m",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 9.0,
+      "total_sent_ada": 18.0,
+      "net_balance_change_ada": -9.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 2873687.984375,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": -0.3333333333333333,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1025413331911201,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wzdk0xh4d79x3m8rjflefmfqq0975pqu02zcxlea2xdamfsq2k43m",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wzdxcp8m35jaap2ltwpz7pqdgku4lfm48akt57g779yajtgywjwm2",
+    "volume": {
+      "tx_count": 1,
+      "total_received_ada": 5.0,
+      "total_sent_ada": 0.0,
+      "net_balance_change_ada": 5.0,
+      "max_tx_size_ada": 5.0,
+      "avg_tx_size_ada": 5.0
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 1.0,
+      "active_days": 1,
+      "burstiness": 0.0,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 1.0,
+      "timing_entropy": -0.0,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1315430991491866,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wzdxcp8m35jaap2ltwpz7pqdgku4lfm48akt57g779yajtgywjwm2",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+    "volume": {
+      "tx_count": 142,
+      "total_received_ada": 0.0,
+      "total_sent_ada": 6831.793929999999,
+      "net_balance_change_ada": -6831.793929999999,
+      "max_tx_size_ada": 42.99225,
+      "avg_tx_size_ada": 16.227539026128266
+    },
+    "behavior": {
+      "unique_counterparties": 58,
+      "tx_per_day": 142.0,
+      "active_days": 1,
+      "burstiness": 4696.972851473924,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.4084507042253521,
+      "inflow_outflow_asymmetry": -1.0,
+      "timing_entropy": 1.9349246788728385,
+      "velocity_hours": null
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": -1,
+      "OneClassSVM": 1,
+      "LOF": -1,
+      "Ensemble": -1,
+      "IsolationForest_score": -0.0823242106067508,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wzkw2yk6ffmd5ugx8uprpf2ujxx2at5kkptpkt5yzwu2twq6mqjur",
+    "volume": {
+      "tx_count": 4,
+      "total_received_ada": 6.8615200000000005,
+      "total_sent_ada": 5.1289,
+      "net_balance_change_ada": 1.7326200000000007,
+      "max_tx_size_ada": 1.73262,
+      "avg_tx_size_ada": 1.7129171428571428
+    },
+    "behavior": {
+      "unique_counterparties": 1,
+      "tx_per_day": 4.0,
+      "active_days": 1,
+      "burstiness": 732666.8055555556,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.25,
+      "inflow_outflow_asymmetry": 0.1445003594536305,
+      "timing_entropy": 1.3787834934861751,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1317625881063256,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wzkw2yk6ffmd5ugx8uprpf2ujxx2at5kkptpkt5yzwu2twq6mqjur",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wzmevtuvx4ywk7hv844ps85v9uq7jjchkpae076hhh6dtjg2wdx9w",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 9.0,
+      "total_sent_ada": 9.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 4378132.24,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1424595767329144,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wzmevtuvx4ywk7hv844ps85v9uq7jjchkpae076hhh6dtjg2wdx9w",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wzngjz9t8f5cvgclxj6ve3vfj0tjuf4dmynyfx6cwf4m9es34vmlk",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 18.0,
+      "total_sent_ada": 18.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 6.0,
+      "avg_tx_size_ada": 6.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 4378132.24,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1487173982597598,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wzngjz9t8f5cvgclxj6ve3vfj0tjuf4dmynyfx6cwf4m9es34vmlk",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wznh7wflxy0m28ny6anvu3kgtd4s8v9w0vzu9affzqd3xssppnguc",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 9.0,
+      "total_sent_ada": 18.0,
+      "net_balance_change_ada": -9.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 3510655.609375,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": -0.3333333333333333,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1181374551339466,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wznh7wflxy0m28ny6anvu3kgtd4s8v9w0vzu9affzqd3xssppnguc",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wzwhp7acq658tg05mfnuqr060f3a3c4gp5tejydyjj77yxcc9n9zj",
+    "volume": {
+      "tx_count": 28,
+      "total_received_ada": 42.0,
+      "total_sent_ada": 84.0,
+      "net_balance_change_ada": -42.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 28.0,
+      "active_days": 1,
+      "burstiness": 146151.17311124332,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.2142857142857142,
+      "inflow_outflow_asymmetry": -0.3333333333333333,
+      "timing_entropy": 1.9307421205802224,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1353468615141707,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wzwhp7acq658tg05mfnuqr060f3a3c4gp5tejydyjj77yxcc9n9zj",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wzyurx5m64r0k9q789qnrz2x8sl7g4anum0ezf5l5u7zalg6ydplp",
+    "volume": {
+      "tx_count": 4,
+      "total_received_ada": 24.0,
+      "total_sent_ada": 24.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 4.0,
+      "active_days": 1,
+      "burstiness": 1255666.1155555565,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.5,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.0,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1077608766166492,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wzyurx5m64r0k9q789qnrz2x8sl7g4anum0ezf5l5u7zalg6ydplp",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1wzzv7v5slyrs4gkgr793ak4upmhs4xrk00f48s3vd4rlplctm5aak",
+    "volume": {
+      "tx_count": 6,
+      "total_received_ada": 9.0,
+      "total_sent_ada": 9.0,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 3.0,
+      "avg_tx_size_ada": 3.0
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 6.0,
+      "active_days": 1,
+      "burstiness": 4335809.84,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.584962500721156,
+      "velocity_hours": 1.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.1379343084336949,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1wzzv7v5slyrs4gkgr793ak4upmhs4xrk00f48s3vd4rlplctm5aak",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1xp3g6ayyt3e0m9w3jtxr84mf877nhqh4snt2g7ww43yf6lx4w8kmdszpx27e3wpawvkcqcrhrl9ra09stpe8ahtznzesm8x8rk",
+    "volume": {
+      "tx_count": 4,
+      "total_received_ada": 2013800.21031,
+      "total_sent_ada": 2013798.35031,
+      "net_balance_change_ada": 1.8599999998696148,
+      "max_tx_size_ada": 1006898.09546,
+      "avg_tx_size_ada": 503449.8200775
+    },
+    "behavior": {
+      "unique_counterparties": 2,
+      "tx_per_day": 4.0,
+      "active_days": 1,
+      "burstiness": 38137.10204081632,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.5,
+      "counterparty_diversity": 0.5,
+      "inflow_outflow_asymmetry": 4.618136519502804e-07,
+      "timing_entropy": -0.0,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": -1,
+      "OneClassSVM": -1,
+      "LOF": -1,
+      "Ensemble": -1,
+      "IsolationForest_score": -0.1641793540022841,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1xp3g6ayyt3e0m9w3jtxr84mf877nhqh4snt2g7ww43yf6lx4w8kmdszpx27e3wpawvkcqcrhrl9ra09stpe8ahtznzesm8x8rk",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1xz429ta7d8akqvk6rtkavja8kshy4m3dplm2sgx60rp0fk3pmuk902u7lh609tzz54f32s49s5uf6sphu2zer00a2k4qkq40f9",
+    "volume": {
+      "tx_count": 2,
+      "total_received_ada": 5099.778061,
+      "total_sent_ada": 5098.327215,
+      "net_balance_change_ada": 1.4508459999997283,
+      "max_tx_size_ada": 2550.265008,
+      "avg_tx_size_ada": 2549.526319
+    },
+    "behavior": {
+      "unique_counterparties": 2,
+      "tx_per_day": 2.0,
+      "active_days": 1,
+      "burstiness": 102453.55555555556,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 0,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 1.0,
+      "inflow_outflow_asymmetry": 0.000142266230906,
+      "timing_entropy": -0.0,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.149336072378567,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1xz429ta7d8akqvk6rtkavja8kshy4m3dplm2sgx60rp0fk3pmuk902u7lh609tzz54f32s49s5uf6sphu2zer00a2k4qkq40f9",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1zpt24v32hpd88w3l0wmwg3mhs9lm5dzrnn0d22n6seznmjy9rk398gms2eh8snp58c9skehndz9ps8ff5rfns7mfafnqf5lz9g",
+    "volume": {
+      "tx_count": 8,
+      "total_received_ada": 42.0,
+      "total_sent_ada": 5.0,
+      "net_balance_change_ada": 37.0,
+      "max_tx_size_ada": 12.0,
+      "avg_tx_size_ada": 5.875
+    },
+    "behavior": {
+      "unique_counterparties": 3,
+      "tx_per_day": 8.0,
+      "active_days": 1,
+      "burstiness": 530371.9183673469,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 0.0,
+      "counterparty_diversity": 0.375,
+      "inflow_outflow_asymmetry": 0.7872340425531915,
+      "timing_entropy": 0.8112781244591328,
+      "velocity_hours": 0.2857142857142857
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": 1,
+      "OneClassSVM": 1,
+      "LOF": 1,
+      "Ensemble": 1,
+      "IsolationForest_score": 0.0755828168953139,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1zpt24v32hpd88w3l0wmwg3mhs9lm5dzrnn0d22n6seznmjy9rk398gms2eh8snp58c9skehndz9ps8ff5rfns7mfafnqf5lz9g",
+      "tables_ref": "table.csv"
+    }
+  },
+  {
+    "address": "addr_test1zqudngxpumflu6gh45hw3tkeuzeq3vmgvr25f6y60t7n0rhvt20ehwqu594stgx7mw6855w20cxsnt5g5r7zy8j5nnuqlh5wkk",
+    "volume": {
+      "tx_count": 28,
+      "total_received_ada": 35205053.291141994,
+      "total_sent_ada": 35205053.291141994,
+      "net_balance_change_ada": 0.0,
+      "max_tx_size_ada": 628661.665914,
+      "avg_tx_size_ada": 628661.6659132501
+    },
+    "behavior": {
+      "unique_counterparties": 6,
+      "tx_per_day": 28.0,
+      "active_days": 1,
+      "burstiness": 70373.99366934504,
+      "collateral_ratio": 0.0,
+      "smart_contract_flag": 1,
+      "high_value_ratio": 1.0,
+      "counterparty_diversity": 0.2142857142857142,
+      "inflow_outflow_asymmetry": 0.0,
+      "timing_entropy": 1.9852281360342516,
+      "velocity_hours": 0.0
+    },
+    "graph": {
+      "degree": null,
+      "weighted_degree": null,
+      "clustering_coefficient": null,
+      "betweenness_centrality": null
+    },
+    "models": {
+      "IsolationForest": -1,
+      "OneClassSVM": -1,
+      "LOF": -1,
+      "Ensemble": -1,
+      "IsolationForest_score": -0.193774607010199,
+      "shap_top_contributors": []
+    },
+    "links": {
+      "timeseries_ref": "addr_test1zqudngxpumflu6gh45hw3tkeuzeq3vmgvr25f6y60t7n0rhvt20ehwqu594stgx7mw6855w20cxsnt5g5r7zy8j5nnuqlh5wkk",
+      "tables_ref": "table.csv"
+    }
+  }
+]

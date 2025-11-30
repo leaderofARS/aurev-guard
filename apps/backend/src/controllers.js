@@ -14,7 +14,6 @@ export async function postScanAddress(req, res) {
   }
 
   try {
-    // Call Python AI stub
     const aiRes = await fetch(`${config.PY_AI_URL}/ai/score`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -22,13 +21,12 @@ export async function postScanAddress(req, res) {
       timeout: 5000,
     });
 
-    let aiData;
     if (!aiRes.ok) {
       throw new Error("AI service error");
     }
-    aiData = await aiRes.json();
 
-    // Create decision bundle
+    const aiData = await aiRes.json();
+
     const bundle = {
       requestId,
       timestamp: new Date().toISOString(),
@@ -47,20 +45,15 @@ export async function postScanAddress(req, res) {
       status: "scored",
     };
 
-    // Save bundle (by requestId and address)
     saveDecisionBundle(requestId, bundle);
     saveDecisionBundle(address, bundle);
 
     console.log(`[${requestId}] Scan complete: score=${bundle.riskScore}`);
 
-    return res.json({
-      ...aiData,
-      requestId,
-    });
+    return res.json({ ...aiData, requestId });
   } catch (err) {
     console.warn(`[${requestId}] AI fallback:`, err.message);
 
-    // Fallback response
     const fallback = {
       address,
       riskScore: 50,
@@ -111,7 +104,6 @@ export async function postAgentDecision(req, res) {
     });
   }
 
-  // Update bundle with Masumi decision
   bundle.masumiDecision = "APPROVED";
   bundle.status = "approved";
   saveDecisionBundle(requestId, bundle);
@@ -144,13 +136,11 @@ export async function postContractLog(req, res) {
     });
   }
 
-  // Generate proof components
   const proofId = `proof-${uuidv4()}`;
   const unsignedTxHex = `FAKE_UNSIGNED_TX_${Date.now()}_${crypto
     .randomBytes(16)
     .toString("hex")}`;
 
-  // Compute decision hash (canonical JSON)
   const hashData = {
     address: bundle.address,
     explanation: bundle.explanation,
@@ -161,13 +151,13 @@ export async function postContractLog(req, res) {
     requestId,
     riskScore: bundle.riskScore,
   };
+
   const canonical = JSON.stringify(hashData, Object.keys(hashData).sort());
   const decisionHash = crypto
     .createHash("sha256")
     .update(canonical)
     .digest("hex");
 
-  // Update bundle
   bundle.proofId = proofId;
   bundle.unsignedTxHex = unsignedTxHex;
   bundle.decisionHash = decisionHash;
@@ -216,13 +206,12 @@ export async function getDecision(req, res) {
   }
 
   console.log(`[${req.requestId}] Retrieved decision: ${proofId}`);
-
   return res.json(bundle);
 }
 
 // POST /v1/anchor
 export async function postAnchor(req, res) {
-  const { proofId, strategy } = req.body || {};
+  const { proofId } = req.body || {};
 
   if (!proofId) {
     return res.status(400).json({
@@ -239,13 +228,13 @@ export async function postAnchor(req, res) {
     });
   }
 
-  // Mock anchor
   const anchoredTxId = `ANCHOR_TX_${Date.now()}_${crypto
     .randomBytes(8)
     .toString("hex")}`;
 
   bundle.anchoredTxId = anchoredTxId;
   bundle.status = "anchored";
+
   saveDecisionBundle(proofId, bundle);
 
   console.log(`[${req.requestId}] Anchored: ${proofId} -> ${anchoredTxId}`);
@@ -254,43 +243,4 @@ export async function postAnchor(req, res) {
     anchoredTxId,
     status: "pending",
   });
-}
-
-// GET /project
-export async function getProject(req, res) {
-  const requestId = req.requestId;
-
-  const payload = {
-    projectName: "Aurev Guard",
-    tagline:
-      "Lightweight Cardano compliance and risk scanning for contracts and wallets.",
-    about:
-      "Aurev Guard is a demo guard agent that scans Cardano contracts and wallet activity for compliance and risk indicators. It demonstrates integration patterns between a frontend, backend, and lightweight AI checks for prototyping enforcement workflows.",
-    features: [
-      {
-        id: "contract_scans",
-        title: "Contract Scans",
-        description:
-          "Static and runtime checks for common compliance patterns and suspicious constructs.",
-      },
-      {
-        id: "wallet_risk",
-        title: "Wallet Risk",
-        description:
-          "Score wallets by recent activity, known bad patterns, and heuristics.",
-      },
-      {
-        id: "proofs_minting",
-        title: "Proofs & Minting",
-        description:
-          "Lightweight proof mint flows and sample validators to test offline workflows.",
-      },
-    ],
-    docsUrl: "/docs",
-    homepage: "/",
-    timestamp: new Date().toISOString(),
-  };
-
-  console.log(`[${requestId}] Served project metadata`);
-  return res.json({ ...payload, requestId });
 }

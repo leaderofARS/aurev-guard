@@ -1,0 +1,2977 @@
+{
+  "addr_test1qp23yv7k4kzhd2rntjamkda4q7hdn9qkrf63u9p8ce6fhwdeve3p6rsav4v5mdcz8qzcfenrlwhrs2ffk04ac44ermfq5t8ljx": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 14999.819891,
+      "daily_sent_ada": 10000.0,
+      "daily_net_ada": 4999.819890999999,
+      "daily_max_tx_ada": 10000.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qzyp52q023yfcvrj902k2hs9gn258ddnsrcg3p540vy7ldd7h569fuf63k3lj4frpp6c9mv0eegedj5qjffyc44qezuseuuy9y",
+          "addr_test1vqeux7xwusdju9dvsj8h7mca9aup2k439kfmwy773xxc2hcu7zy99"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qp5r7gm03mw08u9zkfrxvdr5phwg9n2mn90mcthpmea6kmt5tuww9mf3pzmp3nrvjm95hfju2v57w6f5d54h8eqd2wysqkvsl9": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 4999.831331,
+      "daily_sent_ada": 10000.0,
+      "daily_net_ada": -5000.168669,
+      "daily_max_tx_ada": 10000.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qpsxak49pveycp2phjqzr9gfmttf9dqsx5t404xq4dz4u7ja2vzlmkj7ck88c4n40ehps56gxvts9x2weqgq89gfef5snjnwz3"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qp6h0qzy8e5dw238qzde33tz6qtgjegdphrawy4h7uch05x889c9re4ajppf7f6u9vz2rxwjfd0epkcs7wdvfpjh5h7qvn4ck4": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 49088.950138,
+      "daily_sent_ada": 49257.791723,
+      "daily_net_ada": -168.84158500000194,
+      "daily_max_tx_ada": 9893.494873,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qrqp0rwtuy4as2d0gu7ezyzx85759k7wsq4u860cy6zxq740de9hgwfj472mw57psjmpevgsezv0xkcchmhn4ye9kluse5gflu"
+        ],
+        "top_counterparty_count": 3
+      }
+    }
+  ],
+  "addr_test1qp6ruunvywyrn2ldrxwk3h9dw254rgcwmp6g9prfjx53ntv898ykky2499xvnfn5eprxza4ctcvyvh96zhq8yn7p03lq2z8mze": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 18898.376703,
+      "daily_sent_ada": 18908.725657,
+      "daily_net_ada": -10.34895399999732,
+      "daily_max_tx_ada": 9456.950067,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wpcyj0yjzsp9qawt2esgea5efjdd029fzcp9qprf666jzfqt9cr4e",
+          "addr_test1wzdxcp8m35jaap2ltwpz7pqdgku4lfm48akt57g779yajtgywjwm2"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qpfpxx2m56u7td8duem6kkcdw25kfyd0jcv7g7hwup797p5d0v7l822u4xea8zty37320uz3nwdl88agexcj9n7s986q5j40uk": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 5066.214307,
+      "daily_sent_ada": 5473.362987,
+      "daily_net_ada": -407.1486800000002,
+      "daily_max_tx_ada": 987.380719,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1zpt24v32hpd88w3l0wmwg3mhs9lm5dzrnn0d22n6seznmjy9rk398gms2eh8snp58c9skehndz9ps8ff5rfns7mfafnqf5lz9g",
+          "addr_test1qzjlvcktfaxlwkc2vjw88mvxdm8dreejklxe34dea64efkal3yq6fxf0xa3nyxfrjcszcddjcyc8fv6q4dj2hxhed9kssca2ee",
+          "addr_test1qrumevq7kkyljesjhdtwuugwrf84qcfnlmuwgr9pmwpl8wdc27djcryfv4gxdyhw088dgy2v566wgq8jqyd4cw0agrdqdt3m2e"
+        ],
+        "top_counterparty_count": 7
+      }
+    }
+  ],
+  "addr_test1qpgq2n6vpdwskfjk0uzj9askyele649ghtz8q9r9m2r07hxw6a59ugz9wl2t82g3nggzgxpz99unwe48cx8zrct66p7syxy2l0": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 8999.819891,
+      "daily_sent_ada": 10000.0,
+      "daily_net_ada": -1000.1801090000008,
+      "daily_max_tx_ada": 10000.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qqcm62zdvt38ctv432tptaqdrdh3hl2xlp4guq893hqpu6l77qrcufvgcycrglrj4qgxzfhk723vkn46patwnngwhyrqtunqtw"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qphpmu6qm46rgvvnxfwfc8a57y4dj20x665ulr5xjaywh93s8cfm5nnkkn5kve26gvssg7wp77jnxleujwcz8xs7v29qcdvhz8": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 5.0,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 5.0,
+      "daily_max_tx_ada": 5.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qpwrzk49m733n33krd27fdzn8yecwvju80e8c5g45asj35f2deak5yydxl5pmzdg20wgsadhu87r4elkwva8y9zge0uqs44jt2"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qpsxak49pveycp2phjqzr9gfmttf9dqsx5t404xq4dz4u7ja2vzlmkj7ck88c4n40ehps56gxvts9x2weqgq89gfef5snjnwz3": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 5000.0,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 5000.0,
+      "daily_max_tx_ada": 5000.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qp5r7gm03mw08u9zkfrxvdr5phwg9n2mn90mcthpmea6kmt5tuww9mf3pzmp3nrvjm95hfju2v57w6f5d54h8eqd2wysqkvsl9"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qptu9takwxy2309end3nuu54lpw4cpxlp7lunzqd25p69g7q9hp5y0uxq0mmautdg2mzmhctm6e5h56rrqf0epdvpwwswx5u2w": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 10000.0,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 10000.0,
+      "daily_max_tx_ada": 10000.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1vqeux7xwusdju9dvsj8h7mca9aup2k439kfmwy773xxc2hcu7zy99"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qpwrzk49m733n33krd27fdzn8yecwvju80e8c5g45asj35f2deak5yydxl5pmzdg20wgsadhu87r4elkwva8y9zge0uqs44jt2": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 974.151903,
+      "daily_sent_ada": 979.320484,
+      "daily_net_ada": -5.168581000000017,
+      "daily_max_tx_ada": 979.320484,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qphpmu6qm46rgvvnxfwfc8a57y4dj20x665ulr5xjaywh93s8cfm5nnkkn5kve26gvssg7wp77jnxleujwcz8xs7v29qcdvhz8"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qq50sks40pnh5tkth68m3lrvzvlepaew6prl3u8u69nd3zu9rk398gms2eh8snp58c9skehndz9ps8ff5rfns7mfafnqt4qk0e": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 3.781,
+      "daily_sent_ada": 23.31279,
+      "daily_net_ada": -19.53179,
+      "daily_max_tx_ada": 23.31279,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1zpt24v32hpd88w3l0wmwg3mhs9lm5dzrnn0d22n6seznmjy9rk398gms2eh8snp58c9skehndz9ps8ff5rfns7mfafnqf5lz9g",
+          "addr_test1qz9jfhecgrlw4yw8wknddnnpw2ah0t3n967zz9ffrssl3pdct9f58ux0fyazdlzgl3vuua05dcqnengw4vm6n0cxl4fq47fdde"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qqcm62zdvt38ctv432tptaqdrdh3hl2xlp4guq893hqpu6l77qrcufvgcycrglrj4qgxzfhk723vkn46patwnngwhyrqtunqtw": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 1997.832695,
+      "daily_sent_ada": 1000.0,
+      "daily_net_ada": 997.832695,
+      "daily_max_tx_ada": 1000.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wqzuhlst26gyd3z4nqglyxf5tp06w06ejwmkdys9d003rpg2s0tua",
+          "addr_test1qpgq2n6vpdwskfjk0uzj9askyele649ghtz8q9r9m2r07hxw6a59ugz9wl2t82g3nggzgxpz99unwe48cx8zrct66p7syxy2l0"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qqdxeujed4f77u82rslna9gtsrwnxqww8f3zxz8w4uz87vwy68rhqmmahtetcv2wcvsqe0ct9h6gmd8g5nsuw38rq4sqvh9dvw": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 18629.790583,
+      "daily_sent_ada": 18632.125809,
+      "daily_net_ada": -2.3352259999992384,
+      "daily_max_tx_ada": 9316.646403,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qzuj54degd86nn0fmn7melfuc8jln6zsug9knw06jdatgyu2m4n8ptzy49y25r6pe677yfgyrskvayeg4t7q4q25stwsu5cvm9",
+          "addr_test1vryumtuh5u0zkk3e7cvv4f568umz5xrt8077cz5ehemjzzcu0edde"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qqj4t6m7pwqn6x3hkhs9cunj62fsgj7ezt9spvxj3mne77xp2lx7h4wuk22fmwmlhtzjvysysw663sdt6h4kwjk7ksvsfg7juk": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 9690.764382,
+      "daily_sent_ada": 7689.081795,
+      "daily_net_ada": 2001.6825870000007,
+      "daily_max_tx_ada": 4683.345118,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wqzsngca2uu8z8lk0hudfkw300cllua300r3exeeax70xcq4k9hyu"
+        ],
+        "top_counterparty_count": 2
+      }
+    }
+  ],
+  "addr_test1qqkxdt3sav4cz3r5xnrsstlxzlhuzhvyd2qm6wxz0gd63ee77fl6k08e6egytyweyv8w6al94rphdc47mrdzent8gazsykeyrk": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 0.0,
+      "daily_sent_ada": 100.0,
+      "daily_net_ada": -100.0,
+      "daily_max_tx_ada": 50.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wru93xpnc6v2svsq79kyyegj0mv4mdl83sdtp8dgtu9y78smvhuhs",
+          "addr_test1qz58xfza4s7qm2agzqghk5ahkr76ectl5ah3kyvnxnewkkw5cdds9sxqtxh5pll747354mwjnlsn3wkcrtccu0056n8s7wl96f",
+          "addr_test1qrj4akkyph45y4ulcsj8jvsj6z8lgfppjxamj9duxahef4wvl7fp8sn9tq5w542gj772zg6qhx0m9qd4t652us2m7xdqcxt2u4"
+        ],
+        "top_counterparty_count": 2
+      }
+    }
+  ],
+  "addr_test1qqm56vjt0wa9xj2r5hye682ps9gz3ksw75cv45fdmhktpkfffsx09epxg2f586qkf0znd963phxjs2ja9849kh8d0xnsc7mp78": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 39908.597266,
+      "daily_sent_ada": 39920.271238,
+      "daily_net_ada": -11.673972000004142,
+      "daily_max_tx_ada": 9982.820549,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qryvvl7una3saemqjdwu22y99vuhzhr7xw2xttcvpyq6hnjuc56up2uxzajkkhdemkjdnt0yn5g7wx3va69zw4lxeuhsp8q3dl"
+        ],
+        "top_counterparty_count": 4
+      }
+    }
+  ],
+  "addr_test1qqpe6v4c95v0jlgjm5578w3san3eycf0hcfxwpp0yafze8mxjxnr4tyryejp4kxyqu0u82wv4hx6f6pqns9dknetaqgsmzzz6e": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 312820.142832,
+      "daily_sent_ada": 312846.005954,
+      "daily_net_ada": -25.863122000009756,
+      "daily_max_tx_ada": 22351.085134,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wrhgfy9xkftac320syvujslc9t9za2hevxecmvj050ntxwqdz596n",
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wq8xga0gmzpcm8v3q2l4s5fmx5u0eur8fdz7dvqhldz0lng249f0d"
+        ],
+        "top_counterparty_count": 7
+      }
+    }
+  ],
+  "addr_test1qqs88lem3gleyjj9lhhrxwj3q7uzvjyphce62pcf90wgutnl4my4md9cdrttjnk02vrmpc2av7a9vdnx600ekjrsfwvs50rr8m": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 9862.402533,
+      "daily_sent_ada": 9866.657378999998,
+      "daily_net_ada": -4.254845999997997,
+      "daily_max_tx_ada": 9854.748194,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1xp3g6ayyt3e0m9w3jtxr84mf877nhqh4snt2g7ww43yf6lx4w8kmdszpx27e3wpawvkcqcrhrl9ra09stpe8ahtznzesm8x8rk",
+          "addr_test1xz429ta7d8akqvk6rtkavja8kshy4m3dplm2sgx60rp0fk3pmuk902u7lh609tzz54f32s49s5uf6sphu2zer00a2k4qkq40f9"
+        ],
+        "top_counterparty_count": 4
+      }
+    }
+  ],
+  "addr_test1qqtrjd6wx44xz5gkc9yl8xn6zjnzc2kns3y2tvdpmauvj2ey4t05exc5mmvkka0f75qkhw8ae9d27znqq82nqlr9x0ashdk5m0": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 8997.452941,
+      "daily_sent_ada": 9497.640442,
+      "daily_net_ada": -500.18750100000034,
+      "daily_max_tx_ada": 9497.640442,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [],
+        "top_counterparty_count": 0
+      }
+    }
+  ],
+  "addr_test1qqxnkqmvh6akr6jujzhw2mtf4uzf5n4a5p2drl5ha4hxqdw4pfgmdkjmu2z0rlxept3rfnha98xrmyf7v2vy5dal07wst360ex": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 700.0,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 700.0,
+      "daily_max_tx_ada": 400.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qz26nc7324hlhh06h80nfwcytjtu564uqtm6u8nh3p4t5988dh9fenf62rjattemwj6a6qhjge9wjsux6nu070azylaqqws8mq"
+        ],
+        "top_counterparty_count": 2
+      }
+    }
+  ],
+  "addr_test1qqynu5d8p9yc7garta6z4g34e2tlzye5ty8uy6ljmffnpnjv7ncp3yppt0gcr50u60y43x32fgadhnl35u9hfqyql2pqepxt0y": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 10000.0,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 10000.0,
+      "daily_max_tx_ada": 10000.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1vqeux7xwusdju9dvsj8h7mca9aup2k439kfmwy773xxc2hcu7zy99"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qqzllc620hkk05l5cyg38wgflrunzw70x5h6825g03gu4yyc85y96hdkqtarg95gewuezjvkw8zt530tnmglhrzccdds5vxw0m": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 10406.715854,
+      "daily_sent_ada": 10422.392152,
+      "daily_net_ada": -15.676298000000315,
+      "daily_max_tx_ada": 6738.88139,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wqzdedqpy2ljhf70dw89p399z836dvmgs7sn6qyr0gndu7gp9k7en"
+        ],
+        "top_counterparty_count": 3
+      }
+    }
+  ],
+  "addr_test1qr23z9axxwyh5zaj2ewqvfu6xd899tddxgasrwu35p2vgw9gvst4lcyrhmg0vtwq5g4tx25etraqj2cm6kwd8ly0eaaqwpc2hs": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 15001.47031,
+      "daily_sent_ada": 15033.205123,
+      "daily_net_ada": -31.73481299999912,
+      "daily_max_tx_ada": 1882.498675,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wq6mp7qks38uptyzxxtlk0pth8mnmyp3h7je6fsxva47qgs2h0a28",
+          "addr_test1wrumn0zm9c858kghqrzjhhv555rgzt9hzje3sksh2e7ggaqewfxd4",
+          "addr_test1wrjarvxfuj82nqz3r65rg3plnn8z4l7wy2jjxtwfr5wcyucu0a447"
+        ],
+        "top_counterparty_count": 4
+      }
+    }
+  ],
+  "addr_test1qr5dmng8myuymt0rrwltw5uasv8vjcqchlmstz4z3uz0z8awj3v2656xdwvnztjpm69n6072xkqjmuzqhttpa65u5dhssuht5q": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 10000.0,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 10000.0,
+      "daily_max_tx_ada": 10000.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1vqeux7xwusdju9dvsj8h7mca9aup2k439kfmwy773xxc2hcu7zy99"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qr7cxnat868zymckfjrqltzzj7fppqt7v48qak2p6g2sj06cg82zr8nkulez36wc4hwcfq3z4hdu7730798vs97njpeq93repj": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 10000.0,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 10000.0,
+      "daily_max_tx_ada": 10000.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1vqeux7xwusdju9dvsj8h7mca9aup2k439kfmwy773xxc2hcu7zy99"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qr88apxadqac8v2vnnvmpyrvk0xx9d2ra0v2urg5px0n4jvc9dhu5g4hywcenl666x9rv8t04x2sk2ddfvemsve9gums47fdsm": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 10000.0,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 10000.0,
+      "daily_max_tx_ada": 10000.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1vqeux7xwusdju9dvsj8h7mca9aup2k439kfmwy773xxc2hcu7zy99"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qr8dpq940a3eakdynmhqe0e5w97cuwmzcr57cya7elyj4leqq4t92l789cpu4xe53q5j8rve5vw86kwm20qq324qrrjq4frkla": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 0.96975,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 0.96975,
+      "daily_max_tx_ada": 0.96975,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qr92dwmyvzd42up52tx6cscu9z8tnnjw06kncruqx8x9fqs4j8jp6f3kanswkahdspqsdq0ym3dqmaygts6lxa34yyxsxl9ceu"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qr92dwmyvzd42up52tx6cscu9z8tnnjw06kncruqx8x9fqs4j8jp6f3kanswkahdspqsdq0ym3dqmaygts6lxa34yyxsxl9ceu": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 9997.723866,
+      "daily_sent_ada": 9998.861933,
+      "daily_net_ada": -1.1380669999998645,
+      "daily_max_tx_ada": 9998.861933,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qr8dpq940a3eakdynmhqe0e5w97cuwmzcr57cya7elyj4leqq4t92l789cpu4xe53q5j8rve5vw86kwm20qq324qrrjq4frkla"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qrc7cs8cheuertfezmfpgvx29zkxsdnvkkuwv8zwpccke9fn0v303jq75nv6v9fd663jh925nkq69c3atmrm72v64mhs8xh49z": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 10000.0,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 10000.0,
+      "daily_max_tx_ada": 10000.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1vqeux7xwusdju9dvsj8h7mca9aup2k439kfmwy773xxc2hcu7zy99"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qrj4akkyph45y4ulcsj8jvsj6z8lgfppjxamj9duxahef4wvl7fp8sn9tq5w542gj772zg6qhx0m9qd4t652us2m7xdqcxt2u4": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 1.14646,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 1.14646,
+      "daily_max_tx_ada": 1.14646,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qqkxdt3sav4cz3r5xnrsstlxzlhuzhvyd2qm6wxz0gd63ee77fl6k08e6egytyweyv8w6al94rphdc47mrdzent8gazsykeyrk",
+          "addr_test1wru93xpnc6v2svsq79kyyegj0mv4mdl83sdtp8dgtu9y78smvhuhs"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qrj6nmj7c4lm7yafjxvzkvcf9hgqq9dp88lld7pjgnvekdvd0v7l822u4xea8zty37320uz3nwdl88agexcj9n7s986qwlg8ps": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 6.0,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 6.0,
+      "daily_max_tx_ada": 6.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qpfpxx2m56u7td8duem6kkcdw25kfyd0jcv7g7hwup797p5d0v7l822u4xea8zty37320uz3nwdl88agexcj9n7s986q5j40uk"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qrjwjlw94q2xx0wv9edc4zga55vnvk8hne0ppnj35489jk0045mvduz0uq4glknq2jjp9kfvnkwen3czk5ejyvyq92zqc5zdvp": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 100000.0,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 100000.0,
+      "daily_max_tx_ada": 10000.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1vqeux7xwusdju9dvsj8h7mca9aup2k439kfmwy773xxc2hcu7zy99"
+        ],
+        "top_counterparty_count": 10
+      }
+    }
+  ],
+  "addr_test1qrqp0rwtuy4as2d0gu7ezyzx85759k7wsq4u860cy6zxq740de9hgwfj472mw57psjmpevgsezv0xkcchmhn4ye9kluse5gflu": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 242.831859,
+      "daily_sent_ada": 75.0,
+      "daily_net_ada": 167.831859,
+      "daily_max_tx_ada": 75.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qp6h0qzy8e5dw238qzde33tz6qtgjegdphrawy4h7uch05x889c9re4ajppf7f6u9vz2rxwjfd0epkcs7wdvfpjh5h7qvn4ck4"
+        ],
+        "top_counterparty_count": 3
+      }
+    }
+  ],
+  "addr_test1qrrhnm2qjzlj3tjxugjutm46dn2urfrwjhk6t6x70m5lg9tx2u29lwmh79hdqadrshxp2akncef7yd85fhdnrx89n83sd337nr": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 168716.344907,
+      "daily_sent_ada": 169785.035367,
+      "daily_net_ada": -1068.6904600000123,
+      "daily_max_tx_ada": 10000.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzkw2yk6ffmd5ugx8uprpf2ujxx2at5kkptpkt5yzwu2twq6mqjur",
+          "addr_test1wrpjqever8rezsvkc05cew572uw6w0wakk6caupycp4kf5g2zalzc",
+          "addr_test1wz46tk8vdvlq6a5cccgysw7nfw4r0frnxdmkhyxaxgxal0guru5sm"
+        ],
+        "top_counterparty_count": 4
+      }
+    }
+  ],
+  "addr_test1qrrnwdlq0sy7m9zw3kw0mxvat6almfj7ck045883tp8lxs6f5kfqjtkjgwqv93fcleg95ks8ghxl6zm03cl9ysct0auqqje3ym": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 10000.0,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 10000.0,
+      "daily_max_tx_ada": 10000.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1vqeux7xwusdju9dvsj8h7mca9aup2k439kfmwy773xxc2hcu7zy99"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qruhen60uwzpwnnr7gjs50z2v8u9zyfw6zunet4k42zrpr54mrlv55f93rs6j48wt29w90hlxt4rvpvshe55k5r9mpvqjv2wt4": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 1613838.487336,
+      "daily_sent_ada": 1614040.088706,
+      "daily_net_ada": -201.6013700000476,
+      "daily_max_tx_ada": 4787.088175,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wpmcnpr36xjk7exddlg3pcypc8u3hykvzjz0yjq2ldypjzs630u48"
+        ],
+        "top_counterparty_count": 170
+      }
+    }
+  ],
+  "addr_test1qrumevq7kkyljesjhdtwuugwrf84qcfnlmuwgr9pmwpl8wdc27djcryfv4gxdyhw088dgy2v566wgq8jqyd4cw0agrdqdt3m2e": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 12.0,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 12.0,
+      "daily_max_tx_ada": 12.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qpfpxx2m56u7td8duem6kkcdw25kfyd0jcv7g7hwup797p5d0v7l822u4xea8zty37320uz3nwdl88agexcj9n7s986q5j40uk"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qrxjgv6u2dn33nejvwxfmnqcwq9nezrpw56e9a9um4zcz84mkp0e9hzqmp3aslsvqnp5jdjdth9pz0qqxap2q696v97qsp850d": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 10000.0,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 10000.0,
+      "daily_max_tx_ada": 10000.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1vqeux7xwusdju9dvsj8h7mca9aup2k439kfmwy773xxc2hcu7zy99"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qryvvl7una3saemqjdwu22y99vuhzhr7xw2xttcvpyq6hnjuc56up2uxzajkkhdemkjdnt0yn5g7wx3va69zw4lxeuhsp8q3dl": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 11.0,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 11.0,
+      "daily_max_tx_ada": 5.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qqm56vjt0wa9xj2r5hye682ps9gz3ksw75cv45fdmhktpkfffsx09epxg2f586qkf0znd963phxjs2ja9849kh8d0xnsc7mp78"
+        ],
+        "top_counterparty_count": 4
+      }
+    }
+  ],
+  "addr_test1qz26nc7324hlhh06h80nfwcytjtu564uqtm6u8nh3p4t5988dh9fenf62rjattemwj6a6qhjge9wjsux6nu070azylaqqws8mq": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 14074.461647,
+      "daily_sent_ada": 14774.798633,
+      "daily_net_ada": -700.3369859999984,
+      "daily_max_tx_ada": 7537.483563,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qqxnkqmvh6akr6jujzhw2mtf4uzf5n4a5p2drl5ha4hxqdw4pfgmdkjmu2z0rlxept3rfnha98xrmyf7v2vy5dal07wst360ex"
+        ],
+        "top_counterparty_count": 2
+      }
+    }
+  ],
+  "addr_test1qz49hkts3ryrep28q56chcl0na2q2qzy54ln0ulsw37lhzy6628j0jzrkxqq4py3s8d7tuu9klkhakcfnrwrpcredgasp674m6": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 10000.0,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 10000.0,
+      "daily_max_tx_ada": 10000.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1vqeux7xwusdju9dvsj8h7mca9aup2k439kfmwy773xxc2hcu7zy99"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qz4jwtndvlxv4w6tyr24fla9luhnnsd0mlt5g9t3e4zx7wf92cnwrt0frm05f274wrdfhee4f250tk30qupudnf9nvhqmnh7cn": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 841.245524,
+      "daily_sent_ada": 851.420793,
+      "daily_net_ada": -10.175268999999956,
+      "daily_max_tx_ada": 851.420793,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wrumn0zm9c858kghqrzjhhv555rgzt9hzje3sksh2e7ggaqewfxd4"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qz58xfza4s7qm2agzqghk5ahkr76ectl5ah3kyvnxnewkkw5cdds9sxqtxh5pll747354mwjnlsn3wkcrtccu0056n8s7wl96f": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 1.14646,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 1.14646,
+      "daily_max_tx_ada": 1.14646,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qqkxdt3sav4cz3r5xnrsstlxzlhuzhvyd2qm6wxz0gd63ee77fl6k08e6egytyweyv8w6al94rphdc47mrdzent8gazsykeyrk",
+          "addr_test1wru93xpnc6v2svsq79kyyegj0mv4mdl83sdtp8dgtu9y78smvhuhs"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qz9jfhecgrlw4yw8wknddnnpw2ah0t3n967zz9ffrssl3pdct9f58ux0fyazdlzgl3vuua05dcqnengw4vm6n0cxl4fq47fdde": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 6.852757,
+      "daily_sent_ada": 10.0,
+      "daily_net_ada": -3.1472430000000005,
+      "daily_max_tx_ada": 5.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1zpt24v32hpd88w3l0wmwg3mhs9lm5dzrnn0d22n6seznmjy9rk398gms2eh8snp58c9skehndz9ps8ff5rfns7mfafnqf5lz9g",
+          "addr_test1qq50sks40pnh5tkth68m3lrvzvlepaew6prl3u8u69nd3zu9rk398gms2eh8snp58c9skehndz9ps8ff5rfns7mfafnqt4qk0e"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qz9z9ulm4z5nqvmz0g9qs6hv7z6zqgz8fla6ggvkqxkv9et6jn2qx8lw5ag55yd5z4d5ltw8ru4xflel9pfs9c09k2rs8zdpqk": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 1000.0,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 1000.0,
+      "daily_max_tx_ada": 1000.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qrrhnm2qjzlj3tjxugjutm46dn2urfrwjhk6t6x70m5lg9tx2u29lwmh79hdqadrshxp2akncef7yd85fhdnrx89n83sd337nr"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qzjlvcktfaxlwkc2vjw88mvxdm8dreejklxe34dea64efkal3yq6fxf0xa3nyxfrjcszcddjcyc8fv6q4dj2hxhed9kssca2ee": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 345.0,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 345.0,
+      "daily_max_tx_ada": 321.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qpfpxx2m56u7td8duem6kkcdw25kfyd0jcv7g7hwup797p5d0v7l822u4xea8zty37320uz3nwdl88agexcj9n7s986q5j40uk"
+        ],
+        "top_counterparty_count": 3
+      }
+    }
+  ],
+  "addr_test1qzkgz6nnr7na88fjuj2t7meyuvr5dtjt459e0ltc72z9p0tcjnf37v8r0z0vkrf0h76vlvxa2464k8cjpzekewlk7ppqjl46kp": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 10000.0,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 10000.0,
+      "daily_max_tx_ada": 10000.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1vqeux7xwusdju9dvsj8h7mca9aup2k439kfmwy773xxc2hcu7zy99"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qzqq4tw0zma4q7ghx45uezt4pzkfgu86zd6swhnlr9f4jkf7wpxhx9vkuae835jm95yxhm2qhjkp5kzdynh36gl37dkqnz203d": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 19999.831507,
+      "daily_sent_ada": 10000.0,
+      "daily_net_ada": 9999.831507,
+      "daily_max_tx_ada": 10000.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1vqeux7xwusdju9dvsj8h7mca9aup2k439kfmwy773xxc2hcu7zy99"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qzuj54degd86nn0fmn7melfuc8jln6zsug9knw06jdatgyu2m4n8ptzy49y25r6pe677yfgyrskvayeg4t7q4q25stwsu5cvm9": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 1.0,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 1.0,
+      "daily_max_tx_ada": 1.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qqdxeujed4f77u82rslna9gtsrwnxqww8f3zxz8w4uz87vwy68rhqmmahtetcv2wcvsqe0ct9h6gmd8g5nsuw38rq4sqvh9dvw"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qzvsq8gc7xkr7tj07xt5l904fx0g8vzlpa8dke642k72s07rvgpva40ylulzvweu2yhhhmfsdyvp0ev82hfltn5azjcqy2hd4a": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 9997.827943,
+      "daily_sent_ada": 10000.0,
+      "daily_net_ada": -2.172056999999768,
+      "daily_max_tx_ada": 10000.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [],
+        "top_counterparty_count": 0
+      }
+    }
+  ],
+  "addr_test1qzyp52q023yfcvrj902k2hs9gn258ddnsrcg3p540vy7ldd7h569fuf63k3lj4frpp6c9mv0eegedj5qjffyc44qezuseuuy9y": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 5000.0,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 5000.0,
+      "daily_max_tx_ada": 5000.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qp23yv7k4kzhd2rntjamkda4q7hdn9qkrf63u9p8ce6fhwdeve3p6rsav4v5mdcz8qzcfenrlwhrs2ffk04ac44ermfq5t8ljx"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1qzz5gfc0dmrqeya5wyf30gpr0g4ldhxwwxuhh0mv7n489j4jsgj6cajkxp5huugd5nvtfch2cpke8y25usqrxee0ez3q926uzr": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 7.490852,
+      "daily_sent_ada": 12.362441,
+      "daily_net_ada": -4.871589,
+      "daily_max_tx_ada": 7.362441,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wpcyj0yjzsp9qawt2esgea5efjdd029fzcp9qprf666jzfqt9cr4e"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1vpy494af9z9th4anvcjnp8pxfsyfmkakqshaw6v784qph9qtutwc9": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 481577.360642,
+      "daily_sent_ada": 481850.526352,
+      "daily_net_ada": -273.16571000003023,
+      "daily_max_tx_ada": 1774.753148,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wq8xga0gmzpcm8v3q2l4s5fmx5u0eur8fdz7dvqhldz0lng249f0d",
+          "addr_test1wpgexmeunzsykesf42d4eqet5yvzeap6trjnflxqtkcf66g0kpnxt"
+        ],
+        "top_counterparty_count": 140
+      }
+    }
+  ],
+  "addr_test1vqeux7xwusdju9dvsj8h7mca9aup2k439kfmwy773xxc2hcu7zy99": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 0.0,
+      "daily_sent_ada": 230004.6,
+      "daily_net_ada": -230004.6,
+      "daily_max_tx_ada": 10000.2,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qrjwjlw94q2xx0wv9edc4zga55vnvk8hne0ppnj35489jk0045mvduz0uq4glknq2jjp9kfvnkwen3czk5ejyvyq92zqc5zdvp",
+          "addr_test1qzkgz6nnr7na88fjuj2t7meyuvr5dtjt459e0ltc72z9p0tcjnf37v8r0z0vkrf0h76vlvxa2464k8cjpzekewlk7ppqjl46kp",
+          "addr_test1qr88apxadqac8v2vnnvmpyrvk0xx9d2ra0v2urg5px0n4jvc9dhu5g4hywcenl666x9rv8t04x2sk2ddfvemsve9gums47fdsm"
+        ],
+        "top_counterparty_count": 10
+      }
+    }
+  ],
+  "addr_test1vryumtuh5u0zkk3e7cvv4f568umz5xrt8077cz5ehemjzzcu0edde": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 10001.0,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 10001.0,
+      "daily_max_tx_ada": 10000.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1vqeux7xwusdju9dvsj8h7mca9aup2k439kfmwy773xxc2hcu7zy99",
+          "addr_test1qqdxeujed4f77u82rslna9gtsrwnxqww8f3zxz8w4uz87vwy68rhqmmahtetcv2wcvsqe0ct9h6gmd8g5nsuw38rq4sqvh9dvw"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1wp0gzp4v5r2zhskqutftc2v8pge7yjkuhhxgdrmfpwv0h8q8wncs6": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 9.0,
+      "daily_sent_ada": 9.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wrrx9y5xzuumqxsk2q9l2qwusdfuj23c3ctqxf2dhw5q9hgcyg2d0",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1wp0zd2jtjvkk2evq59hpqqjztvaffpwd7tm3lscre927zxg36etun": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 9.0,
+      "daily_sent_ada": 9.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wp82uw2sqcwf3rzkww2mm5g5sj226els624jw6gzpvj5nggymcl22"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1wp4y7k88m8mekc0hlcd6z0jgwn8fssy3axhapz74xgeu5hsdzcpdu": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 9.0,
+      "daily_sent_ada": 9.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wperr0p4kc9w7mwlf23037xq5wz3y8hmfntptv6jy56fmvq50espl",
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1wp5ty7h0nlt3v5dhd647dx2rvapesghgxarjwyv2xh4dmhq9atx32": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 6.0,
+      "daily_sent_ada": 12.0,
+      "daily_net_ada": -6.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wqagte6fw0fzvqttky8nngq3xuyg26hjgsyvd8hfs060wvq0t48ka"
+        ],
+        "top_counterparty_count": 4
+      }
+    }
+  ],
+  "addr_test1wp7pw67qhvud2j0q5u0yams975wmx8shxreau235ugwzm4s3830m9": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 0.0,
+      "daily_sent_ada": 2350.34213,
+      "daily_net_ada": -2350.34213,
+      "daily_max_tx_ada": 69.05051,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wz6sedftk7l7x8yj650hwsvfkksejwjrvllfwfqq33jx8xqq34k2n",
+          "addr_test1wqx8zmxzh6xxpch9zapf60azwm5ze9fsfa7e3ea6vjuzm2ctgrjju"
+        ],
+        "top_counterparty_count": 35
+      }
+    }
+  ],
+  "addr_test1wp82uw2sqcwf3rzkww2mm5g5sj226els624jw6gzpvj5nggymcl22": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 144.0,
+      "daily_sent_ada": 144.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wqzwpaeqty24g73cnp6h7qyvm68hht5dxsvpnsus0tprv4gceyth2"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1wp867cwenl586mcuft35d7qy56ucyjqg5pqy00vyd7c75hcq7cn8u": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 84.0,
+      "daily_sent_ada": 84.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 6.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wqh4yha0ndhwykrh9cuhr47nh2y97zvkls74h4jq6uhlpacujv3z3"
+        ],
+        "top_counterparty_count": 28
+      }
+    }
+  ],
+  "addr_test1wpcyj0yjzsp9qawt2esgea5efjdd029fzcp9qprf666jzfqt9cr4e": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 9.0,
+      "daily_sent_ada": 5.0,
+      "daily_net_ada": 4.0,
+      "daily_max_tx_ada": 5.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qzz5gfc0dmrqeya5wyf30gpr0g4ldhxwwxuhh0mv7n489j4jsgj6cajkxp5huugd5nvtfch2cpke8y25usqrxee0ez3q926uzr",
+          "addr_test1qp6ruunvywyrn2ldrxwk3h9dw254rgcwmp6g9prfjx53ntv898ykky2499xvnfn5eprxza4ctcvyvh96zhq8yn7p03lq2z8mze"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1wpe5ghttuandwx2v5vukd8art24pj6g2fwtny64xl9dnp2cz7jgu0": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 9.0,
+      "daily_sent_ada": 9.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wzdk0xh4d79x3m8rjflefmfqq0975pqu02zcxlea2xdamfsq2k43m"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1wpeecpsjvtfu4uumvcpksn0fg3tje23y8jq8l2l4a8d7e8se7eryj": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 6.0,
+      "daily_sent_ada": 6.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wz4ydpqxpstg453xlr6v3elpg578ussvk8ezunkj62p9wjq7uw9zq"
+        ],
+        "top_counterparty_count": 4
+      }
+    }
+  ],
+  "addr_test1wperr0p4kc9w7mwlf23037xq5wz3y8hmfntptv6jy56fmvq50espl": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 9.0,
+      "daily_sent_ada": 9.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wr8s48slcgnz44uv2yvu6am5y0zvk93lffw80gnl9ns64tsdqedsl"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1wpex0tw5j299xkwa0teknpzwlj4eqz62q5fjljyngwdvxlqw4eqmt": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 6.0,
+      "daily_sent_ada": 6.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wrsx6gftxpsy90esyks0ddjd4636g2v5a63t47ztzrd2r3cfekl8s"
+        ],
+        "top_counterparty_count": 4
+      }
+    }
+  ],
+  "addr_test1wpgexmeunzsykesf42d4eqet5yvzeap6trjnflxqtkcf66g0kpnxt": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 0.0,
+      "daily_sent_ada": 4822.9762,
+      "daily_net_ada": -4822.9762,
+      "daily_max_tx_ada": 34.44983,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wq8xga0gmzpcm8v3q2l4s5fmx5u0eur8fdz7dvqhldz0lng249f0d",
+          "addr_test1vpy494af9z9th4anvcjnp8pxfsyfmkakqshaw6v784qph9qtutwc9"
+        ],
+        "top_counterparty_count": 140
+      }
+    }
+  ],
+  "addr_test1wpjv7a9cse3k4pd44c0lc42yenmcyzaqtgr3rs9xu8l2v6sn24smp": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 12.0,
+      "daily_sent_ada": 12.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 6.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wp5ty7h0nlt3v5dhd647dx2rvapesghgxarjwyv2xh4dmhq9atx32"
+        ],
+        "top_counterparty_count": 4
+      }
+    }
+  ],
+  "addr_test1wpmae9vv3d5757y6lgfy5z7qk9du8teqhvd7xl53ftuzmjcllkwrs": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 39.0,
+      "daily_sent_ada": 39.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wz6sedftk7l7x8yj650hwsvfkksejwjrvllfwfqq33jx8xqq34k2n",
+          "addr_test1wqx8zmxzh6xxpch9zapf60azwm5ze9fsfa7e3ea6vjuzm2ctgrjju"
+        ],
+        "top_counterparty_count": 26
+      }
+    }
+  ],
+  "addr_test1wpmcnpr36xjk7exddlg3pcypc8u3hykvzjz0yjq2ldypjzs630u48": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 35205095.291141994,
+      "daily_sent_ada": 35205095.291141994,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 2514649.663653,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wrxqwmj2twfn5rtp6w4cvkehk0ucnkeklggcfpz76ktrsdsx47pvl"
+        ],
+        "top_counterparty_count": 28
+      }
+    }
+  ],
+  "addr_test1wpr4hzrfgp3rj448fkw7qk2yjq5ymxyqt3mcdjkzz6vp55g3h542j": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 60.0,
+      "daily_sent_ada": 60.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wr62e0vzmj9mj7qapaecc0yjyk0rgp9yutyqa5qc29xdkzctrz3qn",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9"
+        ],
+        "top_counterparty_count": 4
+      }
+    }
+  ],
+  "addr_test1wpu3cx4qn4kcukgqmcwraqsxvrpyza4afnvty04jxseudfcnn9eke": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 18.0,
+      "daily_sent_ada": 18.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 6.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wzc8m27kmthnelxvaa8fr23eu452nckvpnj233czpxwfv9qpj2rm6"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1wpxs63au9yehzl8uhwkyjt84zhrf9slaflhhnvjtg7ukhks8sxm0t": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 42.0,
+      "daily_sent_ada": 42.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wz05ca0ksvk9q2jmacy7m28n9qnfelh3h68cw0s60w5nhwgwu6d9y"
+        ],
+        "top_counterparty_count": 28
+      }
+    }
+  ],
+  "addr_test1wq0fhqgpnxem4csqd4wqpewy39345zg9x7ve2wx5uh3c8zqtscmux": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 3.0,
+      "daily_sent_ada": 6.0,
+      "daily_net_ada": -3.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wq56fh9yhketc88zpc9z4ca3k8wdv0yr5hjezw6lgauuttc8786r9",
+          "addr_test1wz7ueqtqrz4kqfep99d8z7wwjwfu52md2k9hljvuj4w08yc3mjw6u"
+        ],
+        "top_counterparty_count": 2
+      }
+    }
+  ],
+  "addr_test1wq2wz32lpptwv8u4lmprhjxzp5d5ytawg9du286tfj3t9rsz7rh20": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 9.0,
+      "daily_sent_ada": 18.0,
+      "daily_net_ada": -9.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wrrx9y5xzuumqxsk2q9l2qwusdfuj23c3ctqxf2dhw5q9hgcyg2d0",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1wq4xzlt0pv9dnc6zqpn46fksmqwkj9v5zqpezcr4e53d96q5d66g4": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 36.0,
+      "daily_sent_ada": 36.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wrrx9y5xzuumqxsk2q9l2qwusdfuj23c3ctqxf2dhw5q9hgcyg2d0",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1wq56fh9yhketc88zpc9z4ca3k8wdv0yr5hjezw6lgauuttc8786r9": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 6.0,
+      "daily_sent_ada": 6.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 6.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wz7ueqtqrz4kqfep99d8z7wwjwfu52md2k9hljvuj4w08yc3mjw6u",
+          "addr_test1wq5ue9d95z4cjhs4msf8vd54fa4xz7y90xjh3vq9u7nce0c35xlrs"
+        ],
+        "top_counterparty_count": 2
+      }
+    }
+  ],
+  "addr_test1wq5ue9d95z4cjhs4msf8vd54fa4xz7y90xjh3vq9u7nce0c35xlrs": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 3.0,
+      "daily_sent_ada": 3.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wq56fh9yhketc88zpc9z4ca3k8wdv0yr5hjezw6lgauuttc8786r9",
+          "addr_test1wz7ueqtqrz4kqfep99d8z7wwjwfu52md2k9hljvuj4w08yc3mjw6u"
+        ],
+        "top_counterparty_count": 2
+      }
+    }
+  ],
+  "addr_test1wq6mp7qks38uptyzxxtlk0pth8mnmyp3h7je6fsxva47qgs2h0a28": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 5.0,
+      "daily_sent_ada": 15.0,
+      "daily_net_ada": -10.0,
+      "daily_max_tx_ada": 5.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qr23z9axxwyh5zaj2ewqvfu6xd899tddxgasrwu35p2vgw9gvst4lcyrhmg0vtwq5g4tx25etraqj2cm6kwd8ly0eaaqwpc2hs",
+          "addr_test1wrjarvxfuj82nqz3r65rg3plnn8z4l7wy2jjxtwfr5wcyucu0a447",
+          "addr_test1wrumn0zm9c858kghqrzjhhv555rgzt9hzje3sksh2e7ggaqewfxd4"
+        ],
+        "top_counterparty_count": 4
+      }
+    }
+  ],
+  "addr_test1wq8xga0gmzpcm8v3q2l4s5fmx5u0eur8fdz7dvqhldz0lng249f0d": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 1991.4355,
+      "daily_sent_ada": 2013.30875,
+      "daily_net_ada": -21.87324999999987,
+      "daily_max_tx_ada": 1.63349,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wpgexmeunzsykesf42d4eqet5yvzeap6trjnflxqtkcf66g0kpnxt",
+          "addr_test1vpy494af9z9th4anvcjnp8pxfsyfmkakqshaw6v784qph9qtutwc9",
+          "addr_test1wrhgfy9xkftac320syvujslc9t9za2hevxecmvj050ntxwqdz596n"
+        ],
+        "top_counterparty_count": 140
+      }
+    }
+  ],
+  "addr_test1wq9ry3j4j3nuq788xamnkkmsnkv8pp4umnz7gxcv4746puc3uj3ce": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 9.0,
+      "daily_sent_ada": 9.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wzdk0xh4d79x3m8rjflefmfqq0975pqu02zcxlea2xdamfsq2k43m"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1wqagte6fw0fzvqttky8nngq3xuyg26hjgsyvd8hfs060wvq0t48ka": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 6.0,
+      "daily_sent_ada": 6.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wp5ty7h0nlt3v5dhd647dx2rvapesghgxarjwyv2xh4dmhq9atx32",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9"
+        ],
+        "top_counterparty_count": 4
+      }
+    }
+  ],
+  "addr_test1wqfwyq6csgtlfadwj8ezw6my4x2j7qrw8j30m33z6pvefdscdqgmj": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 18.0,
+      "daily_sent_ada": 18.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 6.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wzdk0xh4d79x3m8rjflefmfqq0975pqu02zcxlea2xdamfsq2k43m"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1wqh4yha0ndhwykrh9cuhr47nh2y97zvkls74h4jq6uhlpacujv3z3": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 42.0,
+      "daily_sent_ada": 42.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wzwhp7acq658tg05mfnuqr060f3a3c4gp5tejydyjj77yxcc9n9zj"
+        ],
+        "top_counterparty_count": 28
+      }
+    }
+  ],
+  "addr_test1wqjgfxlh64s7589jeakme3j56zezcgv0nvqf2pyx9tnd0scaw5e8p": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 42.0,
+      "daily_sent_ada": 42.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wqh4yha0ndhwykrh9cuhr47nh2y97zvkls74h4jq6uhlpacujv3z3"
+        ],
+        "top_counterparty_count": 28
+      }
+    }
+  ],
+  "addr_test1wqmffm22h5qlr5rw50ksdqr9c56yj3jxa00h40pqqurs36cgzwxgp": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 9.0,
+      "daily_sent_ada": 9.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wzngjz9t8f5cvgclxj6ve3vfj0tjuf4dmynyfx6cwf4m9es34vmlk"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1wqnz6yeq5scgwaxgmuyz0f3am7exfspw6g24gyzguf67wuglkf6n8": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 30.0,
+      "daily_sent_ada": 30.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 15.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wz4ydpqxpstg453xlr6v3elpg578ussvk8ezunkj62p9wjq7uw9zq"
+        ],
+        "top_counterparty_count": 4
+      }
+    }
+  ],
+  "addr_test1wqpkspjhdfz37vtd8g6yvkt6jqqpew0p49gua93j33a7tjsqrsf9k": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 78.0,
+      "daily_sent_ada": 78.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 6.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wpmae9vv3d5757y6lgfy5z7qk9du8teqhvd7xl53ftuzmjcllkwrs",
+          "addr_test1wz6sedftk7l7x8yj650hwsvfkksejwjrvllfwfqq33jx8xqq34k2n"
+        ],
+        "top_counterparty_count": 26
+      }
+    }
+  ],
+  "addr_test1wqt2v8zcpjldyu2zcwz3yuu8p4wpk0hzaqwthh23qgs5xgg7266qn": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 42.0,
+      "daily_sent_ada": 105.0,
+      "daily_net_ada": -63.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wz05ca0ksvk9q2jmacy7m28n9qnfelh3h68cw0s60w5nhwgwu6d9y"
+        ],
+        "top_counterparty_count": 35
+      }
+    }
+  ],
+  "addr_test1wquaytcc6ug4zku26z0lwg2p3rr3n84m6cu5ym003340nvswytdsn": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 6.0,
+      "daily_sent_ada": 12.0,
+      "daily_net_ada": -6.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wz4ydpqxpstg453xlr6v3elpg578ussvk8ezunkj62p9wjq7uw9zq"
+        ],
+        "top_counterparty_count": 4
+      }
+    }
+  ],
+  "addr_test1wqx8zmxzh6xxpch9zapf60azwm5ze9fsfa7e3ea6vjuzm2ctgrjju": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 60.0,
+      "daily_sent_ada": 60.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wz6sedftk7l7x8yj650hwsvfkksejwjrvllfwfqq33jx8xqq34k2n",
+          "addr_test1wp7pw67qhvud2j0q5u0yams975wmx8shxreau235ugwzm4s3830m9"
+        ],
+        "top_counterparty_count": 33
+      }
+    }
+  ],
+  "addr_test1wqzdedqpy2ljhf70dw89p399z836dvmgs7sn6qyr0gndu7gp9k7en": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 18.0,
+      "daily_sent_ada": 18.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 6.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qqzllc620hkk05l5cyg38wgflrunzw70x5h6825g03gu4yyc85y96hdkqtarg95gewuezjvkw8zt530tnmglhrzccdds5vxw0m"
+        ],
+        "top_counterparty_count": 3
+      }
+    }
+  ],
+  "addr_test1wqzsngca2uu8z8lk0hudfkw300cllua300r3exeeax70xcq4k9hyu": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 0.0,
+      "daily_sent_ada": 2003.0,
+      "daily_net_ada": -2003.0,
+      "daily_max_tx_ada": 1002.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qqj4t6m7pwqn6x3hkhs9cunj62fsgj7ezt9spvxj3mne77xp2lx7h4wuk22fmwmlhtzjvysysw663sdt6h4kwjk7ksvsfg7juk"
+        ],
+        "top_counterparty_count": 2
+      }
+    }
+  ],
+  "addr_test1wqzuhlst26gyd3z4nqglyxf5tp06w06ejwmkdys9d003rpg2s0tua": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 2.0,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 2.0,
+      "daily_max_tx_ada": 2.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qqcm62zdvt38ctv432tptaqdrdh3hl2xlp4guq893hqpu6l77qrcufvgcycrglrj4qgxzfhk723vkn46patwnngwhyrqtunqtw"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1wqzwpaeqty24g73cnp6h7qyvm68hht5dxsvpnsus0tprv4gceyth2": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 9.0,
+      "daily_sent_ada": 18.0,
+      "daily_net_ada": -9.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wp82uw2sqcwf3rzkww2mm5g5sj226els624jw6gzpvj5nggymcl22"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1wr4c5ruvn9ss5r4davqh8nf964c8t2hu7kl8cqmxt42hdwqhuqp46": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 153.0,
+      "daily_sent_ada": 153.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 51.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wp82uw2sqcwf3rzkww2mm5g5sj226els624jw6gzpvj5nggymcl22"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1wr58mfjzx6x8ew7erz64dlr4uw7hupjvqrn5epurq3tedrgqzssx5": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 66.0,
+      "daily_sent_ada": 66.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 33.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wr62e0vzmj9mj7qapaecc0yjyk0rgp9yutyqa5qc29xdkzctrz3qn"
+        ],
+        "top_counterparty_count": 4
+      }
+    }
+  ],
+  "addr_test1wr5y0f3f6rjh5w9ynjphaf6j79c5tg3xnywzgzw93rnf2jqgmf0mh": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 6.0,
+      "daily_sent_ada": 12.0,
+      "daily_net_ada": -6.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wr62e0vzmj9mj7qapaecc0yjyk0rgp9yutyqa5qc29xdkzctrz3qn",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9"
+        ],
+        "top_counterparty_count": 4
+      }
+    }
+  ],
+  "addr_test1wr62e0vzmj9mj7qapaecc0yjyk0rgp9yutyqa5qc29xdkzctrz3qn": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 6.0,
+      "daily_sent_ada": 6.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wpr4hzrfgp3rj448fkw7qk2yjq5ymxyqt3mcdjkzz6vp55g3h542j"
+        ],
+        "top_counterparty_count": 4
+      }
+    }
+  ],
+  "addr_test1wr78sqd8ltkjl4t375cv9d5kv8psssd8wk2qct3qm7lu6nccg6nke": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 9.0,
+      "daily_sent_ada": 9.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wznh7wflxy0m28ny6anvu3kgtd4s8v9w0vzu9affzqd3xssppnguc"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1wr8s48slcgnz44uv2yvu6am5y0zvk93lffw80gnl9ns64tsdqedsl": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 9.0,
+      "daily_sent_ada": 18.0,
+      "daily_net_ada": -9.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wperr0p4kc9w7mwlf23037xq5wz3y8hmfntptv6jy56fmvq50espl",
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1wrdk050fs7r9537m9wxfnqzmjsxnmud5v8le6vjh6k5jhvchuyj76": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 42.0,
+      "daily_sent_ada": 84.0,
+      "daily_net_ada": -42.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wpmcnpr36xjk7exddlg3pcypc8u3hykvzjz0yjq2ldypjzs630u48"
+        ],
+        "top_counterparty_count": 28
+      }
+    }
+  ],
+  "addr_test1wrem0cch36ywuyfmf9zlmh0keayhw4txnkf0nsav4kmt2hsg4whlw": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 6.0,
+      "daily_sent_ada": 12.0,
+      "daily_net_ada": -6.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wrsx6gftxpsy90esyks0ddjd4636g2v5a63t47ztzrd2r3cfekl8s"
+        ],
+        "top_counterparty_count": 4
+      }
+    }
+  ],
+  "addr_test1wrgqt57hqa04uy928n5lgqdfllwr6fd9a5a0wjxf87e6g6g0d7ecm": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 9.0,
+      "daily_sent_ada": 9.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wpu3cx4qn4kcukgqmcwraqsxvrpyza4afnvty04jxseudfcnn9eke",
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1wrhgfy9xkftac320syvujslc9t9za2hevxecmvj050ntxwqdz596n": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 9.87421,
+      "daily_sent_ada": 1.40937,
+      "daily_net_ada": 8.464839999999999,
+      "daily_max_tx_ada": 1.41799,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wq8xga0gmzpcm8v3q2l4s5fmx5u0eur8fdz7dvqhldz0lng249f0d",
+          "addr_test1wz6sedftk7l7x8yj650hwsvfkksejwjrvllfwfqq33jx8xqq34k2n"
+        ],
+        "top_counterparty_count": 7
+      }
+    }
+  ],
+  "addr_test1wrjarvxfuj82nqz3r65rg3plnn8z4l7wy2jjxtwfr5wcyucu0a447": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 0.0,
+      "daily_sent_ada": 15.0,
+      "daily_net_ada": -15.0,
+      "daily_max_tx_ada": 5.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wq6mp7qks38uptyzxxtlk0pth8mnmyp3h7je6fsxva47qgs2h0a28",
+          "addr_test1wrumn0zm9c858kghqrzjhhv555rgzt9hzje3sksh2e7ggaqewfxd4",
+          "addr_test1qr23z9axxwyh5zaj2ewqvfu6xd899tddxgasrwu35p2vgw9gvst4lcyrhmg0vtwq5g4tx25etraqj2cm6kwd8ly0eaaqwpc2hs"
+        ],
+        "top_counterparty_count": 3
+      }
+    }
+  ],
+  "addr_test1wrpjqever8rezsvkc05cew572uw6w0wakk6caupycp4kf5g2zalzc": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 6.93048,
+      "daily_sent_ada": 5.18062,
+      "daily_net_ada": 1.74986,
+      "daily_max_tx_ada": 1.74986,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qrrhnm2qjzlj3tjxugjutm46dn2urfrwjhk6t6x70m5lg9tx2u29lwmh79hdqadrshxp2akncef7yd85fhdnrx89n83sd337nr",
+          "addr_test1wz46tk8vdvlq6a5cccgysw7nfw4r0frnxdmkhyxaxgxal0guru5sm"
+        ],
+        "top_counterparty_count": 4
+      }
+    }
+  ],
+  "addr_test1wrrx9y5xzuumqxsk2q9l2qwusdfuj23c3ctqxf2dhw5q9hgcyg2d0": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 45.0,
+      "daily_sent_ada": 45.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 15.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wq2wz32lpptwv8u4lmprhjxzp5d5ytawg9du286tfj3t9rsz7rh20"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1wrswzjuscfnne4wqpuqpckpvjehj9m344sy886kttgwq2wc8g2xa8": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 84.0,
+      "daily_sent_ada": 84.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 6.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wz05ca0ksvk9q2jmacy7m28n9qnfelh3h68cw0s60w5nhwgwu6d9y"
+        ],
+        "top_counterparty_count": 28
+      }
+    }
+  ],
+  "addr_test1wrsx6gftxpsy90esyks0ddjd4636g2v5a63t47ztzrd2r3cfekl8s": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 30.0,
+      "daily_sent_ada": 30.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 15.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wzyurx5m64r0k9q789qnrz2x8sl7g4anum0ezf5l5u7zalg6ydplp"
+        ],
+        "top_counterparty_count": 4
+      }
+    }
+  ],
+  "addr_test1wru93xpnc6v2svsq79kyyegj0mv4mdl83sdtp8dgtu9y78smvhuhs": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 1321.953795,
+      "daily_sent_ada": 1325.875581,
+      "daily_net_ada": -3.921786000000111,
+      "daily_max_tx_ada": 663.918237,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qqkxdt3sav4cz3r5xnrsstlxzlhuzhvyd2qm6wxz0gd63ee77fl6k08e6egytyweyv8w6al94rphdc47mrdzent8gazsykeyrk",
+          "addr_test1qz58xfza4s7qm2agzqghk5ahkr76ectl5ah3kyvnxnewkkw5cdds9sxqtxh5pll747354mwjnlsn3wkcrtccu0056n8s7wl96f",
+          "addr_test1qrj4akkyph45y4ulcsj8jvsj6z8lgfppjxamj9duxahef4wvl7fp8sn9tq5w542gj772zg6qhx0m9qd4t652us2m7xdqcxt2u4"
+        ],
+        "top_counterparty_count": 2
+      }
+    }
+  ],
+  "addr_test1wrumn0zm9c858kghqrzjhhv555rgzt9hzje3sksh2e7ggaqewfxd4": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 50.0,
+      "daily_sent_ada": 30.0,
+      "daily_net_ada": 20.0,
+      "daily_max_tx_ada": 10.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qr23z9axxwyh5zaj2ewqvfu6xd899tddxgasrwu35p2vgw9gvst4lcyrhmg0vtwq5g4tx25etraqj2cm6kwd8ly0eaaqwpc2hs",
+          "addr_test1wrjarvxfuj82nqz3r65rg3plnn8z4l7wy2jjxtwfr5wcyucu0a447",
+          "addr_test1wq6mp7qks38uptyzxxtlk0pth8mnmyp3h7je6fsxva47qgs2h0a28"
+        ],
+        "top_counterparty_count": 4
+      }
+    }
+  ],
+  "addr_test1wrxqwmj2twfn5rtp6w4cvkehk0ucnkeklggcfpz76ktrsdsx47pvl": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 42.0,
+      "daily_sent_ada": 42.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wpmcnpr36xjk7exddlg3pcypc8u3hykvzjz0yjq2ldypjzs630u48"
+        ],
+        "top_counterparty_count": 28
+      }
+    }
+  ],
+  "addr_test1wz05ca0ksvk9q2jmacy7m28n9qnfelh3h68cw0s60w5nhwgwu6d9y": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 42.0,
+      "daily_sent_ada": 42.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wqt2v8zcpjldyu2zcwz3yuu8p4wpk0hzaqwthh23qgs5xgg7266qn"
+        ],
+        "top_counterparty_count": 28
+      }
+    }
+  ],
+  "addr_test1wz0ts5l5c7d56ymeg0w8d5ugvr2rrtc8rux36qal8nmttkcvun065": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 18.0,
+      "daily_sent_ada": 18.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 6.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wr78sqd8ltkjl4t375cv9d5kv8psssd8wk2qct3qm7lu6nccg6nke",
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1wz46tk8vdvlq6a5cccgysw7nfw4r0frnxdmkhyxaxgxal0guru5sm": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 20.0,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 20.0,
+      "daily_max_tx_ada": 10.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wrpjqever8rezsvkc05cew572uw6w0wakk6caupycp4kf5g2zalzc",
+          "addr_test1qrrhnm2qjzlj3tjxugjutm46dn2urfrwjhk6t6x70m5lg9tx2u29lwmh79hdqadrshxp2akncef7yd85fhdnrx89n83sd337nr"
+        ],
+        "top_counterparty_count": 2
+      }
+    }
+  ],
+  "addr_test1wz4ydpqxpstg453xlr6v3elpg578ussvk8ezunkj62p9wjq7uw9zq": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 24.0,
+      "daily_sent_ada": 24.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wqnz6yeq5scgwaxgmuyz0f3am7exfspw6g24gyzguf67wuglkf6n8"
+        ],
+        "top_counterparty_count": 4
+      }
+    }
+  ],
+  "addr_test1wz6sedftk7l7x8yj650hwsvfkksejwjrvllfwfqq33jx8xqq34k2n": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 39.0,
+      "daily_sent_ada": 99.0,
+      "daily_net_ada": -60.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wqx8zmxzh6xxpch9zapf60azwm5ze9fsfa7e3ea6vjuzm2ctgrjju",
+          "addr_test1wp7pw67qhvud2j0q5u0yams975wmx8shxreau235ugwzm4s3830m9"
+        ],
+        "top_counterparty_count": 33
+      }
+    }
+  ],
+  "addr_test1wz6t5wlw4u2tzjt3u3syqf72t98gl5247rxm7xk6nj7n39ql4j96k": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 6.0,
+      "daily_sent_ada": 6.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wp5ty7h0nlt3v5dhd647dx2rvapesghgxarjwyv2xh4dmhq9atx32",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9"
+        ],
+        "top_counterparty_count": 4
+      }
+    }
+  ],
+  "addr_test1wz7r6jckeamgmk7md4583v8ztzyn9as8jfa0f8up3cgm0pcfc2qk5": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 9.0,
+      "daily_sent_ada": 18.0,
+      "daily_net_ada": -9.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wqmffm22h5qlr5rw50ksdqr9c56yj3jxa00h40pqqurs36cgzwxgp",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1wz7ueqtqrz4kqfep99d8z7wwjwfu52md2k9hljvuj4w08yc3mjw6u": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 3.0,
+      "daily_sent_ada": 3.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wq56fh9yhketc88zpc9z4ca3k8wdv0yr5hjezw6lgauuttc8786r9",
+          "addr_test1wq5ue9d95z4cjhs4msf8vd54fa4xz7y90xjh3vq9u7nce0c35xlrs"
+        ],
+        "top_counterparty_count": 2
+      }
+    }
+  ],
+  "addr_test1wz808v50lg7hecd9x2h2jauzl7dj40klzstwawh9ugavuzqklrl2s": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 9.0,
+      "daily_sent_ada": 9.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wr78sqd8ltkjl4t375cv9d5kv8psssd8wk2qct3qm7lu6nccg6nke",
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1wzahpwnwnme6ch40xhsz6mqpvpuklua3zumjmvd6rad079cw824v4": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 18.0,
+      "daily_sent_ada": 18.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 6.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wperr0p4kc9w7mwlf23037xq5wz3y8hmfntptv6jy56fmvq50espl",
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1wzc8m27kmthnelxvaa8fr23eu452nckvpnj233czpxwfv9qpj2rm6": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 9.0,
+      "daily_sent_ada": 18.0,
+      "daily_net_ada": -9.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wpu3cx4qn4kcukgqmcwraqsxvrpyza4afnvty04jxseudfcnn9eke",
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 0.0,
+      "daily_sent_ada": 599.94488,
+      "daily_net_ada": -599.94488,
+      "daily_max_tx_ada": 5.15476,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qruhen60uwzpwnnr7gjs50z2v8u9zyfw6zunet4k42zrpr54mrlv55f93rs6j48wt29w90hlxt4rvpvshe55k5r9mpvqjv2wt4",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wqt2v8zcpjldyu2zcwz3yuu8p4wpk0hzaqwthh23qgs5xgg7266qn"
+        ],
+        "top_counterparty_count": 170
+      }
+    }
+  ],
+  "addr_test1wzdk0xh4d79x3m8rjflefmfqq0975pqu02zcxlea2xdamfsq2k43m": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 9.0,
+      "daily_sent_ada": 18.0,
+      "daily_net_ada": -9.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wqfwyq6csgtlfadwj8ezw6my4x2j7qrw8j30m33z6pvefdscdqgmj"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1wzdxcp8m35jaap2ltwpz7pqdgku4lfm48akt57g779yajtgywjwm2": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 5.0,
+      "daily_sent_ada": 0.0,
+      "daily_net_ada": 5.0,
+      "daily_max_tx_ada": 5.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qp6ruunvywyrn2ldrxwk3h9dw254rgcwmp6g9prfjx53ntv898ykky2499xvnfn5eprxza4ctcvyvh96zhq8yn7p03lq2z8mze"
+        ],
+        "top_counterparty_count": 1
+      }
+    }
+  ],
+  "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 0.0,
+      "daily_sent_ada": 6831.79393,
+      "daily_net_ada": -6831.79393,
+      "daily_max_tx_ada": 42.99225,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1qruhen60uwzpwnnr7gjs50z2v8u9zyfw6zunet4k42zrpr54mrlv55f93rs6j48wt29w90hlxt4rvpvshe55k5r9mpvqjv2wt4",
+          "addr_test1wpmcnpr36xjk7exddlg3pcypc8u3hykvzjz0yjq2ldypjzs630u48"
+        ],
+        "top_counterparty_count": 142
+      }
+    }
+  ],
+  "addr_test1wzkw2yk6ffmd5ugx8uprpf2ujxx2at5kkptpkt5yzwu2twq6mqjur": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 6.8615200000000005,
+      "daily_sent_ada": 5.1289,
+      "daily_net_ada": 1.7326200000000007,
+      "daily_max_tx_ada": 1.73262,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qrrhnm2qjzlj3tjxugjutm46dn2urfrwjhk6t6x70m5lg9tx2u29lwmh79hdqadrshxp2akncef7yd85fhdnrx89n83sd337nr"
+        ],
+        "top_counterparty_count": 4
+      }
+    }
+  ],
+  "addr_test1wzmevtuvx4ywk7hv844ps85v9uq7jjchkpae076hhh6dtjg2wdx9w": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 9.0,
+      "daily_sent_ada": 9.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wqmffm22h5qlr5rw50ksdqr9c56yj3jxa00h40pqqurs36cgzwxgp",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1wzngjz9t8f5cvgclxj6ve3vfj0tjuf4dmynyfx6cwf4m9es34vmlk": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 18.0,
+      "daily_sent_ada": 18.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 6.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wqmffm22h5qlr5rw50ksdqr9c56yj3jxa00h40pqqurs36cgzwxgp"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1wznh7wflxy0m28ny6anvu3kgtd4s8v9w0vzu9affzqd3xssppnguc": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 9.0,
+      "daily_sent_ada": 18.0,
+      "daily_net_ada": -9.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wr78sqd8ltkjl4t375cv9d5kv8psssd8wk2qct3qm7lu6nccg6nke",
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1wzwhp7acq658tg05mfnuqr060f3a3c4gp5tejydyjj77yxcc9n9zj": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 42.0,
+      "daily_sent_ada": 84.0,
+      "daily_net_ada": -42.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wqh4yha0ndhwykrh9cuhr47nh2y97zvkls74h4jq6uhlpacujv3z3"
+        ],
+        "top_counterparty_count": 28
+      }
+    }
+  ],
+  "addr_test1wzyurx5m64r0k9q789qnrz2x8sl7g4anum0ezf5l5u7zalg6ydplp": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 24.0,
+      "daily_sent_ada": 24.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wrsx6gftxpsy90esyks0ddjd4636g2v5a63t47ztzrd2r3cfekl8s"
+        ],
+        "top_counterparty_count": 4
+      }
+    }
+  ],
+  "addr_test1wzzv7v5slyrs4gkgr793ak4upmhs4xrk00f48s3vd4rlplctm5aak": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 9.0,
+      "daily_sent_ada": 9.0,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 3.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wpu3cx4qn4kcukgqmcwraqsxvrpyza4afnvty04jxseudfcnn9eke",
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9"
+        ],
+        "top_counterparty_count": 6
+      }
+    }
+  ],
+  "addr_test1xp3g6ayyt3e0m9w3jtxr84mf877nhqh4snt2g7ww43yf6lx4w8kmdszpx27e3wpawvkcqcrhrl9ra09stpe8ahtznzesm8x8rk": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 2013800.21031,
+      "daily_sent_ada": 2013798.35031,
+      "daily_net_ada": 1.8599999998696148,
+      "daily_max_tx_ada": 1006898.09546,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qqs88lem3gleyjj9lhhrxwj3q7uzvjyphce62pcf90wgutnl4my4md9cdrttjnk02vrmpc2av7a9vdnx600ekjrsfwvs50rr8m",
+          "addr_test1xz429ta7d8akqvk6rtkavja8kshy4m3dplm2sgx60rp0fk3pmuk902u7lh609tzz54f32s49s5uf6sphu2zer00a2k4qkq40f9"
+        ],
+        "top_counterparty_count": 4
+      }
+    }
+  ],
+  "addr_test1xz429ta7d8akqvk6rtkavja8kshy4m3dplm2sgx60rp0fk3pmuk902u7lh609tzz54f32s49s5uf6sphu2zer00a2k4qkq40f9": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 5099.778061,
+      "daily_sent_ada": 5098.327215,
+      "daily_net_ada": 1.4508459999997283,
+      "daily_max_tx_ada": 2550.265008,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1xp3g6ayyt3e0m9w3jtxr84mf877nhqh4snt2g7ww43yf6lx4w8kmdszpx27e3wpawvkcqcrhrl9ra09stpe8ahtznzesm8x8rk",
+          "addr_test1qqs88lem3gleyjj9lhhrxwj3q7uzvjyphce62pcf90wgutnl4my4md9cdrttjnk02vrmpc2av7a9vdnx600ekjrsfwvs50rr8m"
+        ],
+        "top_counterparty_count": 2
+      }
+    }
+  ],
+  "addr_test1zpt24v32hpd88w3l0wmwg3mhs9lm5dzrnn0d22n6seznmjy9rk398gms2eh8snp58c9skehndz9ps8ff5rfns7mfafnqf5lz9g": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 42.0,
+      "daily_sent_ada": 5.0,
+      "daily_net_ada": 37.0,
+      "daily_max_tx_ada": 12.0,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1qpfpxx2m56u7td8duem6kkcdw25kfyd0jcv7g7hwup797p5d0v7l822u4xea8zty37320uz3nwdl88agexcj9n7s986q5j40uk",
+          "addr_test1qq50sks40pnh5tkth68m3lrvzvlepaew6prl3u8u69nd3zu9rk398gms2eh8snp58c9skehndz9ps8ff5rfns7mfafnqt4qk0e",
+          "addr_test1qz9jfhecgrlw4yw8wknddnnpw2ah0t3n967zz9ffrssl3pdct9f58ux0fyazdlzgl3vuua05dcqnengw4vm6n0cxl4fq47fdde"
+        ],
+        "top_counterparty_count": 7
+      }
+    }
+  ],
+  "addr_test1zqudngxpumflu6gh45hw3tkeuzeq3vmgvr25f6y60t7n0rhvt20ehwqu594stgx7mw6855w20cxsnt5g5r7zy8j5nnuqlh5wkk": [
+    {
+      "date": "2025-11-29",
+      "daily_received_ada": 35205053.291142,
+      "daily_sent_ada": 35205053.291142,
+      "daily_net_ada": 0.0,
+      "daily_max_tx_ada": 628661.665914,
+      "rolling": {
+        "rolling_avg_tx_size_ada": 0.0,
+        "rolling_tx_frequency": 0.0,
+        "rolling_net_ada": 0.0
+      },
+      "top_counterparties": {
+        "addresses": [
+          "addr_test1wzccrw3f4n7qavr67uvupxm4jd46uv0f9evgzpytlwz4zgq6sfuv9",
+          "addr_test1wzjwvgn5k3m9ekmrceh6c0azywhh3d8l5jq09tpm7cwp0es5ksry9",
+          "addr_test1wpmcnpr36xjk7exddlg3pcypc8u3hykvzjz0yjq2ldypjzs630u48"
+        ],
+        "top_counterparty_count": 28
+      }
+    }
+  ]
+}

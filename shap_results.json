@@ -1,0 +1,21 @@
+{
+  "input_features": {
+    "tx_count_24h": 41,
+    "total_value_24h": 103392.68,
+    "largest_value_24h": 370593.2,
+    "std_value_24h": 545821.17,
+    "unique_counterparts_24h": 38,
+    "entropy_of_destinations": -5.54,
+    "share_of_daily_volume": 0.03,
+    "relative_max_vs_global": 21863.8,
+    "avg_value_7d": 56554.2,
+    "std_value_7d": 741808.95,
+    "unique_counterparts_30d": 16
+  },
+  "wallet": "addr_test1qrandom9703905715",
+  "prediction_results": {
+    "risk_score": "error: The feature names should match those that were passed during fit.\nFeature names unseen at fit time:\n- largest_value_24h\n- relative_max_vs_global\n- share_of_daily_volume\n- std_value_24h\n- total_value_24h\n- ...\n",
+    "anomaly_flag": "error: The feature names should match those that were passed during fit.\nFeature names unseen at fit time:\n- avg_value_7d\n- std_value_7d\n- unique_counterparts_30d\n"
+  },
+  "shap_explanation": null
+}
