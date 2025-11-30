@@ -10,6 +10,15 @@ export const config = {
   AIKEN_DELAY: 100,
   BLOCKFROST_DELAY: 50,
   HYDRA_DELAY: 150,
+  // Live Pipeline Configuration
+  BLOCKFROST_API_KEY: process.env.BLOCKFROST_API_KEY || '',
+  ORCHESTRATOR_URL: process.env.ORCHESTRATOR_URL || 'http://localhost:8080',
+  CARDANO_NETWORK: process.env.CARDANO_NETWORK || 'testnet',
+  LIVE_PIPELINE_TIMEOUT: parseInt(process.env.LIVE_PIPELINE_TIMEOUT || '300', 10),
+  LIVE_PIPELINE_POLL_INTERVAL: parseInt(process.env.LIVE_PIPELINE_POLL_INTERVAL || '2000', 10),
+  PAYMENT_REQUIRED: process.env.PAYMENT_REQUIRED === 'true',
+  PAYMENT_AMOUNT_ADA: parseFloat(process.env.PAYMENT_AMOUNT_ADA || '2'),
+  PAYMENT_ADDRESS: process.env.PAYMENT_ADDRESS || '',
 };
 
 export default config;

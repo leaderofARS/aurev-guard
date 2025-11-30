@@ -7,6 +7,7 @@ import aiRoutes from './routes/ai.js';
 import agentRoutes from './routes/agent.js';
 import contractRoutes from './routes/contract.js';
 import riskRoutes from './routes/risk.js';
+import livePipelineRoutes from './routes/livePipeline.js';
 
 const app = express();
 
@@ -20,6 +21,7 @@ app.use('/ai', aiRoutes);
 app.use('/agent', agentRoutes);
 app.use('/contract', contractRoutes);
 app.use('/risk', riskRoutes);
+app.use('/api/live-pipeline', livePipelineRoutes);
 
 // Health check
 app.get('/health', (req, res) => {
