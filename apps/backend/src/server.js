@@ -1,7 +1,6 @@
 import express from 'express';
 import cors from 'cors';
 import { v4 as uuidv4 } from 'uuid';
-
 import { config } from './config/index.js';
 import { errorHandler } from './middleware/errorHandler.js';
 
@@ -16,7 +15,12 @@ import livePipelineRoutes from './routes/livePipeline.js';
 const app = express();
 
 // Core middleware
-app.use(cors());
+app.use(cors(
+  {
+    origin: FRONTEND,
+    credentials: true,
+  }
+));
 app.use(express.json());
 
 // Request ID middleware
